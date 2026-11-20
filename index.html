@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080914">
+  <title>Therian Collection — DarkCry 1.0</title>
+  <meta name="description" content="Archivo narrativo y visual de Therian Collection: sus tres ramas animales, nueve pistas, portadas oficiales y convergencias dentro de DarkCry 1.0.">
+  <meta name="author" content="DarkCry 1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Therian Collection — DarkCry 1.0">
+  <meta property="og:description" content="Del cachorro cautivo al depredador territorial: una lectura musical, visual y narrativa de la colección.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/52-p47-therian-collection-grrr-grrr.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Therian Collection — DarkCry 1.0">
+  <meta name="twitter:description" content="Wao · Miau · Grrr. Tres ramas, nueve pistas y una metamorfosis simbólica.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/52-p47-therian-collection-grrr-grrr.webp">
+  <style>
+    :root{
+      color-scheme:dark;
+      --bg:#080914;--panel:#101326;--panel2:#151a31;--line:#29314c;
+      --ink:#f4f5ff;--muted:#a6aec8;--red:#ff315c;--red2:#b91549;
+      --blue:#35b9ff;--blue2:#2367ef;--pink:#f04ce8;--gold:#f4d17d;
+      --max:1180px;--radius:22px;--shadow:0 24px 70px rgba(0,0,0,.38);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:92px}
+    body{margin:0;background:
+      radial-gradient(ellipse at 8% 5%,rgba(255,49,92,.18),transparent 28rem),
+      radial-gradient(ellipse at 95% 13%,rgba(53,185,255,.17),transparent 32rem),
+      radial-gradient(ellipse at 50% 65%,rgba(240,76,232,.055),transparent 34rem),
+      var(--bg);color:var(--ink);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.12;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.22'/%3E%3C/svg%3E")}
+    a{color:inherit}img{max-width:100%;display:block}
+    .site-header{position:sticky;top:0;z-index:20;background:rgba(8,9,20,.84);backdrop-filter:blur(18px);border-bottom:1px solid rgba(92,115,169,.2)}
+    .nav{max-width:var(--max);margin:auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:950;letter-spacing:.12em;font-size:.9rem;white-space:nowrap}
+    .brand-mark{width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,var(--red),var(--pink) 48%,var(--blue));display:grid;place-items:center;box-shadow:0 0 26px rgba(255,49,92,.28)}
+    .brand-mark svg{width:21px;height:21px}
+    .brand small{display:block;color:var(--muted);font-size:.57rem;letter-spacing:.2em;font-weight:700;margin-top:-3px}
+    .nav-links{display:flex;gap:17px;align-items:center;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+    .nav-links::-webkit-scrollbar{display:none}
+    .nav-links a{font-size:.75rem;color:#d2d8ef;text-decoration:none;font-weight:800;letter-spacing:.04em;transition:color .2s}
+    .nav-links a:hover{color:var(--blue)}
+    .hero{position:relative;isolation:isolate;min-height:640px;display:flex;align-items:center;border-bottom:1px solid rgba(95,110,160,.2);overflow:hidden}
+    .hero:before{content:"";position:absolute;inset:0;z-index:-2;background:
+      linear-gradient(112deg,rgba(255,49,92,.18),transparent 38%,rgba(35,103,239,.2)),
+      repeating-linear-gradient(135deg,transparent 0 44px,rgba(255,255,255,.018) 45px 46px)}
+    .hero:after{content:"";position:absolute;z-index:-1;width:55vw;height:55vw;min-width:420px;min-height:420px;right:-12vw;top:1%;border:1px solid rgba(53,185,255,.18);border-radius:50%;box-shadow:0 0 0 38px rgba(53,185,255,.025),0 0 0 90px rgba(255,49,92,.02),inset 0 0 70px rgba(53,185,255,.06)}
+    .hero-inner{width:min(var(--max),100%);margin:auto;padding:88px 24px 78px;display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center}
+    .eyebrow,.kicker{color:var(--blue);font-size:.68rem;font-weight:950;letter-spacing:.2em;text-transform:uppercase}
+    .eyebrow:before{content:"";display:inline-block;width:27px;height:2px;background:var(--red);vertical-align:middle;margin-right:10px;box-shadow:0 0 12px var(--red)}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-size:clamp(3.1rem,8.4vw,7.5rem);line-height:.88;letter-spacing:-.085em;margin:20px 0 18px;font-weight:1000;text-transform:uppercase;text-shadow:0 10px 50px rgba(0,0,0,.6)}
+    h1 span{display:block;color:transparent;-webkit-text-stroke:1.7px var(--blue);text-shadow:0 0 32px rgba(53,185,255,.22)}
+    .hero-lead{max-width:650px;color:#dfe5fb;font-size:1.12rem;line-height:1.75}
+    .hero-copy p{max-width:650px}
+    .hero-note{max-width:650px;margin-top:25px;padding:16px 18px;border:1px solid rgba(255,49,92,.38);border-left:3px solid var(--red);background:linear-gradient(90deg,rgba(255,49,92,.1),rgba(53,185,255,.045));border-radius:0 14px 14px 0;color:#c8d0e9;font-size:.86rem}
+    .hero-note strong{color:#fff}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:27px}
+    .button{display:inline-flex;align-items:center;gap:9px;padding:12px 17px;border-radius:999px;text-decoration:none;font-weight:900;font-size:.78rem;letter-spacing:.04em;border:1px solid var(--line);background:#13182c;transition:transform .2s,border-color .2s}
+    .button:hover{transform:translateY(-3px);border-color:var(--blue)}
+    .button-primary{background:linear-gradient(100deg,var(--red2),#e52c74 50%,#255de6);border:0;box-shadow:0 10px 32px rgba(255,49,92,.2)}
+    .hero-art{position:relative;min-width:0}
+    .hero-art-frame{position:relative;max-width:470px;margin:auto;padding:12px;border-radius:30px;background:linear-gradient(140deg,rgba(255,49,92,.85),rgba(240,76,232,.23) 40%,rgba(53,185,255,.9));box-shadow:var(--shadow),0 0 65px rgba(53,185,255,.13)}
+    .hero-art-frame:before{content:"";position:absolute;inset:-13px;border:1px solid rgba(53,185,255,.35);border-radius:38px;transform:rotate(3deg);z-index:-1}
+    .hero-art-frame img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:20px;background:#11152a}
+    .hero-stamp{position:absolute;right:-16px;bottom:28px;padding:11px 14px;border-radius:12px;background:#090b19;border:1px solid var(--blue);box-shadow:0 0 24px rgba(53,185,255,.2);font-size:.68rem;font-weight:1000;letter-spacing:.13em;transform:rotate(-4deg)}
+    .hero-stamp span{color:var(--red)}
+    .hero-foot{margin:18px 0 0;text-align:center;color:var(--muted);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}
+    .page{position:relative;z-index:1;max-width:var(--max);margin:auto;padding:0 24px}
+    .section{padding:84px 0;border-bottom:1px solid rgba(95,110,160,.18);position:relative}
+    .section-heading{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:28px}
+    .section-heading h2{font-size:clamp(2rem,4.5vw,3.5rem);line-height:1.02;letter-spacing:-.06em;margin:10px 0}
+    .section-heading p{max-width:720px;color:var(--muted);margin-bottom:0}
+    .index-mark{font-size:2.8rem;font-weight:1000;letter-spacing:-.1em;color:rgba(53,185,255,.25);white-space:nowrap}
+    .prose{max-width:900px;color:#d5dbee}
+    .prose strong{color:#fff}
+    .leadline{font-size:1.2rem;color:#fff;max-width:900px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .glass{background:linear-gradient(135deg,rgba(21,26,49,.94),rgba(12,15,31,.93));border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
+    .glass.red{border-top:2px solid var(--red)}
+    .glass.blue{border-top:2px solid var(--blue)}
+    .glass.pink{border-top:2px solid var(--pink)}
+    .mini-label{font-size:.65rem;color:var(--gold);letter-spacing:.17em;font-weight:950;text-transform:uppercase}
+    .glass h3{font-size:1.4rem;margin:9px 0 12px}
+    .glass p:last-child{margin-bottom:0}
+    .quote-line{padding:18px 22px;border-left:3px solid var(--pink);margin:24px 0;background:linear-gradient(90deg,rgba(240,76,232,.1),transparent);font-size:1.04rem;color:#f2e9ff}
+    .term-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:28px}
+    .term-card{background:#11162b;border:1px solid var(--line);border-radius:18px;padding:19px;position:relative;overflow:hidden}
+    .term-card:after{content:"";position:absolute;width:140px;height:140px;right:-70px;top:-70px;border-radius:50%;filter:blur(1px);opacity:.16}
+    .term-card:nth-child(1):after{background:var(--red)}
+    .term-card:nth-child(2):after{background:var(--pink)}
+    .term-card:nth-child(3):after{background:var(--blue)}
+    .term-card h3{font-size:1.15rem;margin:0 0 7px}
+    .term-card p{font-size:.85rem;color:var(--muted);margin:0}
+    .branch{margin:34px 0 54px;padding:0 0 38px;border-bottom:1px solid var(--line);position:relative}
+    .branch:last-child{border:0;margin-bottom:0}
+    .branch-head{display:grid;grid-template-columns:170px 1fr;gap:25px;align-items:center;margin-bottom:22px}
+    .branch-emblem{width:150px;height:150px;display:grid;place-items:center;border-radius:28px;position:relative;background:linear-gradient(145deg,rgba(255,49,92,.2),rgba(53,185,255,.13));border:1px solid var(--line);font-size:4.8rem;filter:drop-shadow(0 0 22px rgba(53,185,255,.1))}
+    .branch-dog .branch-emblem{box-shadow:inset 0 0 35px rgba(255,49,92,.12)}
+    .branch-cat .branch-emblem{box-shadow:inset 0 0 35px rgba(240,76,232,.13)}
+    .branch-feral .branch-emblem{box-shadow:inset 0 0 35px rgba(53,185,255,.16)}
+    .branch-title{font-size:clamp(1.8rem,4vw,2.65rem);letter-spacing:-.055em;margin:5px 0}
+    .branch-sub{color:var(--muted);font-size:.83rem;margin-bottom:8px}
+    .branch-copy{max-width:930px;color:#d4dbee}
+    .cover-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin-top:22px}
+    .cover-card{min-width:0;background:#0e1224;border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .22s,border-color .22s,box-shadow .22s}
+    .cover-card:hover{transform:translateY(-5px);border-color:var(--blue);box-shadow:0 14px 34px rgba(0,0,0,.3)}
+    .cover-card a{display:block;text-decoration:none}
+    .cover-card img{width:100%;aspect-ratio:1;object-fit:cover;background:#161c33}
+    .cover-meta{padding:13px}
+    .cover-meta small{display:block;color:var(--blue);font-size:.59rem;letter-spacing:.15em;font-weight:900;text-transform:uppercase}
+    .cover-meta strong{display:block;margin:5px 0 3px;font-size:.9rem;line-height:1.3}
+    .cover-meta span{color:var(--muted);font-size:.72rem}
+    .image-note{font-size:.75rem;color:var(--muted);margin-top:12px}
+    .content-note{margin-top:20px;padding:17px 19px;border-radius:14px;background:rgba(255,49,92,.075);border:1px solid rgba(255,49,92,.27);color:#d7d9e8;font-size:.84rem}
+    .track-table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:rgba(14,18,36,.8)}
+    table{width:100%;border-collapse:collapse;min-width:800px;font-size:.82rem}
+    th,td{padding:13px 15px;text-align:left;border-bottom:1px solid rgba(81,96,139,.25);vertical-align:top}
+    th{color:var(--blue);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;background:rgba(53,185,255,.055)}
+    td{color:#d8def1}
+    tr:last-child td{border-bottom:0}
+    td strong{color:#fff}
+    .duration{font-variant-numeric:tabular-nums;color:var(--gold);white-space:nowrap}
+    .track-footnote{margin:14px 2px 0;color:var(--muted);font-size:.75rem}
+    .convergence-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+    .convergence{padding:20px;border-radius:17px;background:linear-gradient(135deg,#12172b,#0e1020);border:1px solid var(--line)}
+    .convergence h3{margin:0 0 7px;font-size:1.1rem}
+    .convergence p{margin:0;color:#c2cbe2;font-size:.86rem}
+    .convergence .symbol{color:var(--red);font-size:.63rem;letter-spacing:.16em;font-weight:950;text-transform:uppercase}
+    .timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;align-items:stretch;margin-top:28px}
+    .time-node{padding:17px 15px;border-radius:15px;background:#11162a;border:1px solid var(--line);position:relative}
+    .time-node b{display:block;font-size:.9rem;margin-bottom:6px}
+    .time-node span{color:var(--muted);font-size:.75rem;display:block}
+    .time-node:before{content:"";position:absolute;top:-1px;left:15px;right:15px;height:2px;background:linear-gradient(90deg,var(--red),var(--blue))}
+    .visual-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+    .visual-card{padding:20px;background:#11162a;border:1px solid var(--line);border-radius:17px}
+    .visual-card h3{margin:0 0 8px}
+    .visual-card p{color:var(--muted);font-size:.85rem;margin:0}
+    .archive-box{padding:24px;border-radius:20px;border:1px solid rgba(53,185,255,.3);background:linear-gradient(125deg,rgba(255,49,92,.1),rgba(53,185,255,.1))}
+    .archive-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+    .archive-links a{border:1px solid rgba(173,190,238,.28);border-radius:999px;padding:9px 13px;text-decoration:none;font-size:.74rem;font-weight:850;background:rgba(6,8,18,.45)}
+    .archive-links a:hover{border-color:var(--blue)}
+    .closing{padding:72px 0 90px;text-align:center}
+    .closing h2{font-size:clamp(2.3rem,6vw,4.4rem);letter-spacing:-.07em;line-height:.98;margin:12px auto;max-width:800px}
+    .closing h2 span{color:var(--blue)}
+    .closing p{max-width:780px;margin:18px auto;color:#c3cbe1}
+    .site-footer{border-top:1px solid var(--line);padding:27px 24px;text-align:center;color:var(--muted);font-size:.72rem}
+    .site-footer a{color:var(--blue);text-decoration:none}
+    .paw-rail{position:fixed;top:110px;bottom:25px;width:47px;z-index:0;pointer-events:none;display:flex;flex-direction:column;justify-content:space-around;align-items:center;opacity:.46}
+    .paw-rail.left{left:max(8px,calc((100vw - var(--max))/2 - 55px))}
+    .paw-rail.right{right:max(8px,calc((100vw - var(--max))/2 - 55px))}
+    .paw{width:35px;height:35px;position:relative;transform:rotate(-17deg);filter:drop-shadow(0 0 9px currentColor)}
+    .paw:nth-child(even){transform:rotate(18deg) scale(.83);margin-left:8px}
+    .paw .toe{position:absolute;border-radius:50%;background:currentColor}
+    .paw .pad{position:absolute;background:currentColor}
+    .paw .toe.one{width:8px;height:10px;left:3px;top:7px}
+    .paw .toe.two{width:8px;height:11px;left:12px;top:1px}
+    .paw .toe.three{width:8px;height:11px;right:5px;top:2px}
+    .paw .toe.four{width:7px;height:9px;right:0;top:10px}
+    .paw .pad{width:21px;height:16px;left:7px;bottom:1px;border-radius:55% 55% 45% 45%}
+    .paw.dog{color:rgba(255,49,92,.8)}
+    .paw.cat{color:rgba(240,76,232,.8);transform:rotate(15deg) scale(.76)}
+    .paw.cat .pad{width:18px;height:14px;clip-path:polygon(50% 0,100% 38%,87% 100%,50% 84%,13% 100%,0 38%);border-radius:0}
+    .paw.panther{color:rgba(53,185,255,.85);transform:rotate(-10deg) scale(1.14)}
+    .paw.panther .toe{width:10px;height:12px}
+    .paw.panther .pad{width:24px;height:19px;left:5px}
+    .skip{position:absolute;left:-9999px}
+    .skip:focus{left:12px;top:12px;z-index:99;padding:10px;background:#fff;color:#000}
+    @media(max-width:1050px){.paw-rail{opacity:.18}.hero-inner{gap:28px}.cover-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.timeline{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:760px){.nav{align-items:flex-start;flex-direction:column;gap:9px}.nav-links{width:100%;gap:15px;padding-bottom:3px}.hero{min-height:0}.hero-inner{grid-template-columns:1fr;padding-top:65px;padding-bottom:58px}.hero-art{max-width:440px;width:100%;margin:8px auto 0}.hero-copy{order:0}.hero-art{order:1}.split,.convergence-grid{grid-template-columns:1fr}.term-grid{grid-template-columns:1fr}.branch-head{grid-template-columns:90px 1fr;gap:15px}.branch-emblem{width:86px;height:86px;border-radius:20px;font-size:2.8rem}.cover-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.timeline{grid-template-columns:repeat(2,1fr)}.visual-grid{grid-template-columns:1fr}.section{padding:62px 0}.section-heading{align-items:flex-start}.index-mark{font-size:1.9rem}.paw-rail{display:none}}
+    @media(max-width:420px){.page{padding:0 17px}.nav{padding:11px 17px}.hero-inner{padding-left:17px;padding-right:17px}.cover-grid{gap:10px}.cover-meta{padding:10px}.cover-meta strong{font-size:.8rem}.branch-head{grid-template-columns:70px 1fr}.branch-emblem{width:66px;height:66px;font-size:2.15rem}.timeline{grid-template-columns:1fr 1fr}.index-mark{display:none}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <div class="paw-rail left" aria-hidden="true">
+    <span class="paw dog"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+    <span class="paw cat"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+    <span class="paw panther"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+    <span class="paw dog"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+    <span class="paw cat"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+    <span class="paw panther"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+  </div>
+  <div class="paw-rail right" aria-hidden="true">
+    <span class="paw panther"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+    <span class="paw cat"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+    <span class="paw dog"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+    <span class="paw panther"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+    <span class="paw cat"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+    <span class="paw dog"><i class="toe one"></i><i class="toe two"></i><i class="toe three"></i><i class="toe four"></i><i class="pad"></i></span>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5.4 10.2c1.5-1.1 3.2-.2 3.8 1.1.7 1.5-.3 2.4-1.6 2.4-1.7 0-3.8-2.1-2.2-3.5Zm13.2 0c-1.5-1.1-3.2-.2-3.8 1.1-.7 1.5.3 2.4 1.6 2.4 1.7 0 3.8-2.1 2.2-3.5ZM9 5.4c1.3-1.4 2.6-.5 2.7 1.4.1 1.5-.8 2.3-1.8 1.8C8.6 8 7.9 6.7 9 5.4Zm6 0c-1.3-1.4-2.6-.5-2.7 1.4-.1 1.5.8 2.3 1.8 1.8 1.3-.6 2-1.9.9-3.2Z" fill="white"/><path d="M12 11c-3.5 0-6.4 2.3-6.4 5.2 0 2.4 2 3.5 4.1 2.7.8-.3 1.5-.9 2.3-.9s1.5.6 2.3.9c2.1.8 4.1-.3 4.1-2.7C18.4 13.3 15.5 11 12 11Z" fill="white"/></svg>
+        </span>
+        <span>DARKCRY <b>1.0</b><small>ARCHIVO CONVERGENTE</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="#concepto">Concepto</a>
+        <a href="#ramas">Tres ramas</a>
+        <a href="#pistas">Nueve pistas</a>
+        <a href="#convergencias">Convergencias</a>
+        <a href="#visual">Iconografía</a>
+        <a href="#archivo">Portadas</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow">DARKCRY 1.0 · LÍNEA CONVERGENTE</div>
+          <h1>THERIAN <span>COLLECTION</span></h1>
+          <p class="hero-lead"><strong>Wao. Miau. Grrr.</strong> Tres lenguajes animales para narrar una metamorfosis: del vínculo de dependencia a la persecución territorial y al instinto feral.</p>
+          <p class="prose">Therian Collection reúne una serie de canciones de estética Hyperpop, electropop y bedroom-pop que convierte los sonidos y arquetipos animales en una gramática narrativa. Bajo el juego de onomatopeyas, máscaras y situaciones clandestinas existe una historia más áspera: la transformación de la vulnerabilidad en una identidad que intenta no volver a ocupar el lugar de la presa.</p>
+          <div class="hero-note"><strong>Clave de lectura.</strong> La animalidad funciona aquí como metáfora artística de desinhibición, defensa y despersonalización. La colección no describe ni pretende representar a la comunidad therian real.</div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#ramas">Entrar en las tres ramas ↘</a>
+            <a class="button" href="#archivo">Ver las portadas originales ↗</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-art-frame">
+            <a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/52-p47-therian-collection-grrr-grrr.webp" target="_blank" rel="noopener">
+              <img src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/52-p47-therian-collection-grrr-grrr.webp" alt="Portada original de Therian Collection: Grrr grrr" fetchpriority="high">
+            </a>
+            <div class="hero-stamp"><span>WILD MODE</span> / DCX ARCHIVE</div>
+          </div>
+          <p class="hero-foot">ROJO · AZUL · NEÓN · INSTINTO</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="page">
+      <section class="section" id="concepto">
+        <div class="section-heading">
+          <div>
+            <div class="kicker">01 / CONCEPTO Y NOMBRE</div>
+            <h2>Una fachada de búsqueda.<br>Un relato de metamorfosis.</h2>
+            <p>El nombre opera en dos planos simultáneos: el posicionamiento externo de la playlist y la taxonomía simbólica interna de DarkCry.</p>
+          </div>
+          <div class="index-mark">01</div>
+        </div>
+        <div class="split">
+          <article class="glass red">
+            <div class="mini-label">PLANO EXTERNO · NOMBRE SEÑUELO</div>
+            <h3>La pregunta que atrae</h3>
+            <p>La documentación sitúa el origen de la playlist pública «¿Que es un Therian? 🐱 🐶 🦊» el <strong>6 de abril de 2026</strong>. Su titulación imita búsquedas, preguntas frecuentes y titulares alarmistas sobre la temática Therian. Es una maniobra de descubrimiento: entrar por una curiosidad reconocible y revelar después una obra mucho más provocadora.</p>
+            <p>El título externo no pretende ser una explicación enciclopédica de la identidad therian; funciona como envoltura y contraste para la obra musical.</p>
+          </article>
+          <article class="glass blue">
+            <div class="mini-label">PLANO INTERNO · NOMBRE CANÓNICO</div>
+            <h3>El animal como lenguaje</h3>
+            <p>Dentro del relato, perro, gato y Panthera no son una decoración temática. Cada animal codifica una posición distinta ante el deseo, el poder, la autoridad, la fidelidad y el territorio.</p>
+            <p>La colección convierte vocalizaciones breves —<strong>Wao, Miau y Grrr</strong>— en señales de identidad. El sonido deja de ser un adorno para convertirse en una especie de firma conductual.</p>
+          </article>
+        </div>
+        <div class="quote-line">La pregunta pública es «¿qué es un therian?». La respuesta narrativa de DarkCry no es una definición: es una sucesión de máscaras, voces y conductas.</div>
+        <div class="term-grid">
+          <article class="term-card"><h3>Wao / perro</h3><p>El ladrido subvierte las ideas de obediencia, fidelidad y dependencia de una figura de autoridad.</p></article>
+          <article class="term-card"><h3>Miau / gato</h3><p>El maullido se vuelve señuelo juguetón para una dinámica de acecho, astucia y territorio doméstico.</p></article>
+          <article class="term-card"><h3>Grrr / Panthera</h3><p>El gruñido gutural concentra agresividad, apetito, fuerza y una afirmación instintiva sin cortejo.</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="ramas">
+        <div class="section-heading">
+          <div>
+            <div class="kicker">02 / LAS TRES RAMAS</div>
+            <h2>Tres especies.<br>Tres pactos puestos a prueba.</h2>
+            <p>Las ramas se distinguen por el animal, el escenario y el límite social que cada relato transgrede. La secuencia que sigue es una lectura simbólica, no un orden obligatorio de reproducción.</p>
+          </div>
+          <div class="index-mark">02</div>
+        </div>
+
+        <article class="branch branch-dog">
+          <div class="branch-head">
+            <div class="branch-emblem" aria-hidden="true">🐕</div>
+            <div>
+              <div class="kicker">ALL DOGGY SONGS · WAO</div>
+              <h3 class="branch-title">El perro: dependencia y autoridad</h3>
+              <p class="branch-sub">El pacto puesto en tensión: amistad, responsabilidad adulta y lealtad.</p>
+            </div>
+          </div>
+          <div class="branch-copy">
+            <p>La situación narrativa gira alrededor de una aventura secreta con el padre de Marian, amiga de la protagonista. La historia se sitúa en un entorno escolar y utiliza el automóvil, la salida a solas y el motel como espacios de clandestinidad. La figura masculina no es un desconocido cualquiera: es el padre de una amiga y, por tanto, ocupa una posición adulta y de autoridad dentro de ese círculo.</p>
+            <p>El perro es una elección deliberadamente ambivalente. Culturalmente se asocia con la obediencia, la fidelidad y la dependencia; la canción subvierte esos atributos mediante una voz que adopta el ladrido como provocación y señal de desinhibición. La figura de «Daddy» condensa la atracción por la autoridad y la dependencia que la protagonista intenta convertir en juego.</p>
+            <p>La transgresión no debe leerse como una relación equilibrada: el relato incluye una protagonista descrita como demasiado joven frente a un adulto con mayor poder y responsabilidad. La perspectiva juguetona de la voz no borra esa asimetría ni convierte la situación en un ideal romántico.</p>
+          </div>
+          <div class="cover-grid">
+            <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/49-p45-therian-collection-daddy-s-big-c-ck.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/49-p45-therian-collection-daddy-s-big-c-ck.webp" alt="Portada original: Daddy's Big C*CK"></a><div class="cover-meta"><small>PISTA 01 · 3:06</small><strong>Daddy's Big C*CK</strong><span>Nombre señuelo: Therians Are Dangerous...</span></div></article>
+            <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/50-p46-therian-collection-wow.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/50-p46-therian-collection-wow.webp" alt="Portada original: WOW"></a><div class="cover-meta"><small>PISTA 07 · 2:37</small><strong>WOW</strong><span>Nombre señuelo: It is bad to be a therian? ...</span></div></article>
+            <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/54-p47-therian-collection-waos-daddy.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/54-p47-therian-collection-waos-daddy.webp" alt="Portada original: Waos Daddy"></a><div class="cover-meta"><small>PISTA 08 · 3:10</small><strong>Waos Daddy</strong><span>Nombre señuelo: How can I tell if I'm a therian?</span></div></article>
+            <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/57-p47-therian-collection-daddy-s-b-tch.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/57-p47-therian-collection-daddy-s-b-tch.webp" alt="Portada original: Daddy's b*tch"></a><div class="cover-meta"><small>PISTA 06 · 3:04</small><strong>Daddy's b*tch</strong><span>Nombre señuelo: What does it mean to be a Therian?</span></div></article>
+          </div>
+          <p class="image-note">Las cuatro carátulas se enlazan a sus versiones WebP de alta calidad en la biblioteca visual principal. Las miniaturas se usan únicamente para acelerar la carga.</p>
+        </article>
+
+        <article class="branch branch-cat">
+          <div class="branch-head">
+            <div class="branch-emblem" aria-hidden="true">🐈‍⬛</div>
+            <div>
+              <div class="kicker">ALL KITTENS SONGS · MIAU</div>
+              <h3 class="branch-title">El gato: juego y persecución doméstica</h3>
+              <p class="branch-sub">El pacto puesto en tensión: exclusividad sentimental y límites de convivencia.</p>
+            </div>
+          </div>
+          <div class="branch-copy">
+            <p>La protagonista comparte vivienda con un compañero de habitación al que acaba de conocer y por quien siente atracción. La letra lo compara con un ratón y se presenta a sí misma como una gatita que conoce el juego de perseguirlo dentro de la casa. El escenario cotidiano se transforma así en territorio de caza.</p>
+            <p>La figura felina aporta agilidad, curiosidad, independencia y astucia. A diferencia del perro, el gato no se define aquí por la obediencia a un dueño, sino por su capacidad para moverse, acechar y decidir cuándo acercarse. El maullido procesado con una sensibilidad Hyperpop/bedroom-pop hace que el gesto parezca tierno y juguetón, mientras el texto introduce una tensión más incómoda: el compañero tiene novia y la protagonista habla de convertirlo en su presa.</p>
+            <p>La metáfora del juego no debe ocultar la cuestión del consentimiento. Cuando el relato sugiere que la otra persona será retenida aunque no quiera participar, la seducción deja de ser un intercambio inocente y roza la coerción. Esa contradicción es parte de la lectura crítica de la canción.</p>
+          </div>
+          <div class="cover-grid">
+            <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/51-p46-therian-collection-kitty-kitty.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/51-p46-therian-collection-kitty-kitty.webp" alt="Portada original: KITTY KITTY"></a><div class="cover-meta"><small>PISTA 03 · 2:52</small><strong>KITTY KITTY</strong><span>Nombre señuelo: A Song For A Therian - Ki...</span></div></article>
+            <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/53-p47-therian-collection-miau-miau.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/53-p47-therian-collection-miau-miau.webp" alt="Portada original: Miau Miau"></a><div class="cover-meta"><small>PISTA 04 · 2:30</small><strong>Miau Miau</strong><span>Nombre señuelo: A Therian? - Miau Miau</span></div></article>
+            <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/55-p47-therian-collection-miau-miau-variante-visual.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/55-p47-therian-collection-miau-miau-variante-visual.webp" alt="Variante visual preservada de Miau Miau"></a><div class="cover-meta"><small>VARIANTE VISUAL · NO ES OTRA PISTA</small><strong>Miau Miau — variante</strong><span>Segunda imagen conservada en el catálogo original.</span></div></article>
+          </div>
+          <p class="image-note">La segunda imagen de Miau Miau se conserva como variante visual separada, tal como la clasifica el inventario original. No se cuenta como una décima canción.</p>
+        </article>
+
+        <article class="branch branch-feral">
+          <div class="branch-head">
+            <div class="branch-emblem" aria-hidden="true">🐆</div>
+            <div>
+              <div class="kicker">FERAL SONGS · GRRR</div>
+              <h3 class="branch-title">Panthera: instinto y territorio conyugal</h3>
+              <p class="branch-sub">El pacto puesto en tensión: matrimonio, hogar y fidelidad.</p>
+            </div>
+          </div>
+          <div class="branch-copy">
+            <p>La protagonista mantiene un encuentro clandestino con un hombre casado, aprovechando que su esposa no está en casa. La cama matrimonial y la puerta cerrada concentran la tensión: el encuentro ocurre en un espacio íntimo que pertenece a una relación previa y a una institución social concreta.</p>
+            <p>La palabra <strong>Feral</strong> señala el abandono de las formas domesticadas. La referencia a <strong>Felidae panthera</strong> lleva el símbolo hacia los grandes felinos capaces de rugir. El «Grrr» es más gutural que el maullido o el ladrido: suena a apetito, advertencia, fuerza y presencia territorial. En esta rama, la colección deja atrás el coqueteo juguetón y enfatiza una descarga física que no busca legitimación romántica.</p>
+            <p>La transgresión no equivale a una victoria moral. La esposa ausente, el secreto y la invasión simbólica del lecho conyugal construyen el conflicto; la lectura feral muestra cómo el personaje transforma la clandestinidad en afirmación de poder.</p>
+          </div>
+          <div class="cover-grid">
+            <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/52-p47-therian-collection-grrr-grrr.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/52-p47-therian-collection-grrr-grrr.webp" alt="Portada original: Grrr grrr"></a><div class="cover-meta"><small>PISTA 02 · 2:02</small><strong>Grrr grrr</strong><span>Nombre señuelo: Therian - Grrr grrr</span></div></article>
+            <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/56-p47-therian-collection-grrr-grrr-v2.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/56-p47-therian-collection-grrr-grrr-v2.webp" alt="Portada original: Grrr grrr V2"></a><div class="cover-meta"><small>PISTA 05 · 2:53</small><strong>Grrr grrr V2</strong><span>Nombre señuelo: Grrr grrr - A Therian Song</span></div></article>
+          </div>
+        </article>
+
+        <article class="glass blue">
+          <div class="mini-label">CODA / PISTA TRANSVERSAL</div>
+          <h3>I Can be you grrr</h3>
+          <p>El documento de evolución incluye esta pieza como novena entrada y la describe como una resolución descarada de la pregunta inicial de la playlist. Sin embargo, el apartado taxonómico no la asigna expresamente a Doggy, Kittens o Feral y el inventario visual no registra una portada individual con ese título. Por rigor editorial se presenta como <strong>coda transversal pendiente de adscripción</strong>, no como una rama inventada ni como una imagen que no existe en el archivo identificado.</p>
+        </article>
+      </section>
+
+      <section class="section" id="pistas">
+        <div class="section-heading">
+          <div>
+            <div class="kicker">03 / MAPA DE LAS NUEVE PISTAS</div>
+            <h2>El orden de la playlist<br>y la clasificación de las ramas.</h2>
+            <p>La numeración respeta el documento evolutivo. El orden de publicación no equivale al orden cronológico interno de la historia ni al orden en que se describen las tres familias animales.</p>
+          </div>
+          <div class="index-mark">09</div>
+        </div>
+        <div class="track-table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>Nombre señuelo</th><th>Título canónico</th><th>Rama / función</th><th>Duración</th><th>Portada</th></tr></thead>
+            <tbody>
+              <tr><td>01</td><td>Therians Are Dangerous...</td><td><strong>Daddy's Big C*CK</strong></td><td>Doggy</td><td class="duration">3:06</td><td>Sí</td></tr>
+              <tr><td>02</td><td>Therian - Grrr grrr</td><td><strong>Grrr grrr</strong></td><td>Feral</td><td class="duration">2:02</td><td>Sí</td></tr>
+              <tr><td>03</td><td>A Song For A Therian - Ki...</td><td><strong>KITTY KITTY</strong></td><td>Kittens</td><td class="duration">2:52</td><td>Sí</td></tr>
+              <tr><td>04</td><td>A Therian? - Miau Miau</td><td><strong>Miau Miau</strong></td><td>Kittens</td><td class="duration">2:30</td><td>Sí</td></tr>
+              <tr><td>05</td><td>Grrr grrr - A Therian Song</td><td><strong>Grrr grrr V2</strong></td><td>Feral</td><td class="duration">2:53</td><td>Sí</td></tr>
+              <tr><td>06</td><td>What does it mean to be a Therian?</td><td><strong>Daddys b*tch</strong></td><td>Doggy</td><td class="duration">3:04</td><td>Sí</td></tr>
+              <tr><td>07</td><td>It is bad to be a therian? ...</td><td><strong>WOW</strong></td><td>Doggy</td><td class="duration">2:37</td><td>Sí · ficha descriptiva pendiente</td></tr>
+              <tr><td>08</td><td>How can I tell if I'm a therian?</td><td><strong>Waos Daddy</strong></td><td>Doggy</td><td class="duration">3:10</td><td>Sí</td></tr>
+              <tr><td>09</td><td>What is a Therian? - I Can be you grrr</td><td><strong>I Can be you grrr</strong></td><td>Coda transversal sin rama confirmada</td><td class="duration">2:00</td><td>No identificada</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="track-footnote">La documentación declara una duración total de 24:17. La suma de las nueve duraciones individuales transcritas es 24:14; se conserva la diferencia de tres segundos como detalle pendiente de verificación, sin alterar los tiempos publicados para cada pista.</p>
+      </section>
+
+      <section class="section" id="convergencias">
+        <div class="section-heading">
+          <div>
+            <div class="kicker">04 / LÍNEA CONVERGENTE</div>
+            <h2>Los animales ya estaban<br>en el universo.</h2>
+            <p>Therian Collection retoma símbolos, sonidos y mecanismos defensivos desarrollados en otras obras. No los repite de forma idéntica: cambia su función.</p>
+          </div>
+          <div class="index-mark">↗</div>
+        </div>
+        <div class="convergence-grid">
+          <article class="convergence"><div class="symbol">THE HORROR FILM THAT IS MY LIFE</div><h3>Poltergeist · el león de peluche</h3><p>El león aparece como compañía de un niño que llora y se esconde. Es animal de consuelo, no depredador. Therian invierte ese lugar: la imagen del animal deja de proteger al niño desde fuera y se convierte en máscara de conducta.</p></article>
+          <article class="convergence"><div class="symbol">THE HORROR FILM THAT IS MY LIFE</div><h3>The Black Cat · el antecedente sonoro</h3><p>La guía sonora ya incorpora maullidos de gatito y gruñidos ferales dentro de una atmósfera de horror, memoria y deterioro familiar. Therian desplaza esos sonidos desde la ambientación hacia la identidad de sus ramas.</p></article>
+          <article class="convergence"><div class="symbol">THE INVISIBLE BOY 2.0 · THE DARK SIDE OF THE MOON</div><h3>Attention · hambre de ser visto</h3><p>La búsqueda de atención y validación prepara una pregunta que reaparece en la colección: ¿qué ocurre cuando la necesidad de ser visto se transforma en una actuación corporal y en una estrategia para atraer a otros?</p></article>
+          <article class="convergence"><div class="symbol">THE INVISIBLE BOY 2.0 · THE DARK SIDE OF THE MOON</div><h3>Razor Heart · la defensa afilada</h3><p>El corazón de papel que se transforma en cuchilla anticipa la conversión de la fragilidad en armadura. La pantera lleva esa lógica a su expresión animal: protección y amenaza comparten la misma forma.</p></article>
+          <article class="convergence"><div class="symbol">THE INVISIBLE BOY 2.0 · THE DARK SIDE OF THE MOON</div><h3>The Rusty Shell · la coraza</h3><p>La voz reconoce que el dolor se volvió combustible y que la armadura también puede convertirse en prisión. Therian cambia la carcasa mecánica por un cuerpo animal y una conducta instintiva.</p></article>
+          <article class="convergence"><div class="symbol">THE INVISIBLE BOY 2.0 · THE DARK SIDE OF THE MOON</div><h3>ADDICTED · el cuerpo como anestesia</h3><p>La búsqueda de contacto físico para silenciar un vacío emocional es un antecedente directo de la lógica de la colección. El placer aparece como alivio breve, no como resolución de la herida.</p></article>
+          <article class="convergence"><div class="symbol">THE INVISIBLE BOY 2.0 · THE DARK SIDE OF THE MOON</div><h3>Broken Doll · repetir el daño</h3><p>La canción reconoce que el protagonista también puede dañar a otra persona. Esta dimensión impide leer Therian como una liberación inocente: la metamorfosis puede invertir la posición de poder sin romper el ciclo.</p></article>
+          <article class="convergence"><div class="symbol">MY LIVE “HOME” · CAPTIVITY</div><h3>Captivity · el cachorro enjaulado</h3><p>El joven león encerrado y a merced del cazador constituye el espejo inverso de Panthera. El animal que antes simbolizaba indefensión reaparece como figura de fuerza y apropiación territorial. La relación es simbólica; Captivity se conserva como referencia/easter egg, no como Pilar formal.</p></article>
+        </div>
+        <div class="quote-line">De cachorro cautivo a depredador territorial: no es una curación automática, sino una inversión simbólica de la posición de poder.</div>
+      </section>
+
+      <section class="section" id="evolucion">
+        <div class="section-heading">
+          <div>
+            <div class="kicker">05 / EVOLUCIÓN SIMBÓLICA</div>
+            <h2>De la presa a la máscara.</h2>
+            <p>La colección puede leerse como una inversión de la vulnerabilidad de I.B. y como una forma de anestesia moral y sensorial.</p>
+          </div>
+          <div class="index-mark">03</div>
+        </div>
+        <div class="prose">
+          <p>En las etapas tempranas, el animal representa compañía o indefensión: el león de peluche escucha al niño llorar; el cachorro de <em>Captivity</em> permanece encerrado. En Therian, el símbolo se desplaza. La figura ya no quiere ser la presa indefensa que espera protección: adopta códigos de caza, territorio, apetito y fuerza.</p>
+          <p>La <strong>anestesia moral zoológica</strong> es una lectura del documento evolutivo: al actuar desde una identidad animal, el personaje intenta suspender la vergüenza, la culpa y las categorías humanas con las que interpreta su historia. Esto explica la metáfora, pero no absuelve las conductas que las canciones representan.</p>
+          <p>La <strong>profanación del hogar ajeno</strong> conecta las tres ramas: la casa de la amiga, la vivienda compartida y el dormitorio conyugal. La intimidad doméstica —un espacio que debería proporcionar protección— se vuelve escenario de invasión y secreto. El gesto puede leerse como revancha simbólica ante una infancia marcada por la inseguridad afectiva, aunque esa revancha también reproduce la vulneración de límites.</p>
+        </div>
+        <div class="timeline">
+          <article class="time-node"><b>León de peluche</b><span>Animal como compañía y refugio en Poltergeist.</span></article>
+          <article class="time-node"><b>Captivity</b><span>El cachorro está cautivo: vulnerabilidad y pérdida de control.</span></article>
+          <article class="time-node"><b>Wao / perro</b><span>Dependencia, obediencia subvertida y autoridad.</span></article>
+          <article class="time-node"><b>Miau / gato</b><span>Astucia, persecución y territorio doméstico.</span></article>
+          <article class="time-node"><b>Grrr / Panthera</b><span>Instinto, fuerza y afirmación territorial.</span></article>
+        </div>
+        <p class="track-footnote">La lectura evolutiva propone perro → gato → Panthera como progresión por edad de la protagonista. Aun así, la iconografía animal no constituye por sí sola una cronología autónoma del canon: las ramas son ante todo categorías simbólicas y narrativas.</p>
+      </section>
+
+      <section class="section" id="visual">
+        <div class="section-heading">
+          <div>
+            <div class="kicker">06 / ICONOGRAFÍA Y DISEÑO</div>
+            <h2>La máscara, el espejo<br>y el neón.</h2>
+            <p>La estética visual no ilustra solamente las canciones: convierte la despersonalización y la tensión entre vulnerabilidad e instinto en elementos reconocibles de DCX.</p>
+          </div>
+          <div class="index-mark">VISUAL</div>
+        </div>
+        <div class="visual-grid">
+          <article class="visual-card"><h3>El Kitsune</h3><p>El pequeño charm de zorro de I.B. evoluciona hasta convertirse en una máscara blanca con detalles rojos. El amuleto protector se transforma en cobertura del rostro: del deseo de pasar inadvertido al borrado deliberado de la identidad.</p></article>
+          <article class="visual-card"><h3>La indumentaria subvertida</h3><p>La camisa blanca abierta y la corbata negra floja recuerdan el uniforme formal de autoridad, pero lo desordenan y lo desplazan hacia una intimidad clandestina. La ropa deja de significar disciplina y pasa a ser una puesta en escena del personaje.</p></article>
+          <article class="visual-card"><h3>El espejo</h3><p>Los reflejos en las portadas asociadas a Waos Daddy y Grrr grrr V2 se leen como duplicación y observación del propio cuerpo desde fuera. En el canon, el espejo es una señal de disociación somática, no una prueba diagnóstica.</p></article>
+          <article class="visual-card"><h3>Rojo y azul</h3><p>El azul eléctrico/industrial remite al frío, la distancia y la disciplina de la Cold Law; el rojo carmesí concentra adrenalina, peligro, urgencia corporal y desquite. La tensión cromática encarna el choque entre origen y contraataque.</p></article>
+          <article class="visual-card"><h3>Huellas laterales</h3><p>Las pisadas de perro, gato y Panthera recorren ambos márgenes de esta página. Funcionan como marcas de desplazamiento entre ramas y como una extensión gráfica de la taxonomía animal.</p></article>
+          <article class="visual-card"><h3>Hyperpop salvaje</h3><p>Los ganchos onomatopéyicos, las voces procesadas y el contraste de colores conectan el juego animal con una energía pop inmediata. La dulzura del sonido puede convivir con contenidos inquietantes: esa fricción es parte del diseño.</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="archivo">
+        <div class="section-heading">
+          <div>
+            <div class="kicker">07 / ARCHIVO DE PORTADAS</div>
+            <h2>Las imágenes permanecen<br>en su biblioteca de origen.</h2>
+            <p>Las carátulas mostradas arriba proceden del catálogo principal de DarkCry 1.0. Se enlazan directamente a los WebP de alta calidad; las miniaturas sirven para la carga de la página. No se han rediseñado ni sustituido.</p>
+          </div>
+          <div class="index-mark">ART</div>
+        </div>
+        <div class="archive-box">
+          <div class="mini-label">BIBLIOTECA VISUAL PRINCIPAL · DARKCRY10.GITHUB.IO</div>
+          <h3>Conservación y correspondencia editorial</h3>
+          <p>El inventario del catálogo identifica las imágenes de Therian en las páginas 45–47 del documento maestro visual. Las variantes se mantienen separadas y cada tarjeta de las tres ramas abre la imagen WebP de alta calidad almacenada en el repositorio original.</p>
+          <p><strong>Estado del material:</strong> ocho portadas de canciones identificadas y una variante visual adicional de Miau Miau. El inventario describe la portada de WOW como pendiente de ficha textual individual, aunque el recurso gráfico sí está conservado. No se registra una carátula individual para I Can be you grrr.</p>
+          <div class="archive-links">
+            <a href="https://github.com/DarkCry10/darkcry10.github.io/tree/main/assets/covers/01-webp-alta" target="_blank" rel="noopener">Portadas WebP alta calidad ↗</a>
+            <a href="https://github.com/DarkCry10/darkcry10.github.io/tree/main/assets/covers/02-miniaturas" target="_blank" rel="noopener">Miniaturas ↗</a>
+            <a href="https://github.com/DarkCry10/darkcry10.github.io/tree/main/assets/covers/03-catalogo" target="_blank" rel="noopener">Inventario y catálogo ↗</a>
+            <a href="https://github.com/DarkCry10/darkcry10.github.io" target="_blank" rel="noopener">Repositorio principal ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="lectura">
+        <div class="section-heading">
+          <div>
+            <div class="kicker">08 / LECTURA CRÍTICA</div>
+            <h2>La transformación<br>no equivale a sanar.</h2>
+            <p>La colección requiere sostener dos perspectivas al mismo tiempo: la lógica subjetiva del personaje y las consecuencias de sus acciones sobre otras personas.</p>
+          </div>
+          <div class="index-mark">NOTE</div>
+        </div>
+        <div class="split">
+          <article class="glass red"><div class="mini-label">LO QUE EL PERSONAJE CREE</div><h3>Dejar de ser la presa</h3><p>La identidad animal permite imaginar una salida de la vergüenza, la dependencia y el miedo. La máscara otorga una sensación de control: el personaje decide cómo presentarse, cómo acercarse y qué parte de sí mismo deja visible.</p></article>
+          <article class="glass blue"><div class="mini-label">LO QUE LA NARRACIÓN TAMBIÉN MUESTRA</div><h3>El ciclo puede continuar</h3><p>La inversión de poder no garantiza reciprocidad ni reparación. La protagonista puede dejar de ocupar una posición vulnerable y, sin embargo, repetir invasiones, secretos y relaciones asimétricas. El instinto funciona como escudo y como riesgo.</p></article>
+        </div>
+        <div class="content-note"><strong>Nota de contenido y contexto:</strong> la colección aborda sexualidad adulta, infidelidad, secreto, asimetrías de edad y poder, presión y transgresión de límites. En la rama Doggy, la perspectiva de la protagonista joven frente a un hombre adulto exige reconocer la desigualdad de poder. En Kittens, el juego de persecución no borra la importancia del consentimiento. Esta página analiza la representación narrativa sin presentar esas dinámicas como modelos de conducta.</div>
+        <p class="track-footnote">Las palabras «disociación», «anestesia» y «metamorfosis» se usan como categorías simbólicas del universo narrativo, no como diagnósticos clínicos de una persona real.</p>
+      </section>
+
+      <section class="closing">
+        <div class="kicker">THERIAN COLLECTION · DARKCRY 1.0</div>
+        <h2>El animal que dejó de esconderse.<br><span>La herida que todavía habla.</span></h2>
+        <p>Wao, Miau y Grrr no cierran la historia de Invisible Boy: la traducen a otro lenguaje. La colección transforma el consuelo, la jaula, la máscara y el deseo en tres comportamientos animales. Su potencia narrativa está precisamente en la contradicción: la fuerza puede parecer liberación y, al mismo tiempo, conservar la forma del daño que la hizo necesaria.</p>
+        <a class="button button-primary" href="#inicio">Volver al comienzo ↑</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>DARKCRY 1.0 · THERIAN COLLECTION</strong> · Archivo editorial y visual convergente.</p>
+    <p>Las portadas se sirven desde la biblioteca visual principal. <a href="https://github.com/DarkCry10/darkcry10.github.io">DarkCry 1.0</a> · <a href="https://github.com/DarkCry10/TherianCollection">Repositorio de esta colección</a></p>
+  </footer>
+</body>
+</html>
