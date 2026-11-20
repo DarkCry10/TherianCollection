@@ -8,7 +8,6 @@
   const filters = Array.from(document.querySelectorAll(".dcx-filter"));
   if (!trigger || !room || !detail || !grid) return;
 
-  const IMAGE_DIRECTORY = "assets/dcx/DCX_Public_AVIF_Assets.zip/";
   let entries = [];
   let activeFilter = "all";
   let lastFocus = null;
