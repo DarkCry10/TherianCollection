@@ -4,21 +4,20 @@ Archivo editorial, musical y narrativo de una colección complementaria de la Er
 
 ## Sitio
 
-- `index.html`: página principal de las tres ramas animales, sus nueve pistas, portadas originales y convergencias narrativas.
+- `index.html`: página principal de las tres ramas animales, sus nueve pistas y portadas originales, además de sus relaciones narrativas con otros proyectos de DarkCry 1.0.
 - **Doggy / Wao:** obediencia, fidelidad, deseo y autoridad.
 - **Kittens / Miau:** juego, persecución doméstica y tensión de los límites.
 - **Panthera / Feral:** instinto, fuerza y afirmación territorial.
 
-La identidad del sitio conserva el lenguaje Hyperpop rojo/azul, las huellas laterales y una galería homogénea con las nueve portadas originales. La coda `I Can be you grrr` se mantiene como pista transversal, no asignada exclusivamente a una rama.
+La identidad del sitio conserva el lenguaje Hyperpop rojo/azul, las huellas laterales y una galería homogénea con las nueve portadas originales. `I Can be you grrr` es la novena pista de la colección y su portada forma parte de la galería general, sin presentarse como una coda ni como un archivo transversal.
 
 ## Criterios editoriales
 
 1. La clasificación perro → gato → Panthera se presenta como lectura simbólica, no como cronología autónoma obligatoria.
-2. La novena pista queda identificada como coda transversal.
-3. La variante de Miau Miau se conserva como variante de portada, no como pista adicional.
-4. Las duraciones individuales se transcriben según la documentación disponible. El total declarado es 24:17, mientras que la suma de los tiempos individuales listados da 24:14; la diferencia de tres segundos queda pendiente de verificación.
-5. Los términos “disociación”, “anestesia” y “metamorfosis” se utilizan como lenguaje simbólico del universo, no como diagnósticos clínicos.
-6. Las situaciones con asimetrías de edad, poder o consentimiento se describen críticamente, sin presentarlas como modelos de conducta.
+2. La variante de Miau Miau se conserva como variante de portada, no como pista adicional.
+3. Las duraciones individuales se transcriben según la documentación disponible. El total declarado es 24:17, mientras que la suma de los tiempos individuales listados da 24:14; la diferencia de tres segundos queda pendiente de verificación.
+4. Los términos “disociación”, “anestesia” y “metamorfosis” se utilizan como lenguaje simbólico del universo, no como diagnósticos clínicos.
+5. Las situaciones con asimetrías de edad, poder o consentimiento se describen críticamente, sin presentarlas como modelos de conducta.
 
 ## Publicación con GitHub Pages
 
