@@ -93,7 +93,7 @@
     grid.innerHTML = shown.map(cardMarkup).join("");
     if (count) {
       count.textContent = archiveLoaded
-        ? shown.length + " / " + entries.length + " referencias · 56 imágenes cargadas"
+        ? shown.length + " / " + entries.length + " referencias · " + Object.keys(imageUrls).length + " imágenes cargadas"
         : shown.length + " / " + entries.length + " fichas · falta el paquete de imágenes";
     }
     grid.querySelectorAll(".dcx-card").forEach(card => {
