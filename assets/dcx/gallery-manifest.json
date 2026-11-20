@@ -1,0 +1,1005 @@
+{
+  "title": "DCX — The Hidden Room",
+  "version": 1,
+  "source": "DCX original.pdf · documento maestro de 71 páginas",
+  "uniquePublicReferences": 56,
+  "duplicatePolicy": "Una ficha por imagen única. Las apariciones repetidas se conservan en sourcePages.",
+  "restrictedReferences": [
+    "DCX-REF-021",
+    "DCX-REF-022",
+    "DCX-REF-023"
+  ],
+  "imageAssetStatus": "pending-image-binary-sync",
+  "imageBasePath": "assets/dcx/DCX_Public_AVIF_Assets.zip/",
+  "items": [
+    {
+      "id": "DCX-REF-001",
+      "file": "DCX-REF-001_p004.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-001_p004.avif",
+      "sourcePages": [
+        4
+      ],
+      "family": "SXW fotográfico / prototipo",
+      "tags": [
+        "sxw",
+        "fireice",
+        "photo"
+      ],
+      "description": "Selfie de espejo de cuerpo entero con camisa blanca abierta, corbata, máscara y prendas blancas; mezcla de puntos rojos y verdes. Las medias y botas lo convierten en una referencia transicional con detalles de la etapa temprana.",
+      "designUse": "Materialidad, caída de camisa, accesorios y escala del personaje. No asumir que toda la paleta mixta es FireIce canónico.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "530511cdf455215c9c714660f1fa025d8ff30c064030adc4bddd48bcda9618e7"
+    },
+    {
+      "id": "DCX-REF-002",
+      "file": "DCX-REF-002_p005.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-002_p005.avif",
+      "sourcePages": [
+        5,
+        7
+      ],
+      "family": "SXW / FireIce fotográfico",
+      "tags": [
+        "sxw",
+        "fireice",
+        "photo"
+      ],
+      "description": "Retrato vertical frontal, camisa blanca y corbata negra, máscara y borlas; el azul frío y magenta cálido dividen la figura. Se repite en las páginas 5 y 7.",
+      "designUse": "Referencia base muy clara de la identidad SXW y del corte cromático FireIce.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "feae003a8f7b713e2e216133f139b99f46fec04957e94929c5e3daf9d2cfd587"
+    },
+    {
+      "id": "DCX-REF-003",
+      "file": "DCX-REF-003_p006.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-003_p006.avif",
+      "sourcePages": [
+        6
+      ],
+      "family": "SXW / FireIce fotográfico",
+      "tags": [
+        "sxw",
+        "fireice",
+        "photo"
+      ],
+      "description": "Retrato frontal más azulado, con la camisa y la corbata centradas; el fondo violeta conserva puntos rojos y la máscara recibe iluminación azul.",
+      "designUse": "Útil para estudiar cómo el azul modifica la lectura de la máscara y de la tela blanca.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "8face499e324ce6acffe8288c50e3bb938c69913eb758335d2d694c9f81908b2"
+    },
+    {
+      "id": "DCX-REF-004",
+      "file": "DCX-REF-004_p008.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-004_p008.avif",
+      "sourcePages": [
+        8
+      ],
+      "family": "SXW / FireIce fotográfico",
+      "tags": [
+        "sxw",
+        "fireice",
+        "photo"
+      ],
+      "description": "Encuadre bajo y cercano desde el espejo, con una pierna y una media en primer plano; la ropa blanca y la corbata se leen entre magenta y azul.",
+      "designUse": "Referencia de pose y perspectiva, más expresiva que una ficha frontal neutra.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "0a8c835180fa1ed91f19e5a02d295c84ec44abc3c737f1e2939890955a464aca"
+    },
+    {
+      "id": "DCX-REF-005",
+      "file": "DCX-REF-005_p009.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-005_p009.avif",
+      "sourcePages": [
+        9
+      ],
+      "family": "SXW / FireIce fotográfico",
+      "tags": [
+        "sxw",
+        "fireice",
+        "photo"
+      ],
+      "description": "Pose sentada y frontal con el teléfono en primer plano; el brief de malla blanca, la banda azul y la corbata forman el eje de la composición.",
+      "designUse": "Buena referencia de relación entre pose sentada, máscara y vestuario SXW.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "6c5b01ff702ec7c9dc0f1b43b3b7e9e6afb9737736320548e4ded33a8a0df1fa"
+    },
+    {
+      "id": "DCX-REF-006",
+      "file": "DCX-REF-006_p010.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-006_p010.avif",
+      "sourcePages": [
+        10
+      ],
+      "family": "SXW / FireIce fotográfico",
+      "tags": [
+        "sxw",
+        "fireice",
+        "photo"
+      ],
+      "description": "Plano amplio de espejo con el personaje sentado en una silla, piernas elevadas y pantalla luminosa detrás. Los puntos rojos recortan el fondo azul/magenta.",
+      "designUse": "Referencia de composición ambiental: espejo, mobiliario, pantalla y láseres forman una escena completa.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "e2c6be055722098fb7c85b6101e25e5bcc4ba10275e31d5c64b046bd30797b39"
+    },
+    {
+      "id": "DCX-REF-007",
+      "file": "DCX-REF-007_p011.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-007_p011.avif",
+      "sourcePages": [
+        11
+      ],
+      "family": "SXW / FireIce fotográfico",
+      "tags": [
+        "sxw",
+        "fireice",
+        "photo"
+      ],
+      "description": "Vista vertical de cuerpo entero frente al espejo, camisa abierta y brief blanco con calcetines altos; el azul y el magenta se distribuyen por la ropa y el cuarto.",
+      "designUse": "Una de las mejores referencias de silueta SXW en encuadre completo.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "f61ff85b64d5b51b5be7a455a5fd4698f78a4420a1ea191b44638893f51f8a0c"
+    },
+    {
+      "id": "DCX-REF-008",
+      "file": "DCX-REF-008_p012.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-008_p012.avif",
+      "sourcePages": [
+        12
+      ],
+      "family": "SXW / Blood Cherry fotográfico",
+      "tags": [
+        "sxw",
+        "blood-cherry",
+        "photo"
+      ],
+      "description": "Retrato frontal bañado casi por completo en rojo. La máscara y la camisa pierden parte del blanco local y se integran a la monocromía carmesí.",
+      "designUse": "Demuestra que Blood Cherry es una iluminación dominante, no un simple fondo rojo.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "c3210e3395dd5cf33c524841b72138e199e2bb147035ad2639c0efe849d26454"
+    },
+    {
+      "id": "DCX-REF-009",
+      "file": "DCX-REF-009_p013.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-009_p013.avif",
+      "sourcePages": [
+        13
+      ],
+      "family": "SXW / Blood Cherry fotográfico",
+      "tags": [
+        "sxw",
+        "blood-cherry",
+        "photo"
+      ],
+      "description": "Selfie vertical de torso y parte inferior, con camisa abierta bajo luz carmesí y pequeñas proyecciones brillantes.",
+      "designUse": "Referencia de cómo conservar la textura de la camisa cuando la luz roja reduce los contrastes.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "833b44910fe72cacebe58e01b1b76fd6fff1d7e9bcc4eb8e941c53646c32398d"
+    },
+    {
+      "id": "DCX-REF-010",
+      "file": "DCX-REF-010_p014.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-010_p014.avif",
+      "sourcePages": [
+        14
+      ],
+      "family": "SXW / Blood Cherry fotográfico",
+      "tags": [
+        "sxw",
+        "blood-cherry",
+        "photo"
+      ],
+      "description": "Encuadre frontal más distante, con la camisa colgando abierta y el personaje centrado en el espejo; los destellos rojos cubren el entorno.",
+      "designUse": "Aporta una variante de pose y largo de camisa dentro de Blood Cherry.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "3090bf5a2ffd612bf83a7997dd53e3c332ac769ab7d72ec11dd2e47c1f556982"
+    },
+    {
+      "id": "DCX-REF-011",
+      "file": "DCX-REF-011_p015.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-011_p015.avif",
+      "sourcePages": [
+        15
+      ],
+      "family": "SXW / Blood Cherry fotográfico",
+      "tags": [
+        "sxw",
+        "blood-cherry",
+        "photo"
+      ],
+      "description": "Composición oblicua de cuerpo casi entero, frente al espejo, con saturación roja extrema y un destello azul horizontal.",
+      "designUse": "Referencia importante del lens flare azul fino que corta el rojo de Blood Cherry.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "cf5ac2ca176b2cbbd6f1e589d3ae63c06c2dcfdc2d82b9e3c94b75010bf38573"
+    },
+    {
+      "id": "DCX-REF-012",
+      "file": "DCX-REF-012_p016.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-012_p016.avif",
+      "sourcePages": [
+        16
+      ],
+      "family": "SXW / Blood Cherry fotográfico",
+      "tags": [
+        "sxw",
+        "blood-cherry",
+        "photo"
+      ],
+      "description": "Primer plano oblicuo de máscara, teléfono y mano; el torso y la corbata quedan parcialmente ocultos por el recorte y la luz carmesí.",
+      "designUse": "Sirve para estudiar detalles de máscara y manos bajo luz saturada, no como referencia de silueta completa.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "e5b98bb99b7defac092934aeb12694b3d492eee2306ab7a4db61bededc634af6"
+    },
+    {
+      "id": "DCX-REF-013",
+      "file": "DCX-REF-013_p017.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-013_p017.avif",
+      "sourcePages": [
+        17
+      ],
+      "family": "SXW / Blood Cherry fotográfico",
+      "tags": [
+        "sxw",
+        "blood-cherry",
+        "photo"
+      ],
+      "description": "Vista de perfil/semiperfil ante el espejo, con camisa abierta y corbata visible bajo un baño rojo profundo.",
+      "designUse": "Varía el ángulo de la máscara y la caída lateral de la camisa.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "7c37db4a73cad437b2d4983160b432d52ce455434cbd014cb7d1deda8bff5e1b"
+    },
+    {
+      "id": "DCX-REF-014",
+      "file": "DCX-REF-014_p018.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-014_p018.avif",
+      "sourcePages": [
+        18
+      ],
+      "family": "Gloom Grass / transición fotográfica",
+      "tags": [
+        "sxw",
+        "gloom"
+      ],
+      "description": "Apariencia oscura con chaqueta negra abierta, corbata y prenda inferior negra; el ambiente cruza azul y rojo.",
+      "designUse": "Marca el tránsito desde SXW hacia una versión más oscura; no muestra todavía todos los componentes de Gloom Grass.",
+      "archiveFact": "Gloom Grass no es solo ropa negra: cuero biker, malla, cadena industrial y, en la referencia fotográfica, calcetines mostaza punteados.",
+      "sha256": "8cf9c5d16aaf26f5d903c1acb584856e8527befed24e94eecbaf7a71f3671198"
+    },
+    {
+      "id": "DCX-REF-015",
+      "file": "DCX-REF-015_p019.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-015_p019.avif",
+      "sourcePages": [
+        19
+      ],
+      "family": "Gloom Grass / transición fotográfica",
+      "tags": [
+        "gloom"
+      ],
+      "description": "Selfie vertical en pose inclinada, con chaqueta negra y base oscura bajo iluminación azul/roja.",
+      "designUse": "Útil como variación de pose de la familia oscura; la ropa no debe tomarse como definición completa del conjunto final.",
+      "archiveFact": "Gloom Grass no es solo ropa negra: cuero biker, malla, cadena industrial y, en la referencia fotográfica, calcetines mostaza punteados.",
+      "sha256": "e1e110dd60406eb90c61c89e0b6ea62ae6aa692e32e9a8c521015b9a376bf207"
+    },
+    {
+      "id": "DCX-REF-016",
+      "file": "DCX-REF-016_p020.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-016_p020.avif",
+      "sourcePages": [
+        20
+      ],
+      "family": "Gloom Grass / Grass Bass fotográfico",
+      "tags": [
+        "gloom",
+        "grass-bass",
+        "photo"
+      ],
+      "description": "Composición sentada frente al espejo, vestuario negro y fondo verde intenso con puntos de luz.",
+      "designUse": "Referencia de la integración entre pose, espejo y ambiente Grass Bass.",
+      "archiveFact": "Grass Bass utiliza el verde esmeralda como ambiente industrial tóxico, con reflejos sobre piel, cuero y superficies.",
+      "sha256": "0d977adb67c436c1b1f1d03d9e624be35ada5d06d4342c44b04c57da0da8730c"
+    },
+    {
+      "id": "DCX-REF-017",
+      "file": "DCX-REF-017_p021.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-017_p021.avif",
+      "sourcePages": [
+        21,
+        22
+      ],
+      "family": "Gloom Grass / Grass Bass fotográfico",
+      "tags": [
+        "gloom",
+        "grass-bass",
+        "photo"
+      ],
+      "description": "Pose de cuerpo entero sentada con chaqueta oscura, botas negras y calcetines mostaza punteados; el cuarto y el marco del espejo quedan visibles. Se repite en las páginas 21 y 22.",
+      "designUse": "La referencia más clara del detalle de botas y calcetines descrito en el manual.",
+      "archiveFact": "Grass Bass utiliza el verde esmeralda como ambiente industrial tóxico, con reflejos sobre piel, cuero y superficies.",
+      "sha256": "2804dd74922806dfc8fbae13466a7e248262e9443640707adfdfb67984f18012"
+    },
+    {
+      "id": "DCX-REF-018",
+      "file": "DCX-REF-018_p023.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-018_p023.avif",
+      "sourcePages": [
+        23
+      ],
+      "family": "Gloom Grass / Grass Bass fotográfico",
+      "tags": [
+        "gloom",
+        "grass-bass",
+        "photo"
+      ],
+      "description": "Encuadre frontal bajo y simétrico, sentado, con prendas oscuras y máscara iluminada en verde.",
+      "designUse": "Complementa la página 21: es una referencia de pose, no una vista completa de todos los detalles del vestuario.",
+      "archiveFact": "Grass Bass utiliza el verde esmeralda como ambiente industrial tóxico, con reflejos sobre piel, cuero y superficies.",
+      "sha256": "08ea32e76e430be27c9e0b63998911dab65176f47222cbcad3e19800818121ab"
+    },
+    {
+      "id": "DCX-REF-019",
+      "file": "DCX-REF-019_p024.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-019_p024.avif",
+      "sourcePages": [
+        24
+      ],
+      "family": "Archivo temprano sin máscara",
+      "tags": [
+        "early"
+      ],
+      "description": "Fotografía corporal de espalda/semiperfil con prenda inferior oscura y un accesorio de media con colores arcoíris; no lleva la máscara Kitsune.",
+      "designUse": "Documento visual de una etapa anterior o paralela. Mantener separado del canon enmascarado.",
+      "archiveFact": "Es un antecedente del archivo, no una definición del DCX consolidado: la máscara Kitsune sigue siendo un elemento central de identidad.",
+      "sha256": "0fb38d6ea92367cc8a7a5e09be4af2dd2679fc5747c04dce4e878c23a27540cf"
+    },
+    {
+      "id": "DCX-REF-020",
+      "file": "DCX-REF-020_p025.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-020_p025.avif",
+      "sourcePages": [
+        25
+      ],
+      "family": "Archivo temprano sin máscara",
+      "tags": [
+        "sxw",
+        "early"
+      ],
+      "description": "Otra fotografía de espalda con prenda inferior oscura y encuadre cercano; sin máscara ni identidad facial DCX consolidada.",
+      "designUse": "Referencia histórica del cuerpo/ropa; no usar como guía de máscara ni de vestuario SXW actual.",
+      "archiveFact": "SXW rompe la formalidad: camisa blanca abierta y corbata negra directamente sobre la piel, con malla blanca como textura inferior.",
+      "sha256": "b72cd4f834931300d90bd7d5bc06143e7ac77b68d3180e0af20a872fa8f16358"
+    },
+    {
+      "id": "DCX-REF-024",
+      "file": "DCX-REF-024_p029.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-024_p029.avif",
+      "sourcePages": [
+        29
+      ],
+      "family": "Ilustración anime / SXW",
+      "tags": [
+        "sxw",
+        "anime"
+      ],
+      "description": "Primera ilustración estilizada: personaje sentado de frente en un sofá, camisa blanca abierta, corbata, máscara y brief blanco; haces de láser multicolor detrás.",
+      "designUse": "Define la traducción inicial de SXW al anime, aunque la pose y anatomía son deliberadamente exageradas.",
+      "archiveFact": "SXW rompe la formalidad: camisa blanca abierta y corbata negra directamente sobre la piel, con malla blanca como textura inferior.",
+      "sha256": "395eedc26658cc8d60f3e2913fbe497ae468a791620d5def53b97d0db73e6061"
+    },
+    {
+      "id": "DCX-REF-025",
+      "file": "DCX-REF-025_p030.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-025_p030.avif",
+      "sourcePages": [
+        30,
+        35,
+        40
+      ],
+      "family": "Ilustración anime / SXW / FireIce",
+      "tags": [
+        "sxw",
+        "fireice",
+        "anime"
+      ],
+      "description": "Ilustración vertical de espejo, camisa abierta, corbata y brief blanco con división de luz roja/azul. Se repite en las páginas 30, 35 y 40.",
+      "designUse": "Referencia principal para una versión anime de espejo; su duplicación revela que se reutilizó como imagen representativa.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "2f8ccb32f905a78df278c67b49b400199d0a0a0fd050b1a78b21ef0214209a1e"
+    },
+    {
+      "id": "DCX-REF-026",
+      "file": "DCX-REF-026_p031.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-026_p031.avif",
+      "sourcePages": [
+        31
+      ],
+      "family": "Ilustración anime / SXW",
+      "tags": [
+        "sxw",
+        "anime"
+      ],
+      "description": "Vista trasera en tres cuartos, con camisa abierta, corbata y brief blanco; el foco está en la espalda y la caída posterior de la prenda.",
+      "designUse": "Útil para definir cómo se ve SXW desde atrás sin perder la identidad del personaje.",
+      "archiveFact": "SXW rompe la formalidad: camisa blanca abierta y corbata negra directamente sobre la piel, con malla blanca como textura inferior.",
+      "sha256": "1dcfd264ae7db6f4a2d09b88d1327956dc71efee87bf7367de9b5bb6f25f2a73"
+    },
+    {
+      "id": "DCX-REF-027",
+      "file": "DCX-REF-027_p032.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-027_p032.avif",
+      "sourcePages": [
+        32
+      ],
+      "family": "Render escénico rojo / SXW",
+      "tags": [
+        "sxw"
+      ],
+      "description": "Composición de aspecto más cinematográfico que anime, con personaje sentado en ambiente rojo/anaranjado y reflejos de espejo; aparecen varias capas de reflejo.",
+      "designUse": "Puente entre ilustración estilizada y render realista; aporta narrativa de espejo y club.",
+      "archiveFact": "SXW rompe la formalidad: camisa blanca abierta y corbata negra directamente sobre la piel, con malla blanca como textura inferior.",
+      "sha256": "d9a473a2f799aabdde040197e33dac3e40bc8605a0d216cc79c70becf5699864"
+    },
+    {
+      "id": "DCX-REF-028",
+      "file": "DCX-REF-028_p033.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-028_p033.avif",
+      "sourcePages": [
+        33
+      ],
+      "family": "Ilustración anime / SXW",
+      "tags": [
+        "sxw",
+        "anime"
+      ],
+      "description": "Plano frontal de personaje sentado en sofá, brazos extendidos, camisa abierta y corbata, con líneas láser de varios colores.",
+      "designUse": "Referencia de pose icónica y de cómo el cuerpo ocupa el centro de un escenario gráfico.",
+      "archiveFact": "SXW rompe la formalidad: camisa blanca abierta y corbata negra directamente sobre la piel, con malla blanca como textura inferior.",
+      "sha256": "0521c3af3ea3ad93bd14926d09ddcf2d9b8fad35f617e8b30a58935977bc45e5"
+    },
+    {
+      "id": "DCX-REF-029",
+      "file": "DCX-REF-029_p034.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-029_p034.avif",
+      "sourcePages": [
+        34
+      ],
+      "family": "Ilustración anime / SXW / FireIce",
+      "tags": [
+        "sxw",
+        "fireice",
+        "anime"
+      ],
+      "description": "Retrato vertical de torso, mano sobre la corbata y camisa abierta; iluminación roja y azul separa los lados del personaje.",
+      "designUse": "Buena guía de retrato medio con FireIce, aunque la anatomía está más idealizada que en la fotografía.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "8b2daf4fb701e60471d5994cf6859c18625302c2a45171ebd0bc16f9af86cda6"
+    },
+    {
+      "id": "DCX-REF-030",
+      "file": "DCX-REF-030_p036.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-030_p036.avif",
+      "sourcePages": [
+        36
+      ],
+      "family": "Ilustración anime / SXW",
+      "tags": [
+        "sxw",
+        "anime"
+      ],
+      "description": "Pose sentada frontal en una escena de luces puntuales, con camisa blanca, corbata y banda de cintura de colores tipo CK/arcoíris.",
+      "designUse": "Referencia de etapa histórica de branding; mantenerla separada de la banda azul AMX/AM> consolidada.",
+      "archiveFact": "Esta referencia conserva una exploración anterior del branding CK/arcoíris; no debe confundirse con la versión consolidada de banda azul AMX/AM>.",
+      "sha256": "f6a0cef021d700582259d09fec90a64b53489025b0d6368124c3f89eff938495"
+    },
+    {
+      "id": "DCX-REF-031",
+      "file": "DCX-REF-031_p037.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-031_p037.avif",
+      "sourcePages": [
+        37
+      ],
+      "family": "Ilustración anime / Blood Cherry",
+      "tags": [
+        "blood-cherry",
+        "anime"
+      ],
+      "description": "Retrato vertical frontal en ambiente rojo con imágenes de cerezas/frutos en la pared; camisa abierta y corbata.",
+      "designUse": "Une Blood Cherry con un motivo visual literal de cerezas; útil como variación temática, no como requisito de todos los fondos.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "ad46bf8c5ce82b6bfef6de7a122789793d15a9cf500cfd0acdccee6c33f86af7"
+    },
+    {
+      "id": "DCX-REF-032",
+      "file": "DCX-REF-032_p038.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-032_p038.avif",
+      "sourcePages": [
+        38
+      ],
+      "family": "Ilustración anime / escena de sofá",
+      "tags": [
+        "anime"
+      ],
+      "description": "Composición horizontal de pose baja sobre sofá, camisa y corbata, con líneas de neón azul/violeta y humo al nivel del suelo.",
+      "designUse": "Aporta un uso más dinámico de la pose y del humo, distinto del retrato frontal.",
+      "archiveFact": "La traducción anime estiliza líneas y anatomía; para mantener continuidad, la máscara y los accesorios deben seguir el diseño fotográfico consolidado.",
+      "sha256": "b505ce9ae208e0f03f18041858a40dcd6236800a54054f2090eb2fbc22d27f88"
+    },
+    {
+      "id": "DCX-REF-033",
+      "file": "DCX-REF-033_p039.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-033_p039.avif",
+      "sourcePages": [
+        39
+      ],
+      "family": "Ilustración anime / pose sentada",
+      "tags": [
+        "anime"
+      ],
+      "description": "Pose sentada con piernas cruzadas, camisa abierta, corbata y máscara; haces de luz de colores atraviesan un espacio oscuro.",
+      "designUse": "Referencia de pose relajada y estilización cel-shaded; las proporciones son más estilizadas que las fotográficas.",
+      "archiveFact": "La traducción anime estiliza líneas y anatomía; para mantener continuidad, la máscara y los accesorios deben seguir el diseño fotográfico consolidado.",
+      "sha256": "d93e274afd47f220e1f9c67ba9d82168dc01a8227b3b42e414666f88afa11a08"
+    },
+    {
+      "id": "DCX-REF-034",
+      "file": "DCX-REF-034_p041.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-034_p041.avif",
+      "sourcePages": [
+        41
+      ],
+      "family": "Ilustración anime / FireIce escénico",
+      "tags": [
+        "fireice",
+        "anime"
+      ],
+      "description": "Figura de cuerpo entero delante de cortinas oscuras, brazo extendido y luz roja/azul lateral; la banda de cintura mantiene detalles arcoíris antiguos.",
+      "designUse": "Útil para una variante escénica; conservar como exploración de branding anterior.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "9bea05d9c5a324c918163c9b8167cc0328e0312d14264200d856834a5c36df95"
+    },
+    {
+      "id": "DCX-REF-035",
+      "file": "DCX-REF-035_p042.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-035_p042.avif",
+      "sourcePages": [
+        42,
+        70
+      ],
+      "family": "Render cinematográfico / Adonis / Blood Cherry",
+      "tags": [
+        "adonis",
+        "blood-cherry"
+      ],
+      "description": "Figura de pie entre humo rojo, camisa abierta y corbata; la neblina oculta parte inferior y concentra la atención en el torso y máscara. Se repite en la página 70.",
+      "designUse": "Una de las representaciones más claras del principio Adonis: ocultación compositiva mediante humo.",
+      "archiveFact": "Adonis no es un cuarto vestuario: es un estado compositivo. El encuadre y la neblina dirigen la atención al torso y a la máscara.",
+      "sha256": "603d36ae531afc00e03c5702e0c98d6bc7c526d7bcae5ee3b5b74d0b36c99f4a"
+    },
+    {
+      "id": "DCX-REF-036",
+      "file": "DCX-REF-036_p043.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-036_p043.avif",
+      "sourcePages": [
+        43,
+        58
+      ],
+      "family": "Render cinematográfico / Adonis / Blood Cherry",
+      "tags": [
+        "adonis",
+        "blood-cherry"
+      ],
+      "description": "Retrato cuadrado frontal, torso muy definido, camisa blanca y corbata contra un fondo carmesí con humo y un punto de luz lateral. Se repite en la página 58.",
+      "designUse": "Referencia canónica para la lectura escultórica en rojo, con el torso como centro de atención.",
+      "archiveFact": "Adonis no es un cuarto vestuario: es un estado compositivo. El encuadre y la neblina dirigen la atención al torso y a la máscara.",
+      "sha256": "b52029191e505c8a869987ca7dfdebcda13cb31a85811ae7128632cdd8ffda8a"
+    },
+    {
+      "id": "DCX-REF-037",
+      "file": "DCX-REF-037_p044.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-037_p044.avif",
+      "sourcePages": [
+        44,
+        59
+      ],
+      "family": "Render cinematográfico / FireIce",
+      "tags": [
+        "fireice"
+      ],
+      "description": "Retrato vertical cercano con máscara bicolor azul/roja, camisa abierta y corbata; el fondo contiene imágenes de cerezas y fresas. Se repite en la página 59.",
+      "designUse": "Combina FireIce con motivos frutales; sirve para el tratamiento de máscara y retrato.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "b3c8c523102ab5fe24588cf6512336966852a4fda5ea19cec85a7343c5c0513e"
+    },
+    {
+      "id": "DCX-REF-038",
+      "file": "DCX-REF-038_p045.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-038_p045.avif",
+      "sourcePages": [
+        45,
+        60
+      ],
+      "family": "Render cinematográfico / FireIce / espejo",
+      "tags": [
+        "fireice"
+      ],
+      "description": "Composición frontal y trasera en un mismo espejo, con camisa, corbata y brief blanco; luces rojas y azules rodean el marco. Se repite en la página 60.",
+      "designUse": "Muy útil para verificar continuidad del vestuario desde dos ángulos dentro de una misma composición.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "cc8940c03751b2801dba73cf5040a31d6a69f8efaa505fab9eeb9eea125fc716"
+    },
+    {
+      "id": "DCX-REF-039",
+      "file": "DCX-REF-039_p046.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-039_p046.avif",
+      "sourcePages": [
+        46,
+        61
+      ],
+      "family": "Render cinematográfico / FireIce / SXW",
+      "tags": [
+        "sxw",
+        "fireice"
+      ],
+      "description": "Selfie de espejo con camisa blanca, corbata y brief con banda azul AMX; luz azul y magenta, fondo de madera y puntos rojos. Se repite en la página 61.",
+      "designUse": "Una de las referencias más completas de SXW consolidado y del entorno de espejo.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "8584fc7ceaf466d63b756d2b88e5985d47649f83f222c80e541bcc77f7a48812"
+    },
+    {
+      "id": "DCX-REF-040",
+      "file": "DCX-REF-040_p046.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-040_p046.avif",
+      "sourcePages": [
+        46,
+        61
+      ],
+      "family": "Render cinematográfico / FireIce / SXW",
+      "tags": [
+        "sxw",
+        "fireice"
+      ],
+      "description": "Pose de frente en el mismo ambiente de madera, con brazos extendidos y camisa abierta; el personaje se presenta sin el teléfono en primer plano. Se repite en la página 61.",
+      "designUse": "Complementa la selfie con una pose editorial limpia y mejor lectura de silueta.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "bff957522c6fb9d1893f00d419b84f60b9395fd691215cc9600c12a96f385228"
+    },
+    {
+      "id": "DCX-REF-041",
+      "file": "DCX-REF-041_p047.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-041_p047.avif",
+      "sourcePages": [
+        47,
+        62
+      ],
+      "family": "Render cinematográfico / Blood Cherry",
+      "tags": [
+        "blood-cherry"
+      ],
+      "description": "Figura de pie ante fondo industrial con humo rojo y lens flare horizontal azul, camisa abierta y corbata. Se repite en la página 62.",
+      "designUse": "Referencia clara del lenguaje Blood Cherry en composición de cuerpo entero.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "2d88350400005466830f7296302569b746d2798ab319e5eb35e550e8eb0312ee"
+    },
+    {
+      "id": "DCX-REF-042",
+      "file": "DCX-REF-042_p047.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-042_p047.avif",
+      "sourcePages": [
+        47,
+        62
+      ],
+      "family": "Render cinematográfico / Blood Cherry",
+      "tags": [
+        "blood-cherry"
+      ],
+      "description": "Personaje sentado en un sofá de cuero oscuro, camisa blanca, corbata y calcetines altos, entre humo y puntos rojos. Se repite en la página 62.",
+      "designUse": "Aporta mobiliario, textura de cuero y pose sentada para la familia roja.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "aaa9516b11c0640728c32cf10da1b807b5efa27940591b253136251a5d478f2e"
+    },
+    {
+      "id": "DCX-REF-043",
+      "file": "DCX-REF-043_p048.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-043_p048.avif",
+      "sourcePages": [
+        48,
+        63
+      ],
+      "family": "Render cinematográfico / Gloom Grass",
+      "tags": [
+        "gloom",
+        "grass-bass"
+      ],
+      "description": "Selfie de espejo en ambiente verde industrial, chaqueta biker negra, malla, cadena y ropa interior oscura. Se repite en la página 63.",
+      "designUse": "La referencia más completa del atuendo Gloom Grass en entorno Grass Bass.",
+      "archiveFact": "Grass Bass utiliza el verde esmeralda como ambiente industrial tóxico, con reflejos sobre piel, cuero y superficies.",
+      "sha256": "787bdef171d9e4daa89f334621f2a73997ce4dd93bde03288457e8210821c876"
+    },
+    {
+      "id": "DCX-REF-044",
+      "file": "DCX-REF-044_p048.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-044_p048.avif",
+      "sourcePages": [
+        48,
+        63
+      ],
+      "family": "Render cinematográfico / Blood Cherry / SXW",
+      "tags": [
+        "sxw",
+        "blood-cherry"
+      ],
+      "description": "Composición apaisada en sofá de cuero, camisa blanca, corbata y brief blanco bajo iluminación roja. Se repite en la página 63.",
+      "designUse": "Refuerza el lenguaje de sofá/cuerpo frontal y el contraste de las telas claras con el rojo.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "3b775f1baa469e40ffc15335c9f939f729ad5bfb3e4004672329fe84bd530e64"
+    },
+    {
+      "id": "DCX-REF-045",
+      "file": "DCX-REF-045_p049.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-045_p049.avif",
+      "sourcePages": [
+        49,
+        64
+      ],
+      "family": "Render cinematográfico / FireIce / SXW",
+      "tags": [
+        "sxw",
+        "fireice"
+      ],
+      "description": "Encuadre vertical sentado en sofá, brazos sobre los apoyos y piernas al frente; máscara, camisa abierta, corbata y banda AMX en un ambiente azul/rojo. Se repite en la página 64.",
+      "designUse": "Excelente referencia de pose y relación entre personaje, sofá y paleta FireIce.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "ce488386a06901ce158f226c0ebf215293d606f16f3bf8312ebf2e046dd69490"
+    },
+    {
+      "id": "DCX-REF-046",
+      "file": "DCX-REF-046_p050.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-046_p050.avif",
+      "sourcePages": [
+        50,
+        65
+      ],
+      "family": "Render cinematográfico / Grass Bass / Adonis",
+      "tags": [
+        "adonis",
+        "grass-bass"
+      ],
+      "description": "Reflejo de espejo en un ambiente verde, torso descubierto y máscara; el sofá de cuero y el marco del espejo organizan el fondo. Se repite en la página 65.",
+      "designUse": "Cruza la modalidad Adonis con Grass Bass; sirve para estudiar el torso bajo reflejo verde.",
+      "archiveFact": "Adonis no es un cuarto vestuario: es un estado compositivo. El encuadre y la neblina dirigen la atención al torso y a la máscara.",
+      "sha256": "641ff684ac006ba1b86094bcc38797700a0031c39afbff940026bd86370153bc"
+    },
+    {
+      "id": "DCX-REF-047",
+      "file": "DCX-REF-047_p050.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-047_p050.avif",
+      "sourcePages": [
+        50,
+        65
+      ],
+      "family": "Render cinematográfico / Blood Cherry / SXW",
+      "tags": [
+        "sxw",
+        "blood-cherry"
+      ],
+      "description": "Composición sentada con camisa abierta y corbata en un salón enrojecido, con puntos de luz y humo. Se repite en la página 65.",
+      "designUse": "Variación frontal de sofá dentro de Blood Cherry; complementa el retrato de pie.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "71f961d2bd3d27a9e9b8ca47006154ab1a5990f6eef9fd436adbafd0bb433a8f"
+    },
+    {
+      "id": "DCX-REF-048",
+      "file": "DCX-REF-048_p051.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-048_p051.avif",
+      "sourcePages": [
+        51,
+        66
+      ],
+      "family": "Render cinematográfico / FireIce / SXW",
+      "tags": [
+        "sxw",
+        "fireice"
+      ],
+      "description": "Figura sentada en sofá con camisa y corbata, iluminación azul/roja y fondo de madera oscura. Se repite en la página 66.",
+      "designUse": "Una variación de la pose sentada FireIce con distribución de luz más equilibrada.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "13b962ad521c61b87cd94775eca22e010af8cbd3122af15ba4f23f682417508c"
+    },
+    {
+      "id": "DCX-REF-049",
+      "file": "DCX-REF-049_p051.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-049_p051.avif",
+      "sourcePages": [
+        51,
+        66
+      ],
+      "family": "Render cinematográfico / FireIce / Adonis",
+      "tags": [
+        "sxw",
+        "adonis",
+        "fireice"
+      ],
+      "description": "Personaje sin camisa en el sofá, con máscara y prenda inferior oscura; el torso pasa a primer plano bajo luz roja/azul. Se repite en la página 66.",
+      "designUse": "Referencia de tratamiento Adonis en un encuadre de sofá; separar de SXW por ausencia de camisa.",
+      "archiveFact": "Adonis no es un cuarto vestuario: es un estado compositivo. El encuadre y la neblina dirigen la atención al torso y a la máscara.",
+      "sha256": "c31d31729418ee7c77429c9a48c1b6df3088ea5b8d5418c0da78a78bb7d94af9"
+    },
+    {
+      "id": "DCX-REF-050",
+      "file": "DCX-REF-050_p052.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-050_p052.avif",
+      "sourcePages": [
+        52,
+        67
+      ],
+      "family": "Render cinematográfico / FireIce / espejo",
+      "tags": [
+        "fireice"
+      ],
+      "description": "Vista trasera frente a espejo ornamentado, mostrando espalda y reflejo frontal del personaje en un espacio rojo/azul. Se repite en la página 67.",
+      "designUse": "Muy útil para continuidad anatómica de espalda y máscara en composición de espejo.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "0591bc295c2d934dd4f0c331cc0858d73f99f0a6262fe38b447d2543a791cea7"
+    },
+    {
+      "id": "DCX-REF-051",
+      "file": "DCX-REF-051_p052.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-051_p052.avif",
+      "sourcePages": [
+        52,
+        70
+      ],
+      "family": "Render cinematográfico / Adonis / FireIce",
+      "tags": [
+        "adonis",
+        "fireice"
+      ],
+      "description": "Selfie frontal de espejo con torso descubierto, máscara, teléfono y destellos azul/rojo; el encuadre se concentra en torso y reflejo. Se repite en la página 70.",
+      "designUse": "Referencia directa de Adonis con FireIce y dispositivo integrado en el encuadre.",
+      "archiveFact": "Adonis no es un cuarto vestuario: es un estado compositivo. El encuadre y la neblina dirigen la atención al torso y a la máscara.",
+      "sha256": "28149237da1f254e82adf300a5adf371efd4d3231431b91f3aa0d2afa8ce28ce"
+    },
+    {
+      "id": "DCX-REF-052",
+      "file": "DCX-REF-052_p053.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-052_p053.avif",
+      "sourcePages": [
+        53,
+        71
+      ],
+      "family": "Render cinematográfico / Adonis / FireIce",
+      "tags": [
+        "adonis",
+        "fireice"
+      ],
+      "description": "Toma posterior frente a espejo, espalda descubierta y perfil de máscara visible; un destello azul horizontal cruza el cuadro. Se repite en la página 71.",
+      "designUse": "Permite estudiar la vista posterior del cuerpo y el uso del lens flare FireIce.",
+      "archiveFact": "Adonis no es un cuarto vestuario: es un estado compositivo. El encuadre y la neblina dirigen la atención al torso y a la máscara.",
+      "sha256": "36997d091a6fbbf67586f4e3c746b327d8540c655be564d2bd5bd6d801df51f2"
+    },
+    {
+      "id": "DCX-REF-053",
+      "file": "DCX-REF-053_p053.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-053_p053.avif",
+      "sourcePages": [
+        53,
+        71
+      ],
+      "family": "Render cinematográfico / Grass Bass / SXW",
+      "tags": [
+        "sxw",
+        "grass-bass"
+      ],
+      "description": "Composición verde de sofá con camisa blanca y corbata, personaje sentado con brazos abiertos y un teléfono externo en primer plano. Se repite en la página 71.",
+      "designUse": "Referencia de Grass Bass aplicada a SXW y de la escena de espejo/registro desde fuera del espejo.",
+      "archiveFact": "Grass Bass utiliza el verde esmeralda como ambiente industrial tóxico, con reflejos sobre piel, cuero y superficies.",
+      "sha256": "ad1473a00644bd913031fa52ee26314745c6595750790a3ff181def8ab1d2370"
+    },
+    {
+      "id": "DCX-REF-054",
+      "file": "DCX-REF-054_p054.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-054_p054.avif",
+      "sourcePages": [
+        54,
+        67
+      ],
+      "family": "Render cinematográfico / Blood Cherry / SXW",
+      "tags": [
+        "sxw",
+        "blood-cherry"
+      ],
+      "description": "Figura de cuerpo entero ante un espejo ornamentado, camisa, corbata, brief AMX y botas; el salón está dominado por rojo y pequeños destellos. Se repite en la página 67.",
+      "designUse": "Referencia importante de cómo el atuendo claro convive con un entorno rojo sin perder su silueta.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "a4d3b1006f808e360edf005537fa63a64fdb2108e78b26f9faab834474ee89fe"
+    },
+    {
+      "id": "DCX-REF-055",
+      "file": "DCX-REF-055_p054.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-055_p054.avif",
+      "sourcePages": [
+        54,
+        69
+      ],
+      "family": "Render cinematográfico / Adonis / Blood Cherry",
+      "tags": [
+        "adonis",
+        "blood-cherry"
+      ],
+      "description": "Retrato frontal de torso descubierto bajo humo rojo, recorte de cámara y lens flares horizontales azules. Se repite en la página 69.",
+      "designUse": "Variante directa del estado Adonis, más austera que la figura con camisa.",
+      "archiveFact": "Adonis no es un cuarto vestuario: es un estado compositivo. El encuadre y la neblina dirigen la atención al torso y a la máscara.",
+      "sha256": "845ffa9d530b1d05739a7cf9ec15939b7403a7611a61fca3339fb8f47a083bde"
+    },
+    {
+      "id": "DCX-REF-056",
+      "file": "DCX-REF-056_p055.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-056_p055.avif",
+      "sourcePages": [
+        55,
+        68
+      ],
+      "family": "Ilustración cel-shaded / FireIce / espejo",
+      "tags": [
+        "fireice",
+        "anime"
+      ],
+      "description": "Diptych de dos vistas frontales en espejo con camisa blanca, corbata y máscara; contorno anime y luz roja/azul. Se repite en la página 68.",
+      "designUse": "Referencia para conservar el lenguaje anime en escenas de espejo con la paleta FireIce.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "358ae6d0af3c31446ed3e010bb2006806a99c70a8ff905effe06804a08f3c53f"
+    },
+    {
+      "id": "DCX-REF-057",
+      "file": "DCX-REF-057_p055.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-057_p055.avif",
+      "sourcePages": [
+        55,
+        68
+      ],
+      "family": "Ilustración cel-shaded / FireIce / espejo",
+      "tags": [
+        "fireice",
+        "anime"
+      ],
+      "description": "Vista desde atrás hacia el espejo, torso descubierto y reflejo frontal en estilo anime; azul y rojo modelan la espalda. Se repite en la página 68.",
+      "designUse": "Complementa la imagen anterior con una lectura posterior, útil para continuidad de espalda y máscara.",
+      "archiveFact": "FireIce separa temperaturas: azul eléctrico frío a un lado y magenta/rojo cálido al otro, con puntos rojos como textura ambiental.",
+      "sha256": "5c2d5de027ec850fcbd936660ae25aa8ecfadde45875c19956abf721f064ded7"
+    },
+    {
+      "id": "DCX-REF-058",
+      "file": "DCX-REF-058_p056.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-058_p056.avif",
+      "sourcePages": [
+        56,
+        69
+      ],
+      "family": "Render cinematográfico / Gloom Grass",
+      "tags": [
+        "gloom"
+      ],
+      "description": "Selfie de espejo en pasillo industrial verde, chaqueta biker, malla de red, cadena y brief negro. Se repite en la página 69.",
+      "designUse": "La referencia industrial más legible para una variante Gloom Grass, con textura y entorno definidos.",
+      "archiveFact": "Gloom Grass no es solo ropa negra: cuero biker, malla, cadena industrial y, en la referencia fotográfica, calcetines mostaza punteados.",
+      "sha256": "0920d35d22f88d9a5823e7e9d06add92b34eb90882a19038eaa80ace1a426862"
+    },
+    {
+      "id": "DCX-REF-059",
+      "file": "DCX-REF-059_p057.jpg",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-059_p057.avif",
+      "sourcePages": [
+        57
+      ],
+      "family": "Render cinematográfico / Blood Cherry / SXW",
+      "tags": [
+        "sxw",
+        "blood-cherry"
+      ],
+      "description": "Plano apaisado del personaje reclinado en sofá, camisa blanca y corbata, brief claro, ambiente carmesí y postura expansiva.",
+      "designUse": "Una variante de Blood Cherry más relajada y horizontal; útil como referencia de atmósfera y pose de sofá.",
+      "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
+      "sha256": "9c71a2b3a63e558f318e9dbdd6aeccdc95a0d7ee1e93bceda67d75e276c6a0b8"
+    }
+  ],
+  "imageEncoding": "AVIF quality 18; native page-source dimensions retained"
+}
