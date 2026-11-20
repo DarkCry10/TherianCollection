@@ -2,15 +2,21 @@
 
 Hidden Easter egg in the Feral branch, opened by the 🦁 emblem.
 
+## Public image package
+Upload the companion file `DCX_Public_AVIF_Assets.zip` to this exact repository path:
+
+`assets/dcx/DCX_Public_AVIF_Assets.zip`
+
+The archive contains 56 unique high-quality AVIF derivatives. It uses ZIP_STORED (no additional compression) so the browser can read each AVIF at its original derivative quality without a decompression dependency. Dimensions follow the source image page; the AVIFs preserve the page image dimensions.
+
+The hidden-room script reads the ZIP and matches each image by basename against `gallery-manifest.json`. Do not rename the images inside the archive.
+
 ## Archive rules
 - 56 public, unique image references; no duplicate cards.
 - Source-page provenance is retained in `gallery-manifest.json`.
 - Original PDF: 71 pages; 59 unique source images across the full archive.
 - DCX-REF-021, DCX-REF-022 and DCX-REF-023 (explicit source material, pages 26–28) are deliberately excluded from the public gallery.
-- Original high-resolution masters stay in the private reference archive. Public derivatives are AVIF, quality 18, preserving the source-page pixel dimensions.
-
-## Expected image files
-Each manifest entry expects its AVIF file at `assets/dcx/unique/<filename>.avif`.
+- Original masters stay in the private reference archive. Public derivatives are AVIF, quality 18.
 
 ## Canon notes
 - Permanent DNA: white Kitsune mask with red markings and red tassels; dark thin bracelet on the left wrist.
@@ -23,4 +29,4 @@ Each manifest entry expects its AVIF file at `assets/dcx/unique/<filename>.avif`
 - Mirror framing and furniture are part of the visual language, not generic background.
 
 ## Publishing note
-The lion icon is an Easter-egg entry point, not an access-control mechanism. Files on GitHub Pages are public and can be fetched directly by URL.
+The lion icon is an Easter-egg entry point, not access control. Anything published on GitHub Pages is public and can be fetched directly by URL.
