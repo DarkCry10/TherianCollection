@@ -173,6 +173,24 @@
     @media(max-width:420px){.page{padding:0 17px}.nav{padding:11px 17px}.hero-inner{padding-left:17px;padding-right:17px}.cover-grid{gap:10px}.cover-meta{padding:10px}.cover-meta strong{font-size:.8rem}.branch-head{grid-template-columns:70px 1fr}.branch-emblem{width:66px;height:66px;font-size:2.15rem}.timeline{grid-template-columns:1fr 1fr}.index-mark{display:none}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
   </style>
+  <style>
+    .therian-unified-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .therian-pending-cover{display:flex;flex-direction:column;min-height:100%;background:linear-gradient(145deg,#17152d,#10172a 55%,#25101e)}
+    .pending-art{aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;position:relative;overflow:hidden;background:radial-gradient(circle at 25% 25%,rgba(255,49,92,.36),transparent 42%),radial-gradient(circle at 78% 76%,rgba(53,185,255,.35),transparent 42%),#0b0d1b}
+    .pending-art:before,.pending-art:after{content:"";position:absolute;width:130%;height:1px;background:linear-gradient(90deg,transparent,var(--red),var(--blue),transparent);transform:rotate(-35deg);box-shadow:0 0 18px rgba(53,185,255,.7)}
+    .pending-art:after{transform:rotate(35deg);opacity:.55}
+    .pending-art span,.pending-art b,.pending-art small{position:relative;z-index:1}
+    .pending-art span{font-size:3rem;font-weight:1000;color:transparent;-webkit-text-stroke:1px var(--blue)}
+    .pending-art b{font-size:1.5rem;letter-spacing:.18em}
+    .pending-art small{font-size:.58rem;color:var(--red);font-weight:950;letter-spacing:.2em}
+    .dcx-promo-panel{display:grid;grid-template-columns:.85fr 1.15fr;gap:26px;align-items:center;padding:24px;border-radius:22px;border:1px solid rgba(53,185,255,.3);background:linear-gradient(120deg,rgba(255,49,92,.12),rgba(10,13,29,.9) 52%,rgba(53,185,255,.13));box-shadow:0 22px 50px rgba(0,0,0,.25)}
+    .dcx-promo-copy h3{font-size:clamp(1.7rem,3vw,2.6rem);line-height:1.05;letter-spacing:-.055em;margin:10px 0}
+    .dcx-promo-copy p{color:#c4cde3;font-size:.88rem}
+    .dcx-promo-art{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}
+    .dcx-promo-art img{width:100%;max-height:360px;object-fit:contain;border-radius:13px;border:1px solid var(--line);background:#080914}
+    @media(max-width:760px){.therian-unified-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.dcx-promo-panel{grid-template-columns:1fr}.dcx-promo-art{grid-template-columns:1fr 1fr}}
+    @media(max-width:420px){.therian-unified-grid{grid-template-columns:1fr}}
+  </style>
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -207,7 +225,8 @@
         <a href="#pistas">Nueve pistas</a>
         <a href="#convergencias">Convergencias</a>
         <a href="#visual">Iconografía</a>
-        <a href="#archivo">Portadas</a>
+        <a href="#portadas-unificadas">Portadas</a>
+        <a href="dcx-gallery.html">MacroGalería DCX ↗</a>
       </div>
     </nav>
   </header>
@@ -442,6 +461,54 @@
           <article class="visual-card"><h3>Rojo y azul</h3><p>El azul eléctrico/industrial remite al frío, la distancia y la disciplina de la Cold Law; el rojo carmesí concentra adrenalina, peligro, urgencia corporal y desquite. La tensión cromática encarna el choque entre origen y contraataque.</p></article>
           <article class="visual-card"><h3>Huellas laterales</h3><p>Las pisadas de perro, gato y Panthera recorren ambos márgenes de esta página. Funcionan como marcas de desplazamiento entre ramas y como una extensión gráfica de la taxonomía animal.</p></article>
           <article class="visual-card"><h3>Hyperpop salvaje</h3><p>Los ganchos onomatopéyicos, las voces procesadas y el contraste de colores conectan el juego animal con una energía pop inmediata. La dulzura del sonido puede convivir con contenidos inquietantes: esa fricción es parte del diseño.</p></article>
+        </div>
+      </section>
+
+      
+      <section class="section" id="portadas-unificadas">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">07 / GALERÍA UNIFICADA · THERIAN COLLECTION</div>
+            <h2>Las nueve canciones.<br>Una misma vitrina visual.</h2>
+            <p>Las portadas se presentan en una cuadrícula homogénea, conservando los archivos originales de la biblioteca visual principal. Selecciona cualquier carátula para abrir su versión WebP de alta calidad.</p>
+          </div>
+          <div class="index-mark">09</div>
+        </div>
+        <div class="cover-grid therian-unified-grid">
+          <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/49-p45-therian-collection-daddy-s-big-c-ck.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/49-p45-therian-collection-daddy-s-big-c-ck.webp" alt="Daddy's Big C*CK — portada original"></a><div class="cover-meta"><small>01 · DOGGY / WAO</small><strong>Daddy's Big C*CK</strong><span>Therians Are Dangerous...</span></div></article>
+          <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/52-p47-therian-collection-grrr-grrr.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/52-p47-therian-collection-grrr-grrr.webp" alt="Grrr grrr — portada original"></a><div class="cover-meta"><small>02 · FERAL / GRRR</small><strong>Grrr grrr</strong><span>Therian - Grrr grrr</span></div></article>
+          <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/51-p46-therian-collection-kitty-kitty.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/51-p46-therian-collection-kitty-kitty.webp" alt="KITTY KITTY — portada original"></a><div class="cover-meta"><small>03 · KITTENS / MIAU</small><strong>KITTY KITTY</strong><span>A Song For A Therian - Ki...</span></div></article>
+          <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/53-p47-therian-collection-miau-miau.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/53-p47-therian-collection-miau-miau.webp" alt="Miau Miau — portada original"></a><div class="cover-meta"><small>04 · KITTENS / MIAU</small><strong>Miau Miau</strong><span>A Therian? - Miau Miau</span></div></article>
+          <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/56-p47-therian-collection-grrr-grrr-v2.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/56-p47-therian-collection-grrr-grrr-v2.webp" alt="Grrr grrr V2 — portada original"></a><div class="cover-meta"><small>05 · FERAL / GRRR</small><strong>Grrr grrr V2</strong><span>Grrr grrr - A Therian Song</span></div></article>
+          <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/57-p47-therian-collection-daddy-s-b-tch.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/57-p47-therian-collection-daddy-s-b-tch.webp" alt="Daddys b*tch — portada original"></a><div class="cover-meta"><small>06 · DOGGY / WAO</small><strong>Daddys b*tch</strong><span>What does it mean to be a Therian?</span></div></article>
+          <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/50-p46-therian-collection-wow.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/50-p46-therian-collection-wow.webp" alt="WOW — portada original"></a><div class="cover-meta"><small>07 · DOGGY / WAO</small><strong>WOW</strong><span>It is bad to be a therian? ...</span></div></article>
+          <article class="cover-card"><a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/54-p47-therian-collection-waos-daddy.webp" target="_blank" rel="noopener"><img loading="lazy" src="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/02-miniaturas/54-p47-therian-collection-waos-daddy.webp" alt="Waos Daddy — portada original"></a><div class="cover-meta"><small>08 · DOGGY / WAO</small><strong>Waos Daddy</strong><span>How can I tell if I'm a therian?</span></div></article>
+          <article class="cover-card therian-pending-cover"><div class="pending-art"><span>09</span><b>GRRR?</b><small>CODA TRANSVERSAL</small></div><div class="cover-meta"><small>09 · I CAN BE YOU GRRR</small><strong>Portada por enlazar</strong><span>El árbol público de main todavía no expone el archivo recién añadido; no se inventa una ruta.</span></div></article>
+        </div>
+        <div class="content-note"><strong>Variante preservada:</strong> la segunda portada de Miau Miau se mantiene separada como variante visual, no como una canción adicional. <a href="https://raw.githubusercontent.com/DarkCry10/darkcry10.github.io/main/assets/covers/01-webp-alta/55-p47-therian-collection-miau-miau-variante-visual.webp" target="_blank" rel="noopener">Abrir variante WebP ↗</a></div>
+        <p class="track-footnote">La nueva portada de “I Can be you grrr” aún no aparece en el árbol comprometido de la rama pública main que he podido verificar. En cuanto el archivo esté disponible con su ruta definitiva, esta novena casilla podrá sustituirse sin tocar las otras ocho.</p>
+      </section>
+
+      <section class="section" id="dcx-macro">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">08 / DCX · ARCHIVO DE IDENTIDAD</div>
+            <h2>El personaje detrás<br>de la máscara.</h2>
+            <p>La Therian Collection también forma parte del lenguaje visual de DCX. Esta macrogalería conecta las portadas animales con el manual de identidad, las apariencias modulares y las referencias fotográficas, anime y cinematográficas del documento maestro.</p>
+          </div>
+          <div class="index-mark">DCX</div>
+        </div>
+        <div class="dcx-promo-panel">
+          <div class="dcx-promo-copy">
+            <div class="kicker">DCX REFERENCE ARCHIVE</div>
+            <h3>59 imágenes únicas.<br>87 apariciones. Un diseño modular.</h3>
+            <p>La macrogalería reúne una selección curada de referencias visuales del documento maestro: máscara Kitsune, vestuario, espejos, escenarios y las familias FireIce, Blood Cherry y Grass Bass. El archivo distingue el diseño consolidado de los prototipos históricos y mantiene fuera de la exposición pública el material que el propio inventario marca como restringido.</p>
+            <a class="button button-primary" href="dcx-gallery.html">Entrar a la MacroGalería DCX ↗</a>
+          </div>
+          <div class="dcx-promo-art">
+            <img loading="lazy" src="./assets/dcx-gallery/dcx-macro-photographic.webp" alt="Hoja de contacto curada con diez referencias fotográficas DCX">
+            <img loading="lazy" src="./assets/dcx-gallery/dcx-macro-stylized.webp" alt="Hoja de contacto curada con doce referencias anime y cinematográficas DCX">
+          </div>
         </div>
       </section>
 
