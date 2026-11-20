@@ -174,6 +174,7 @@
     @media(max-width:760px){.therian-unified-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
     @media(max-width:420px){.therian-unified-grid{grid-template-columns:1fr}}
   </style>
+  <link rel="stylesheet" href="assets/dcx/hidden-room.css">
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -327,7 +328,7 @@
 
         <article class="branch branch-feral">
           <div class="branch-head">
-            <div class="branch-emblem" aria-hidden="true">🦁</div>
+            <button class="branch-emblem dcx-trigger" id="dcx-room-trigger" type="button" aria-label="Abrir archivo oculto de DCX" aria-haspopup="dialog" aria-controls="dcx-room" title="Descubrir el archivo oculto"><span aria-hidden="true">🦁</span></button>
             <div>
               <div class="kicker">FERAL SONGS · GRRR</div>
               <h3 class="branch-title">Panthera: instinto y territorio conyugal</h3>
@@ -499,5 +500,65 @@
     <p><strong>DARKCRY 1.0 · THERIAN COLLECTION</strong> · Archivo editorial y visual de la colección.</p>
     <p>Las portadas se sirven desde la biblioteca visual principal. <a href="https://github.com/DarkCry10/darkcry10.github.io">DarkCry 1.0</a> · <a href="https://github.com/DarkCry10/TherianCollection">Repositorio de esta colección</a></p>
   </footer>
+
+  <dialog class="dcx-room" id="dcx-room" aria-labelledby="dcx-room-title">
+    <div class="dcx-room__shell">
+      <header class="dcx-room__head">
+        <div>
+          <div class="dcx-room__eyebrow">DARKCRY 1.0 · ARCHIVO NO INDEXADO</div>
+          <h2 class="dcx-room__title" id="dcx-room-title">THE HIDDEN <span>ROOM / DCX</span></h2>
+          <p class="dcx-room__intro">Una sala fuera del recorrido principal. Fotografías de origen, ilustraciones, renders y notas de diseño de DCX: su máscara, sus tres apariencias y sus ambientes de iluminación.</p>
+          <div class="dcx-room__stats"><span>56 fichas únicas</span><span>Sin repeticiones</span><span>SXW · Gloom Grass · Adonis</span></div>
+        </div>
+        <button class="dcx-room__close" type="button" data-dcx-close aria-label="Cerrar The Hidden Room">×</button>
+      </header>
+      <section class="dcx-room__facts" aria-label="Datos de DCX">
+        <article class="dcx-room__fact"><b>ADN permanente</b><p>Máscara Kitsune blanca con patrones rojos y dos borlas; brazalete oscuro en la muñeca izquierda.</p></article>
+        <article class="dcx-room__fact"><b>SXW</b><p>Camisa blanca abierta, corbata negra directamente sobre la piel y brief blanco de malla.</p></article>
+        <article class="dcx-room__fact"><b>Gloom Grass</b><p>Cuero biker, fishnet, cadena industrial, prendas negras y el acento mostaza de los calcetines punteados.</p></article>
+        <article class="dcx-room__fact"><b>Adonis</b><p>No es otro atuendo: es un estado escultórico resuelto mediante encuadre y, a veces, neblina.</p></article>
+      </section>
+      <div class="dcx-room__toolbar">
+        <nav class="dcx-room__filters" aria-label="Filtrar referencias DCX">
+          <button class="dcx-filter" type="button" data-filter="all" aria-pressed="true">Todo</button>
+          <button class="dcx-filter" type="button" data-filter="sxw" aria-pressed="false">SXW</button>
+          <button class="dcx-filter" type="button" data-filter="gloom" aria-pressed="false">Gloom Grass</button>
+          <button class="dcx-filter" type="button" data-filter="adonis" aria-pressed="false">Adonis</button>
+          <button class="dcx-filter" type="button" data-filter="fireice" aria-pressed="false">FireIce</button>
+          <button class="dcx-filter" type="button" data-filter="blood-cherry" aria-pressed="false">Blood Cherry</button>
+          <button class="dcx-filter" type="button" data-filter="grass-bass" aria-pressed="false">Grass Bass</button>
+          <button class="dcx-filter" type="button" data-filter="anime" aria-pressed="false">Anime</button>
+          <button class="dcx-filter" type="button" data-filter="photo" aria-pressed="false">Fotografía</button>
+        </nav>
+        <span class="dcx-room__count" id="dcx-room-count">Preparando índice…</span>
+      </div>
+      <div class="dcx-gallery" id="dcx-gallery" aria-live="polite"></div>
+      <p class="dcx-room__notice"><strong>Nota de archivo:</strong> las tres referencias explícitas de las páginas 26–28 se conservan en el máster y en el repositorio de referencia, pero se excluyen de esta galería pública. El acceso por 🦁 es un Easter egg de navegación, no un control de privacidad: los recursos publicados en GitHub Pages son accesibles mediante URL directa.</p>
+      <footer class="dcx-room__foot"><span>DCX ORIGINAL · DOCUMENTO MAESTRO · REFERENCIAS SIN DUPLICADOS</span><button class="dcx-detail__action" type="button" data-dcx-close>Volver a Panthera / Feral</button></footer>
+    </div>
+  </dialog>
+  <dialog class="dcx-detail" id="dcx-detail" aria-labelledby="dcx-detail-title">
+    <div class="dcx-detail__shell">
+      <div class="dcx-detail__art" id="dcx-detail-art" data-ready="false">
+        <img class="dcx-detail__image" id="dcx-detail-image" alt="" decoding="async">
+        <div class="dcx-detail__missing" id="dcx-detail-missing">Cargando referencia…</div>
+      </div>
+      <div class="dcx-detail__copy">
+        <button class="dcx-detail__close" type="button" data-dcx-detail-close aria-label="Cerrar ficha">×</button>
+        <span class="dcx-room__eyebrow" id="dcx-detail-ref">DCX-REF</span>
+        <h3 id="dcx-detail-title">Ficha de referencia</h3>
+        <span class="dcx-detail__label">Qué vemos</span>
+        <p id="dcx-detail-description"></p>
+        <span class="dcx-detail__label">Utilidad de diseño</span>
+        <p id="dcx-detail-use"></p>
+        <span class="dcx-detail__label">Dato curioso</span>
+        <p id="dcx-detail-fact"></p>
+        <div class="dcx-detail__source" id="dcx-detail-source"></div>
+        <div class="dcx-detail__actions"><button class="dcx-detail__action" type="button" data-dcx-detail-close>Cerrar ficha</button></div>
+      </div>
+    </div>
+  </dialog>
+  <script src="assets/dcx/hidden-room.js" defer></script>
+
 </body>
 </html>
