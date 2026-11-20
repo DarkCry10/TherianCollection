@@ -10,12 +10,12 @@
     "DCX-REF-023"
   ],
   "imageAssetStatus": "pending-image-binary-sync",
-  "imageBasePath": "assets/dcx/unique/",
+  "imageBasePath": "assets/dcx/DCX_Public_AVIF_Assets.zip/",
   "items": [
     {
       "id": "DCX-REF-001",
       "file": "DCX-REF-001_p004.jpg",
-      "image": "assets/dcx/unique/DCX-REF-001_p004.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-001_p004.avif",
       "sourcePages": [
         4
       ],
@@ -33,7 +33,7 @@
     {
       "id": "DCX-REF-002",
       "file": "DCX-REF-002_p005.jpg",
-      "image": "assets/dcx/unique/DCX-REF-002_p005.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-002_p005.avif",
       "sourcePages": [
         5,
         7
@@ -52,7 +52,7 @@
     {
       "id": "DCX-REF-003",
       "file": "DCX-REF-003_p006.jpg",
-      "image": "assets/dcx/unique/DCX-REF-003_p006.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-003_p006.avif",
       "sourcePages": [
         6
       ],
@@ -70,7 +70,7 @@
     {
       "id": "DCX-REF-004",
       "file": "DCX-REF-004_p008.jpg",
-      "image": "assets/dcx/unique/DCX-REF-004_p008.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-004_p008.avif",
       "sourcePages": [
         8
       ],
@@ -88,7 +88,7 @@
     {
       "id": "DCX-REF-005",
       "file": "DCX-REF-005_p009.jpg",
-      "image": "assets/dcx/unique/DCX-REF-005_p009.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-005_p009.avif",
       "sourcePages": [
         9
       ],
@@ -106,7 +106,7 @@
     {
       "id": "DCX-REF-006",
       "file": "DCX-REF-006_p010.jpg",
-      "image": "assets/dcx/unique/DCX-REF-006_p010.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-006_p010.avif",
       "sourcePages": [
         10
       ],
@@ -124,7 +124,7 @@
     {
       "id": "DCX-REF-007",
       "file": "DCX-REF-007_p011.jpg",
-      "image": "assets/dcx/unique/DCX-REF-007_p011.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-007_p011.avif",
       "sourcePages": [
         11
       ],
@@ -142,7 +142,7 @@
     {
       "id": "DCX-REF-008",
       "file": "DCX-REF-008_p012.jpg",
-      "image": "assets/dcx/unique/DCX-REF-008_p012.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-008_p012.avif",
       "sourcePages": [
         12
       ],
@@ -160,7 +160,7 @@
     {
       "id": "DCX-REF-009",
       "file": "DCX-REF-009_p013.jpg",
-      "image": "assets/dcx/unique/DCX-REF-009_p013.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-009_p013.avif",
       "sourcePages": [
         13
       ],
@@ -178,7 +178,7 @@
     {
       "id": "DCX-REF-010",
       "file": "DCX-REF-010_p014.jpg",
-      "image": "assets/dcx/unique/DCX-REF-010_p014.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-010_p014.avif",
       "sourcePages": [
         14
       ],
@@ -196,7 +196,7 @@
     {
       "id": "DCX-REF-011",
       "file": "DCX-REF-011_p015.jpg",
-      "image": "assets/dcx/unique/DCX-REF-011_p015.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-011_p015.avif",
       "sourcePages": [
         15
       ],
@@ -214,7 +214,7 @@
     {
       "id": "DCX-REF-012",
       "file": "DCX-REF-012_p016.jpg",
-      "image": "assets/dcx/unique/DCX-REF-012_p016.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-012_p016.avif",
       "sourcePages": [
         16
       ],
@@ -232,7 +232,7 @@
     {
       "id": "DCX-REF-013",
       "file": "DCX-REF-013_p017.jpg",
-      "image": "assets/dcx/unique/DCX-REF-013_p017.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-013_p017.avif",
       "sourcePages": [
         17
       ],
@@ -250,7 +250,7 @@
     {
       "id": "DCX-REF-014",
       "file": "DCX-REF-014_p018.jpg",
-      "image": "assets/dcx/unique/DCX-REF-014_p018.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-014_p018.avif",
       "sourcePages": [
         18
       ],
@@ -267,7 +267,7 @@
     {
       "id": "DCX-REF-015",
       "file": "DCX-REF-015_p019.jpg",
-      "image": "assets/dcx/unique/DCX-REF-015_p019.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-015_p019.avif",
       "sourcePages": [
         19
       ],
@@ -283,7 +283,7 @@
     {
       "id": "DCX-REF-016",
       "file": "DCX-REF-016_p020.jpg",
-      "image": "assets/dcx/unique/DCX-REF-016_p020.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-016_p020.avif",
       "sourcePages": [
         20
       ],
@@ -301,7 +301,7 @@
     {
       "id": "DCX-REF-017",
       "file": "DCX-REF-017_p021.jpg",
-      "image": "assets/dcx/unique/DCX-REF-017_p021.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-017_p021.avif",
       "sourcePages": [
         21,
         22
@@ -320,7 +320,7 @@
     {
       "id": "DCX-REF-018",
       "file": "DCX-REF-018_p023.jpg",
-      "image": "assets/dcx/unique/DCX-REF-018_p023.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-018_p023.avif",
       "sourcePages": [
         23
       ],
@@ -338,7 +338,7 @@
     {
       "id": "DCX-REF-019",
       "file": "DCX-REF-019_p024.jpg",
-      "image": "assets/dcx/unique/DCX-REF-019_p024.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-019_p024.avif",
       "sourcePages": [
         24
       ],
@@ -354,7 +354,7 @@
     {
       "id": "DCX-REF-020",
       "file": "DCX-REF-020_p025.jpg",
-      "image": "assets/dcx/unique/DCX-REF-020_p025.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-020_p025.avif",
       "sourcePages": [
         25
       ],
@@ -371,7 +371,7 @@
     {
       "id": "DCX-REF-024",
       "file": "DCX-REF-024_p029.jpg",
-      "image": "assets/dcx/unique/DCX-REF-024_p029.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-024_p029.avif",
       "sourcePages": [
         29
       ],
@@ -388,7 +388,7 @@
     {
       "id": "DCX-REF-025",
       "file": "DCX-REF-025_p030.jpg",
-      "image": "assets/dcx/unique/DCX-REF-025_p030.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-025_p030.avif",
       "sourcePages": [
         30,
         35,
@@ -408,7 +408,7 @@
     {
       "id": "DCX-REF-026",
       "file": "DCX-REF-026_p031.jpg",
-      "image": "assets/dcx/unique/DCX-REF-026_p031.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-026_p031.avif",
       "sourcePages": [
         31
       ],
@@ -425,7 +425,7 @@
     {
       "id": "DCX-REF-027",
       "file": "DCX-REF-027_p032.jpg",
-      "image": "assets/dcx/unique/DCX-REF-027_p032.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-027_p032.avif",
       "sourcePages": [
         32
       ],
@@ -441,7 +441,7 @@
     {
       "id": "DCX-REF-028",
       "file": "DCX-REF-028_p033.jpg",
-      "image": "assets/dcx/unique/DCX-REF-028_p033.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-028_p033.avif",
       "sourcePages": [
         33
       ],
@@ -458,7 +458,7 @@
     {
       "id": "DCX-REF-029",
       "file": "DCX-REF-029_p034.jpg",
-      "image": "assets/dcx/unique/DCX-REF-029_p034.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-029_p034.avif",
       "sourcePages": [
         34
       ],
@@ -476,7 +476,7 @@
     {
       "id": "DCX-REF-030",
       "file": "DCX-REF-030_p036.jpg",
-      "image": "assets/dcx/unique/DCX-REF-030_p036.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-030_p036.avif",
       "sourcePages": [
         36
       ],
@@ -493,7 +493,7 @@
     {
       "id": "DCX-REF-031",
       "file": "DCX-REF-031_p037.jpg",
-      "image": "assets/dcx/unique/DCX-REF-031_p037.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-031_p037.avif",
       "sourcePages": [
         37
       ],
@@ -510,7 +510,7 @@
     {
       "id": "DCX-REF-032",
       "file": "DCX-REF-032_p038.jpg",
-      "image": "assets/dcx/unique/DCX-REF-032_p038.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-032_p038.avif",
       "sourcePages": [
         38
       ],
@@ -526,7 +526,7 @@
     {
       "id": "DCX-REF-033",
       "file": "DCX-REF-033_p039.jpg",
-      "image": "assets/dcx/unique/DCX-REF-033_p039.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-033_p039.avif",
       "sourcePages": [
         39
       ],
@@ -542,7 +542,7 @@
     {
       "id": "DCX-REF-034",
       "file": "DCX-REF-034_p041.jpg",
-      "image": "assets/dcx/unique/DCX-REF-034_p041.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-034_p041.avif",
       "sourcePages": [
         41
       ],
@@ -559,7 +559,7 @@
     {
       "id": "DCX-REF-035",
       "file": "DCX-REF-035_p042.jpg",
-      "image": "assets/dcx/unique/DCX-REF-035_p042.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-035_p042.avif",
       "sourcePages": [
         42,
         70
@@ -577,7 +577,7 @@
     {
       "id": "DCX-REF-036",
       "file": "DCX-REF-036_p043.jpg",
-      "image": "assets/dcx/unique/DCX-REF-036_p043.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-036_p043.avif",
       "sourcePages": [
         43,
         58
@@ -595,7 +595,7 @@
     {
       "id": "DCX-REF-037",
       "file": "DCX-REF-037_p044.jpg",
-      "image": "assets/dcx/unique/DCX-REF-037_p044.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-037_p044.avif",
       "sourcePages": [
         44,
         59
@@ -612,7 +612,7 @@
     {
       "id": "DCX-REF-038",
       "file": "DCX-REF-038_p045.jpg",
-      "image": "assets/dcx/unique/DCX-REF-038_p045.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-038_p045.avif",
       "sourcePages": [
         45,
         60
@@ -629,7 +629,7 @@
     {
       "id": "DCX-REF-039",
       "file": "DCX-REF-039_p046.jpg",
-      "image": "assets/dcx/unique/DCX-REF-039_p046.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-039_p046.avif",
       "sourcePages": [
         46,
         61
@@ -647,7 +647,7 @@
     {
       "id": "DCX-REF-040",
       "file": "DCX-REF-040_p046.jpg",
-      "image": "assets/dcx/unique/DCX-REF-040_p046.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-040_p046.avif",
       "sourcePages": [
         46,
         61
@@ -665,7 +665,7 @@
     {
       "id": "DCX-REF-041",
       "file": "DCX-REF-041_p047.jpg",
-      "image": "assets/dcx/unique/DCX-REF-041_p047.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-041_p047.avif",
       "sourcePages": [
         47,
         62
@@ -682,7 +682,7 @@
     {
       "id": "DCX-REF-042",
       "file": "DCX-REF-042_p047.jpg",
-      "image": "assets/dcx/unique/DCX-REF-042_p047.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-042_p047.avif",
       "sourcePages": [
         47,
         62
@@ -699,7 +699,7 @@
     {
       "id": "DCX-REF-043",
       "file": "DCX-REF-043_p048.jpg",
-      "image": "assets/dcx/unique/DCX-REF-043_p048.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-043_p048.avif",
       "sourcePages": [
         48,
         63
@@ -717,7 +717,7 @@
     {
       "id": "DCX-REF-044",
       "file": "DCX-REF-044_p048.jpg",
-      "image": "assets/dcx/unique/DCX-REF-044_p048.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-044_p048.avif",
       "sourcePages": [
         48,
         63
@@ -735,7 +735,7 @@
     {
       "id": "DCX-REF-045",
       "file": "DCX-REF-045_p049.jpg",
-      "image": "assets/dcx/unique/DCX-REF-045_p049.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-045_p049.avif",
       "sourcePages": [
         49,
         64
@@ -753,7 +753,7 @@
     {
       "id": "DCX-REF-046",
       "file": "DCX-REF-046_p050.jpg",
-      "image": "assets/dcx/unique/DCX-REF-046_p050.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-046_p050.avif",
       "sourcePages": [
         50,
         65
@@ -771,7 +771,7 @@
     {
       "id": "DCX-REF-047",
       "file": "DCX-REF-047_p050.jpg",
-      "image": "assets/dcx/unique/DCX-REF-047_p050.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-047_p050.avif",
       "sourcePages": [
         50,
         65
@@ -789,7 +789,7 @@
     {
       "id": "DCX-REF-048",
       "file": "DCX-REF-048_p051.jpg",
-      "image": "assets/dcx/unique/DCX-REF-048_p051.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-048_p051.avif",
       "sourcePages": [
         51,
         66
@@ -807,7 +807,7 @@
     {
       "id": "DCX-REF-049",
       "file": "DCX-REF-049_p051.jpg",
-      "image": "assets/dcx/unique/DCX-REF-049_p051.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-049_p051.avif",
       "sourcePages": [
         51,
         66
@@ -826,7 +826,7 @@
     {
       "id": "DCX-REF-050",
       "file": "DCX-REF-050_p052.jpg",
-      "image": "assets/dcx/unique/DCX-REF-050_p052.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-050_p052.avif",
       "sourcePages": [
         52,
         67
@@ -843,7 +843,7 @@
     {
       "id": "DCX-REF-051",
       "file": "DCX-REF-051_p052.jpg",
-      "image": "assets/dcx/unique/DCX-REF-051_p052.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-051_p052.avif",
       "sourcePages": [
         52,
         70
@@ -861,7 +861,7 @@
     {
       "id": "DCX-REF-052",
       "file": "DCX-REF-052_p053.jpg",
-      "image": "assets/dcx/unique/DCX-REF-052_p053.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-052_p053.avif",
       "sourcePages": [
         53,
         71
@@ -879,7 +879,7 @@
     {
       "id": "DCX-REF-053",
       "file": "DCX-REF-053_p053.jpg",
-      "image": "assets/dcx/unique/DCX-REF-053_p053.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-053_p053.avif",
       "sourcePages": [
         53,
         71
@@ -897,7 +897,7 @@
     {
       "id": "DCX-REF-054",
       "file": "DCX-REF-054_p054.jpg",
-      "image": "assets/dcx/unique/DCX-REF-054_p054.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-054_p054.avif",
       "sourcePages": [
         54,
         67
@@ -915,7 +915,7 @@
     {
       "id": "DCX-REF-055",
       "file": "DCX-REF-055_p054.jpg",
-      "image": "assets/dcx/unique/DCX-REF-055_p054.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-055_p054.avif",
       "sourcePages": [
         54,
         69
@@ -933,7 +933,7 @@
     {
       "id": "DCX-REF-056",
       "file": "DCX-REF-056_p055.jpg",
-      "image": "assets/dcx/unique/DCX-REF-056_p055.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-056_p055.avif",
       "sourcePages": [
         55,
         68
@@ -951,7 +951,7 @@
     {
       "id": "DCX-REF-057",
       "file": "DCX-REF-057_p055.jpg",
-      "image": "assets/dcx/unique/DCX-REF-057_p055.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-057_p055.avif",
       "sourcePages": [
         55,
         68
@@ -969,7 +969,7 @@
     {
       "id": "DCX-REF-058",
       "file": "DCX-REF-058_p056.jpg",
-      "image": "assets/dcx/unique/DCX-REF-058_p056.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-058_p056.avif",
       "sourcePages": [
         56,
         69
@@ -986,7 +986,7 @@
     {
       "id": "DCX-REF-059",
       "file": "DCX-REF-059_p057.jpg",
-      "image": "assets/dcx/unique/DCX-REF-059_p057.avif",
+      "image": "assets/dcx/DCX_Public_AVIF_Assets.zip/DCX-REF-059_p057.avif",
       "sourcePages": [
         57
       ],
