@@ -9,7 +9,7 @@ Archivo editorial, musical y narrativo de una colección complementaria de la Er
 - **Kittens / Miau:** juego, persecución doméstica y tensión de los límites.
 - **Panthera / Feral:** instinto, fuerza y afirmación territorial.
 
-La identidad del sitio conserva el lenguaje Hyperpop rojo/azul, las huellas laterales y una galería homogénea con las nueve portadas originales. `I Can be you grrr` es la novena pista de la colección y su portada forma parte de la galería general, sin presentarse como una coda ni como un archivo transversal.
+La identidad del sitio conserva el lenguaje Hyperpop rojo/azul, las huellas laterales y una galería homogénea con las nueve portadas originales. `I Can be you grrr` es la novena pista de la colección; su portada se integra en la rama Panthera / Feral y también aparece en la galería general de las nueve canciones.
 
 ## Criterios editoriales
 
