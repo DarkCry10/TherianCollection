@@ -1,6 +1,6 @@
-# DCX — The Hidden Room
+# The Dark Room of DCX
 
-Hidden Easter egg in the Feral branch, opened by the 🦁 emblem.
+The Dark Room of DCX is an Easter egg in the Feral branch, opened by the 🦁 emblem.
 
 ## Public image package
 The AVIF package has been uploaded to the repository. GitHub stored its 56 images as files inside a directory named `DCX_Public_AVIF_Assets.zip` at this exact path:
@@ -11,7 +11,7 @@ The gallery now reads each AVIF directly from that directory; it no longer tries
 
 The archive contains 56 unique high-quality AVIF derivatives. It uses ZIP_STORED (no additional compression) so the browser can read each AVIF at its original derivative quality without a decompression dependency. Dimensions follow the source image page; the AVIFs preserve the page image dimensions.
 
-The hidden-room script reads the AVIF paths recorded in `gallery-manifest.json`. Do not rename the images or move them out of this directory.
+The Dark Room script reads the AVIF paths recorded in `gallery-manifest.json`. Do not rename the images or move them out of this directory.
 
 ## Archive rules
 - 56 public, unique image references; no duplicate cards.
