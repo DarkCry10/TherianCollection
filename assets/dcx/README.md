@@ -8,9 +8,9 @@ The gallery now contains **99 unique references**:
 - 56 original references (DCX-REF-001–059, preserving the existing exclusions 021–023).
 - 43 additional photo, wardrobe, pose and lighting studies (DCX-REF-060–102), sourced from pages 51–111 of the 136-page document 3.0 DCX.pdf. REF-102 is restored in this update.
 
-## Original ZIP files preserved
+## ZIP files preserved
 
-The gallery does not replace, rename or rewrite either source archive:
+The gallery does not replace, rename or rewrite the source archives:
 - `DCX-DarkRoom-Expansion-060-102.zip`
 - `DCX-DarkRoom-Samples-112-136.zip`
 - `DCX-DarkRoom-Supplement-112-136.zip` (preserved as an unlinked source archive; it is not used by the public gallery)
@@ -21,8 +21,7 @@ The browser fetches only ZIPs referenced by public manifest cards, extracts only
 
 - One gallery card per unique source image; repeated placements are grouped in each item's `sourcePages`.
 - The 43 unique references DCX-REF-060–102 are present in the public manifest. REF-102 was restored from the preserved expansion ZIP.
-- The two selected detail-crop hashes were checked against the existing references; no exact duplicates were found.
-- The crop hashes of the public references were checked for exact duplicates.
+- All 99 public reference hashes are unique; no exact duplicate cards remain.
 - Original master material stays archived separately. AVIF derivatives preserve source pixel dimensions; no artificial upscaling is applied.
 - No cards from pages 112–136 are included in the current inauguration gallery. The earlier detail cards DCX-REF-105 (p.134) and DCX-REF-106 (p.135) have been removed at the user's request. The supplementary ZIP remains preserved in the repository but is no longer referenced by the public manifest or fetched by the gallery loader.
 - The loader extracts only the archive entries referenced by public cards. The original ZIP files remain intact; the government ID image supplied in chat is not stored in the repository.
