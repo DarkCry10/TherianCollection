@@ -1,9 +1,9 @@
 {
   "title": "The Dark Room of DCX",
   "version": 1,
-  "source": "Documento maestro DCX y 3.0 DCX.pdf (136 páginas): 42 referencias únicas de páginas 51–110 y dos recortes no explícitos seleccionados de las páginas 128 y 130. DCX-REF-102 (página 111) se retiró de la galería pública.",
-  "uniquePublicReferences": 100,
-  "duplicatePolicy": "Una ficha por imagen de origen única. Las repeticiones exactas dentro del PDF se agrupan en sourcePages. Los hashes de origen de las 43 candidatas se compararon con las 56 referencias previas; DCX-REF-102 se retiró después de esa revisión.",
+  "source": "Documento maestro DCX y 3.0 DCX.pdf (136 páginas): 42 referencias únicas de páginas 51–110, dos recortes no explícitos de páginas 128 y 130, más dos detalles no explícitos de páginas 134 y 135. DCX-REF-102 (página 111) permanece retirado de la galería pública.",
+  "uniquePublicReferences": 102,
+  "duplicatePolicy": "Una ficha por imagen de origen única. Las repeticiones exactas dentro del PDF se agrupan en sourcePages. Los dos nuevos detalles de las páginas 134 y 135 se compararon por SHA-256 con las 100 fichas existentes y no presentan coincidencias exactas.",
   "restrictedReferences": [
     "DCX-REF-021",
     "DCX-REF-022",
@@ -1946,6 +1946,47 @@
       "sha256": "42e6e03ccbbd68f444da85814db7d75a8adcaa2e15717c301886755e8aa30f66",
       "archiveUrl": "assets/dcx/DCX-DarkRoom-Samples-112-136.zip",
       "archiveEntry": "DCX-SAMPLE-002_p130_red-tiled-water-setting.avif"
+    },
+    {
+      "id": "DCX-REF-105",
+      "file": "DCX-SUP-002_p134_analog-date-stamp.avif",
+      "image": "",
+      "sourcePages": [
+        134
+      ],
+      "family": "Detalle de archivo analógico · fecha parcial",
+      "tags": [
+        "study",
+        "archive-detail",
+        "texture"
+      ],
+      "description": "Recorte aislado de una marca de fecha naranja parcialmente visible y del grano de la fotografía original. La impresión está incompleta y no permite recuperar una fecha exacta.",
+      "designUse": "Aporta una textura analógica y un motivo de archivo para futuras variantes visuales, sin convertir la fecha impresa en una fecha narrativa confirmada de DCX.",
+      "archiveFact": "El sello de fecha está parcialmente cortado; la ficha conserva la procedencia de la página 134, no una datación concluyente.",
+      "sha256": "04760c8ac5d87e71f9eac9dab7afcf1bd9337ba200d316623520d16af50851a4",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Supplement-112-136.zip",
+      "archiveEntry": "DCX-SUP-002_p134_analog-date-stamp.avif"
+    },
+    {
+      "id": "DCX-REF-106",
+      "file": "DCX-SUP-003_p135_kitsune-sticker.avif",
+      "image": "",
+      "sourcePages": [
+        135
+      ],
+      "family": "Utilería gráfica · adhesivo Kitsune superpuesto",
+      "tags": [
+        "study",
+        "mask",
+        "prop-study",
+        "graphic-overlay"
+      ],
+      "description": "Recorte aislado del gráfico digital de un zorro blanco con motivos rojos que aparece superpuesto sobre la fotografía de la página 135. Se cataloga como sticker/overlay, no como máscara física fotografiada.",
+      "designUse": "Puede documentar el uso del motivo Kitsune como recurso gráfico en una composición; no sustituye la máscara canónica blanca con marcas rojas y dos borlas laterales.",
+      "archiveFact": "La imagen original muestra un elemento gráfico insertado encima de la fotografía; esta ficha conserva ese detalle de edición separado del resto de la escena.",
+      "sha256": "abbe70194b9ccfae9723e6e499c12f88121ff36ccc2e21e8eaa6dc52b2b9fa50",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Supplement-112-136.zip",
+      "archiveEntry": "DCX-SUP-003_p135_kitsune-sticker.avif"
     }
   ],
   "imageEncoding": "AVIF quality 18; native page-source dimensions retained",
@@ -1953,17 +1994,51 @@
     {
       "url": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
       "expectedAvif": 43,
-      "referenceRange": "DCX-REF-060–102"
+      "referenceRange": "DCX-REF-060–102 (REF-102 permanece excluida del manifiesto)"
     },
     {
       "url": "assets/dcx/DCX-DarkRoom-Samples-112-136.zip",
       "expectedAvif": 2,
       "referenceRange": "DCX-REF-103–104"
+    },
+    {
+      "url": "assets/dcx/DCX-DarkRoom-Supplement-112-136.zip",
+      "expectedAvif": 2,
+      "referenceRange": "DCX-REF-105–106"
     }
   ],
   "excludedSourcePages": {
     "document": "3.0 DCX.pdf",
-    "range": "112–136 except two selected non-explicit crops (p.128 accessory, p.130 environment)",
-    "policy": "Only the two selected crops are included; the complete intimate images and remaining material of this block are not in the public gallery."
+    "range": "112–136",
+    "includedNonExplicitCrops": [
+      128,
+      130,
+      134,
+      135
+    ],
+    "excluded": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      129,
+      131,
+      132,
+      133,
+      136
+    ],
+    "policy": "Se incluyen solo recortes de accesorios, textura/fecha y gráfico Kitsune que no muestran las fotografías íntimas completas. Se omite p.133 por repetir el motivo de calcetines multicolor ya presente en el archivo 060–102. Las fotografías sexuales explícitas completas de este bloque no se publican."
   }
 }
