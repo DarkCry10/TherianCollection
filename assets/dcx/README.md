@@ -4,17 +4,16 @@ The Dark Room of DCX is an Easter egg in the Feral branch, opened by the 🦁 em
 
 ## Public visual archive
 
-The gallery now contains **101 unique references**:
+The gallery now contains **99 unique references**:
 - 56 original references (DCX-REF-001–059, preserving the existing exclusions 021–023).
 - 43 additional photo, wardrobe, pose and lighting studies (DCX-REF-060–102), sourced from pages 51–111 of the 136-page document 3.0 DCX.pdf. REF-102 is restored in this update.
-- Two selected non-explicit detail crops (DCX-REF-105–106): the partial analogue date-stamp texture from page 134 and the isolated digital Kitsune sticker from page 135.
 
 ## Original ZIP files preserved
 
 The gallery does not replace, rename or rewrite either source archive:
 - `DCX-DarkRoom-Expansion-060-102.zip`
 - `DCX-DarkRoom-Samples-112-136.zip`
-- `DCX-DarkRoom-Supplement-112-136.zip`
+- `DCX-DarkRoom-Supplement-112-136.zip` (preserved as an unlinked source archive; it is not used by the public gallery)
 
 The browser fetches only ZIPs referenced by public manifest cards, extracts only AVIF entries named by those cards with the ZIP Store/Deflate methods, and displays them through temporary browser object URLs. The original ZIP files remain in the repository as source archives, including the now-unreferenced Samples package.
 
@@ -25,7 +24,7 @@ The browser fetches only ZIPs referenced by public manifest cards, extracts only
 - The two selected detail-crop hashes were checked against the existing references; no exact duplicates were found.
 - The crop hashes of the public references were checked for exact duplicates.
 - Original master material stays archived separately. AVIF derivatives preserve source pixel dimensions; no artificial upscaling is applied.
-- From pages 112–136, only two non-explicit details are public: the partial analogue date stamp on p.134 (REF-105) and the isolated Kitsune graphic on p.135 (REF-106). The page 133 rainbow-sock detail remains omitted because that motif is already represented in the 060–102 collection. Complete intimate/explicit photographs and the remaining unselected images in that section remain outside the public gallery.
+- No cards from pages 112–136 are included in the current inauguration gallery. The earlier detail cards DCX-REF-105 (p.134) and DCX-REF-106 (p.135) have been removed at the user's request. The supplementary ZIP remains preserved in the repository but is no longer referenced by the public manifest or fetched by the gallery loader.
 - The loader extracts only the archive entries referenced by public cards. The original ZIP files remain intact; the government ID image supplied in chat is not stored in the repository.
 - The previously restricted references DCX-REF-021, DCX-REF-022 and DCX-REF-023 remain excluded.
 
