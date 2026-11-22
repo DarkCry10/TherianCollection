@@ -1,0 +1,27 @@
+{
+  "title": "The Dark Room of DCX — test selections from pages 112–136",
+  "source": "3.0 DCX.pdf, pages 112–136",
+  "selectionCount": 2,
+  "selectionPolicy": "One representative per distinct, non-duplicative, non-explicit visual detail. Complete explicit photographs and repeated visual families are not included in this public test patch.",
+  "items": [
+    {
+      "id": "DCX-SAMPLE-001",
+      "sourcePage": 128,
+      "file": "assets/dcx/test-samples/DCX-SAMPLE-001_p128_choker-detail.avif",
+      "family": "Accessory / wardrobe study",
+      "description": "Isolated non-explicit detail of a dark choker with a small circular metal pendant. This is an alternate accessory reference, not a replacement for DCX's permanent dark left-wrist bracelet.",
+      "dimensions": "200x120 px",
+      "format": "AVIF"
+    },
+    {
+      "id": "DCX-SAMPLE-002",
+      "sourcePage": 130,
+      "file": "assets/dcx/test-samples/DCX-SAMPLE-002_p130_red-tiled-water-setting.avif",
+      "family": "Environment / lighting study",
+      "description": "Environment-only crop showing a warm red wall, mosaic tile and water reflections. It may inform a future aquatic-room setting, but is not yet assigned to FireIce, Blood Cherry or Grass Bass.",
+      "dimensions": "176x639 px",
+      "format": "AVIF"
+    }
+  ],
+  "excluded": "Other pages in 112–136 contain explicit/intimate framing, repeat sock/mesh/pose families already represented in the previous archive, or do not add a distinct suitable public reference."
+}
