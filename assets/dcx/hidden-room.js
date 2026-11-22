@@ -40,7 +40,7 @@
     return await new Response(stream).arrayBuffer();
   }
 
-  async function loadZipAvifEntries(url) {
+  async function loadZipAvifEntries(url, requiredEntries) {
     const response = await fetch(url, {cache:"force-cache"});
     if (!response.ok) throw new Error("No se pudo descargar el archivo de imágenes: " + url);
     const buffer = await response.arrayBuffer();
@@ -70,7 +70,7 @@
       const localOffset = view.getUint32(offset + 42, true);
       const name = decoder.decode(new Uint8Array(buffer, offset + 46, nameLength));
 
-      if (/\.avif$/i.test(name)) {
+      if (/\.avif$/i.test(name) && (!requiredEntries || requiredEntries.has(basename(name)))) {
         if (flags & 1) throw new Error("El archivo AVIF está cifrado: " + name);
         if (view.getUint32(localOffset, true) !== 0x04034b50) {
           throw new Error("Cabecera local inválida para " + name);
@@ -98,9 +98,14 @@
   }
 
   async function loadArchivesForEntries() {
-    const archives = [...new Set(entries.map(item => item.archiveUrl).filter(Boolean))];
-    const results = await Promise.all(archives.map(async url => {
-      try { return {url,loaded:await loadZipAvifEntries(url),error:null}; }
+    const requiredByArchive = new Map();
+    entries.forEach(item => {
+      if (!item.archiveUrl || !item.archiveEntry) return;
+      if (!requiredByArchive.has(item.archiveUrl)) requiredByArchive.set(item.archiveUrl, new Set());
+      requiredByArchive.get(item.archiveUrl).add(basename(item.archiveEntry));
+    });
+    const results = await Promise.all([...requiredByArchive.entries()].map(async ([url, required]) => {
+      try { return {url,loaded:await loadZipAvifEntries(url, required),error:null}; }
       catch (error) { console.error("DCX archive error:", url, error); return {url,loaded:0,error}; }
     }));
     return results;
