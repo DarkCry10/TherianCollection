@@ -1,9 +1,9 @@
 {
   "title": "The Dark Room of DCX",
   "version": 1,
-  "source": "Documento maestro DCX y 3.0 DCX.pdf (136 páginas): 42 referencias únicas de páginas 51–110, más un recorte gráfico no explícito de página 135 (DCX-REF-106). DCX-REF-102 y DCX-REF-103–105 permanecen fuera de la galería pública.",
-  "uniquePublicReferences": 99,
-  "duplicatePolicy": "Una ficha por imagen de origen única. Las repeticiones exactas del PDF se agrupan en sourcePages. Los hashes de las 99 fichas públicas son únicos; los detalles retirados 103–105 no están presentes en el manifiesto.",
+  "source": "Documento maestro DCX y 3.0 DCX.pdf (136 páginas): 43 referencias fotográficas de las páginas 51–111 (DCX-REF-060–102) y dos recortes no explícitos seleccionados de las páginas 134 y 135 (DCX-REF-105–106).",
+  "uniquePublicReferences": 101,
+  "duplicatePolicy": "Una ficha por imagen de origen única. Las apariciones repetidas se agrupan en sourcePages. SHA-256 único para cada ficha. Para REF-105, sha256 es el recorte fuente y assetSha256 el AVIF incluido en el ZIP.",
   "restrictedReferences": [
     "DCX-REF-021",
     "DCX-REF-022",
@@ -1908,6 +1908,48 @@
       "archiveEntry": "DCX-REF-101_p110.avif"
     },
     {
+      "id": "DCX-REF-102",
+      "file": "DCX-REF-102_p111.avif",
+      "image": "",
+      "sourcePages": [
+        111
+      ],
+      "family": "Pose · retrato frontal",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "accessory"
+      ],
+      "description": "Figura sentada de frente sobre ropa de cama estampada, con fondo oscuro y accesorio en el cuello; el encuadre tiene un carácter más editorial.",
+      "designUse": "Referencia de postura frontal y contraste entre la figura, el accesorio del cuello y el fondo textil.",
+      "archiveFact": "El estampado de la ropa de cama aporta una textura doméstica distintiva y diferencia esta toma de los estudios sobre fondo neutro.",
+      "sha256": "95c5b67faeffcf1c50094f2fcddcd08f1fc8e391e19086c77868d1cfef58730e",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-102_p111.avif"
+    },
+    {
+      "id": "DCX-REF-105",
+      "file": "DCX-SUP-002_p134_analog-date-stamp.avif",
+      "image": "",
+      "sourcePages": [
+        134
+      ],
+      "family": "Detalle de archivo analógico · fecha parcial",
+      "tags": [
+        "study",
+        "archive-detail",
+        "texture"
+      ],
+      "description": "Recorte aislado de una marca de fecha naranja parcialmente visible y del grano de la fotografía original. La impresión está incompleta y no permite recuperar una fecha exacta.",
+      "designUse": "Aporta una textura analógica y un motivo de archivo para futuras variantes visuales, sin convertir la fecha impresa en una fecha narrativa confirmada de DCX.",
+      "archiveFact": "El sello de fecha está parcialmente cortado; la ficha conserva la procedencia de la página 134, no una datación concluyente.",
+      "sha256": "53f83c2c49b1d3769db9a8f6a209f92edab828d4dc234ec1eb96a476e6cd5545",
+      "assetSha256": "098052aaa5837bab050b73ea5862de80362a2faca6c27ae10bd830ce5e4bcb1d",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Supplement-112-136.zip",
+      "archiveEntry": "DCX-SUP-002_p134_analog-date-stamp.avif"
+    },
+    {
       "id": "DCX-REF-106",
       "file": "DCX-SUP-003_p135_kitsune-sticker.avif",
       "image": "",
@@ -1935,46 +1977,25 @@
     {
       "url": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
       "expectedAvif": 43,
-      "referenceRange": "DCX-REF-060–102 (REF-102 permanece excluida del manifiesto)"
+      "referenceRange": "DCX-REF-060–102"
     },
     {
       "url": "assets/dcx/DCX-DarkRoom-Supplement-112-136.zip",
       "expectedAvif": 2,
-      "referenceRange": "DCX-REF-106 público; REF-105 se conserva únicamente dentro del ZIP archivado y no se extrae"
+      "referenceRange": "DCX-REF-105–106"
     }
   ],
   "excludedSourcePages": {
     "document": "3.0 DCX.pdf",
     "range": "112–136",
-    "includedNonExplicitCrops": [
+    "publicSelectedNonExplicit": [
+      134,
       135
     ],
-    "excluded": [
-      112,
-      113,
-      114,
-      115,
-      116,
-      117,
-      118,
-      119,
-      120,
-      121,
-      122,
-      123,
-      124,
-      125,
-      126,
-      127,
-      128,
-      129,
-      130,
-      131,
-      132,
-      133,
-      134,
-      136
+    "selectedReferences": [
+      "DCX-REF-105",
+      "DCX-REF-106"
     ],
-    "policy": "DCX-REF-103 (p.128), DCX-REF-104 (p.130) y DCX-REF-105 (p.134) se retiraron de la galería pública a petición del usuario. Solo permanece el recorte gráfico no explícito REF-106 (p.135). Las fotografías sexuales explícitas completas no se publican."
+    "policy": "Solo se publican dos recortes de detalle no explícitos: sello analógico parcial en p.134 y gráfico Kitsune superpuesto en p.135. Las fotografías sexuales completas del resto del tramo no se publican. La credencial personal aportada en la conversación no se almacena ni se incorpora al repositorio."
   }
 }
