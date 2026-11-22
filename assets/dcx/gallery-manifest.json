@@ -1,9 +1,9 @@
 {
   "title": "The Dark Room of DCX",
   "version": 1,
-  "source": "Documento maestro DCX y 3.0 DCX.pdf (136 páginas): 43 referencias únicas de páginas 51–111 y dos recortes no explícitos seleccionados de las páginas 128 y 130.",
-  "uniquePublicReferences": 101,
-  "duplicatePolicy": "Una ficha por imagen de origen única. Las repeticiones exactas dentro del PDF se agrupan en sourcePages. Los hashes de origen nuevos fueron comparados con las 56 referencias previas.",
+  "source": "Documento maestro DCX y 3.0 DCX.pdf (136 páginas): 42 referencias únicas de páginas 51–110 y dos recortes no explícitos seleccionados de las páginas 128 y 130. DCX-REF-102 (página 111) se retiró de la galería pública.",
+  "uniquePublicReferences": 100,
+  "duplicatePolicy": "Una ficha por imagen de origen única. Las repeticiones exactas dentro del PDF se agrupan en sourcePages. Los hashes de origen de las 43 candidatas se compararon con las 56 referencias previas; DCX-REF-102 se retiró después de esa revisión.",
   "restrictedReferences": [
     "DCX-REF-021",
     "DCX-REF-022",
@@ -1906,27 +1906,6 @@
       "sha256": "bc839b3fbec10eb25618ff3e2c524825b99b72fe78ca18cccfa68561cfe7a518",
       "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
       "archiveEntry": "DCX-REF-101_p110.avif"
-    },
-    {
-      "id": "DCX-REF-102",
-      "file": "DCX-REF-102_p111.avif",
-      "image": "",
-      "sourcePages": [
-        111
-      ],
-      "family": "Pose · retrato frontal",
-      "tags": [
-        "study",
-        "photo",
-        "pose-study",
-        "accessory"
-      ],
-      "description": "Figura sentada de frente sobre ropa de cama estampada, con fondo oscuro y accesorio en el cuello.",
-      "designUse": "Referencia de postura frontal y contraste entre figura y fondo textil.",
-      "archiveFact": "El estampado del fondo aporta textura distintiva a la composición.",
-      "sha256": "95c5b67faeffcf1c50094f2fcddcd08f1fc8e391e19086c77868d1cfef58730e",
-      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
-      "archiveEntry": "DCX-REF-102_p111.avif"
     },
     {
       "id": "DCX-REF-103",
