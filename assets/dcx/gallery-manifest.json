@@ -1,15 +1,15 @@
 {
-  "title": "DCX — The Hidden Room",
+  "title": "The Dark Room of DCX",
   "version": 1,
-  "source": "DCX original.pdf · documento maestro de 71 páginas",
-  "uniquePublicReferences": 56,
-  "duplicatePolicy": "Una ficha por imagen única. Las apariciones repetidas se conservan en sourcePages.",
+  "source": "Documento maestro DCX y 3.0 DCX.pdf (136 páginas): 43 referencias únicas de páginas 51–111 y dos recortes no explícitos seleccionados de las páginas 128 y 130.",
+  "uniquePublicReferences": 101,
+  "duplicatePolicy": "Una ficha por imagen de origen única. Las repeticiones exactas dentro del PDF se agrupan en sourcePages. Los hashes de origen nuevos fueron comparados con las 56 referencias previas.",
   "restrictedReferences": [
     "DCX-REF-021",
     "DCX-REF-022",
     "DCX-REF-023"
   ],
-  "imageAssetStatus": "pending-image-binary-sync",
+  "imageAssetStatus": "zip-archives-loaded-in-browser",
   "imageBasePath": "assets/dcx/DCX_Public_AVIF_Assets.zip/",
   "items": [
     {
@@ -999,7 +999,992 @@
       "designUse": "Una variante de Blood Cherry más relajada y horizontal; útil como referencia de atmósfera y pose de sofá.",
       "archiveFact": "Blood Cherry lleva el carmesí a dominar la escena; el destello azul horizontal funciona como contrapunto escaso y deliberado.",
       "sha256": "9c71a2b3a63e558f318e9dbdd6aeccdc95a0d7ee1e93bceda67d75e276c6a0b8"
+    },
+    {
+      "id": "DCX-REF-060",
+      "file": "DCX-REF-060_p051.avif",
+      "image": "",
+      "sourcePages": [
+        51,
+        79
+      ],
+      "family": "Accesorio · calcetín multicolor",
+      "tags": [
+        "study",
+        "photo",
+        "accessory"
+      ],
+      "description": "Recorte de pierna con calcetín oscuro alto y pequeños acentos multicolor; el encuadre aísla el accesorio.",
+      "designUse": "Referencia de detalle para medias y acentos de color; no define una apariencia completa.",
+      "archiveFact": "El motivo multicolor reaparece en la serie, separado de la banda azul AMX consolidada.",
+      "sha256": "ee925ffaec664a3e63193547fe756536904badc704027aa411c2a40fb0de42b0",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-060_p051.avif"
+    },
+    {
+      "id": "DCX-REF-061",
+      "file": "DCX-REF-061_p052.avif",
+      "image": "",
+      "sourcePages": [
+        52,
+        81
+      ],
+      "family": "Pose · vista posterior",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "accessory"
+      ],
+      "description": "Figura de pie de espaldas, una mano apoyada sobre la cabeza y la cabeza girada; se distinguen medias multicolor.",
+      "designUse": "Estudiar rotación de hombros, gesto de mano y continuidad del vestuario desde atrás.",
+      "archiveFact": "La mano en la cabeza forma una silueta distinta de las poses apoyadas.",
+      "sha256": "f885ec4f6675e7ccd9a1bbf03b9b38ad533255a5aeba87de699dc2f0d8974091",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-061_p052.avif"
+    },
+    {
+      "id": "DCX-REF-062",
+      "file": "DCX-REF-062_p053.avif",
+      "image": "",
+      "sourcePages": [
+        53,
+        82
+      ],
+      "family": "Pose · fondo neutro",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study"
+      ],
+      "description": "Vista posterior centrada frente a pared clara; fondo vacío y postura simétrica.",
+      "designUse": "Referencia de equilibrio, simetría y distribución del peso.",
+      "archiveFact": "El fondo neutro la convierte en estudio de pose, no en escena narrativa.",
+      "sha256": "75777c8aa01123e4ad4363465497ba56cea19afb977eef3173b06988e9583a9a",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-062_p053.avif"
+    },
+    {
+      "id": "DCX-REF-063",
+      "file": "DCX-REF-063_p054.avif",
+      "image": "",
+      "sourcePages": [
+        54,
+        83
+      ],
+      "family": "Pose · pared roja",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "lighting-study"
+      ],
+      "description": "Pose posterior sobre cama estampada, frente a pared roja intensa.",
+      "designUse": "Referencia de encuadre posterior y luz cálida ambiental.",
+      "archiveFact": "El rojo es ambiental; no basta para clasificarla como Blood Cherry.",
+      "sha256": "b561cccf2ad906f87cb01fbc38d58f2961e9478be9c838816929d647397c9df2",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-063_p054.avif"
+    },
+    {
+      "id": "DCX-REF-064",
+      "file": "DCX-REF-064_p055.avif",
+      "image": "",
+      "sourcePages": [
+        55,
+        84
+      ],
+      "family": "Silueta · perfil",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study"
+      ],
+      "description": "Recorte lateral de torso y cintura ante pared rojiza; el encuadre prioriza el perfil.",
+      "designUse": "Referencia de contorno, proporciones y recorte lateral.",
+      "archiveFact": "No aparecen máscara ni elementos de identidad del personaje.",
+      "sha256": "42317adb8e186d711b8f4af39c182ab59e4489dc85209a9b145ad6341ae61f54",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-064_p055.avif"
+    },
+    {
+      "id": "DCX-REF-065",
+      "file": "DCX-REF-065_p056.avif",
+      "image": "",
+      "sourcePages": [
+        56,
+        86
+      ],
+      "family": "Pose · sentado frontal",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "accessory"
+      ],
+      "description": "Figura sentada parcialmente encuadrada sobre ropa de cama, con pared roja y accesorio oscuro en el cuello.",
+      "designUse": "Estudiar postura frontal sentada y relación del accesorio con el vestuario.",
+      "archiveFact": "La pared roja funciona como escenografía doméstica.",
+      "sha256": "6ab68c42af7ff81a7642c7eb092a003002fcfd859e8a7ecdd8691f7191ec9393",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-065_p056.avif"
+    },
+    {
+      "id": "DCX-REF-066",
+      "file": "DCX-REF-066_p057.avif",
+      "image": "",
+      "sourcePages": [
+        57,
+        87
+      ],
+      "family": "Pose · reclinado lateral",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study"
+      ],
+      "description": "Vista lateral reclinada sobre superficie acolchada, con fondo textil oscuro.",
+      "designUse": "Referencia de postura apoyada y relación con mobiliario.",
+      "archiveFact": "El asiento participa en la composición, no es un fondo intercambiable.",
+      "sha256": "4f923e17e21ef2aebff176ed7c86246ed332da1ffb52789aca3dc2808479817a",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-066_p057.avif"
+    },
+    {
+      "id": "DCX-REF-067",
+      "file": "DCX-REF-067_p058.avif",
+      "image": "",
+      "sourcePages": [
+        58,
+        88
+      ],
+      "family": "Pose · dormitorio",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "wardrobe-study"
+      ],
+      "description": "Vista lateral de figura sentada en dormitorio oscuro; prendas negras y encuadre doméstico.",
+      "designUse": "Pose lateral y contraste de prendas oscuras con mobiliario.",
+      "archiveFact": "Inicia una familia de fotografías sobre cama y sofá.",
+      "sha256": "5d32804bcd12be0efaf39375f7a8523b90f8def78d4929125f4962359f6ad342",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-067_p058.avif"
+    },
+    {
+      "id": "DCX-REF-068",
+      "file": "DCX-REF-068_p059.avif",
+      "image": "",
+      "sourcePages": [
+        59,
+        89
+      ],
+      "family": "Pose · medias multicolor",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "accessory"
+      ],
+      "description": "Composición frontal sentada con medias altas de bandas multicolor y vestuario negro.",
+      "designUse": "Referencia de proporción de medias y encuadre frontal simétrico.",
+      "archiveFact": "Las bandas multicolor pertenecen a esta serie fotográfica temprana.",
+      "sha256": "1c51332d1e68174a0e364ceeaf7b474af2756bb45a078999e475c6f062c98984",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-068_p059.avif"
+    },
+    {
+      "id": "DCX-REF-069",
+      "file": "DCX-REF-069_p059.avif",
+      "image": "",
+      "sourcePages": [
+        59,
+        89
+      ],
+      "family": "Pose · plano abierto",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "accessory"
+      ],
+      "description": "Plano más amplio de la pose con medias multicolor, que incorpora mayor presencia del asiento.",
+      "designUse": "Complementa REF-068 con información del mobiliario y la escala de la pose.",
+      "archiveFact": "Comparte página y familia con REF-068, pero cambia el encuadre.",
+      "sha256": "e38619767e1cfc72e84430d310a80cbda25cf7c2806e4b2446aecb41bd5be8d5",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-069_p059.avif"
+    },
+    {
+      "id": "DCX-REF-070",
+      "file": "DCX-REF-070_p059.avif",
+      "image": "",
+      "sourcePages": [
+        59,
+        89
+      ],
+      "family": "Pose · apoyo posterior",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study"
+      ],
+      "description": "Encuadre posterior bajo sobre una cama; medias oscuras altas y piernas como eje de composición.",
+      "designUse": "Líneas de piernas, postura apoyada y recorte cercano.",
+      "archiveFact": "Es un recorte de pose, no una ficha de vestuario completo.",
+      "sha256": "7ab019e280c4aef152cddda9a5990fc9785ace7208cc92386c84702d613671b4",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-070_p059.avif"
+    },
+    {
+      "id": "DCX-REF-071",
+      "file": "DCX-REF-071_p060.avif",
+      "image": "",
+      "sourcePages": [
+        60,
+        90
+      ],
+      "family": "Pose · cama",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study"
+      ],
+      "description": "Vista posterior arrodillada sobre una cama, con manos apoyadas y pared clara.",
+      "designUse": "Referencia de inclinación del torso y contacto de las manos con una superficie blanda.",
+      "archiveFact": "El fondo sencillo permite comparar posturas de la misma secuencia.",
+      "sha256": "d67f14a31f83bcf6be358aa90d264f786d50cf58b684cff19d63b251b2dab84e",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-071_p060.avif"
+    },
+    {
+      "id": "DCX-REF-072",
+      "file": "DCX-REF-072_p060.avif",
+      "image": "",
+      "sourcePages": [
+        60,
+        90
+      ],
+      "family": "Pose · encuadre posterior",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study"
+      ],
+      "description": "Otra toma posterior sobre la cama, centrada y con brazos más separados.",
+      "designUse": "Aporta variación de equilibrio y ángulo de brazos respecto a REF-071.",
+      "archiveFact": "Misma página, pero gesto y encuadre distintos.",
+      "sha256": "7ccda3c70eaa658ff51e83c66a21ffaea8860bed8f453a5633e128db28101ed6",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-072_p060.avif"
+    },
+    {
+      "id": "DCX-REF-073",
+      "file": "DCX-REF-073_p061.avif",
+      "image": "",
+      "sourcePages": [
+        61,
+        91
+      ],
+      "family": "Accesorio · calcetín oscuro",
+      "tags": [
+        "study",
+        "photo",
+        "accessory"
+      ],
+      "description": "Detalle lateral de pierna y calcetín alto sobre sofá oscuro.",
+      "designUse": "Referencia de textura, largo del calcetín y encuadre de accesorio.",
+      "archiveFact": "El recorte funciona como detalle y no como retrato.",
+      "sha256": "e46c4928d81bcf53111c109cc4e624abd559d4fb8f708bc1ff5b18052162f870",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-073_p061.avif"
+    },
+    {
+      "id": "DCX-REF-074",
+      "file": "DCX-REF-074_p062.avif",
+      "image": "",
+      "sourcePages": [
+        62
+      ],
+      "family": "Vestuario experimental · cocina",
+      "tags": [
+        "study",
+        "photo",
+        "wardrobe-study",
+        "kitchen-series"
+      ],
+      "description": "Vista lateral en cocina; prenda negra estructurada con tirantes y panel delantero.",
+      "designUse": "Primera referencia de una secuencia de vestuario alternativo tipo delantal.",
+      "archiveFact": "No coincide con SXW ni Gloom Grass; queda como estudio experimental.",
+      "sha256": "16dba2afa86fcc4559f5bcd56534ce0773f5ded61f0633695a1350aa4f998221",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-074_p062.avif"
+    },
+    {
+      "id": "DCX-REF-075",
+      "file": "DCX-REF-075_p063.avif",
+      "image": "",
+      "sourcePages": [
+        63
+      ],
+      "family": "Vestuario experimental · tirantes",
+      "tags": [
+        "study",
+        "photo",
+        "wardrobe-study",
+        "kitchen-series"
+      ],
+      "description": "Vista posterior del conjunto negro con correas, cuello ajustado y panel de espalda.",
+      "designUse": "Información de distribución de tirantes y construcción posterior.",
+      "archiveFact": "La estructura de correas diferencia esta familia de los looks oficiales.",
+      "sha256": "fc4da2f663f7eae6c5faa5e4dbe8a8a88de7cc95ffcd25eec50fad2c1364bb98",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-075_p063.avif"
+    },
+    {
+      "id": "DCX-REF-076",
+      "file": "DCX-REF-076_p064.avif",
+      "image": "",
+      "sourcePages": [
+        64,
+        94
+      ],
+      "family": "Vestuario experimental · perfil",
+      "tags": [
+        "study",
+        "photo",
+        "wardrobe-study",
+        "kitchen-series"
+      ],
+      "description": "Perfil en cocina con conjunto negro de correas y mano sobre el panel delantero.",
+      "designUse": "Estudiar profundidad del panel y recorrido de correas.",
+      "archiveFact": "Su segunda aparición en el PDF se registra en sourcePages, sin crear otra ficha.",
+      "sha256": "91377689234e7c3925cf753363cb888d03f42c084dbf2df9460ac9b94b324d03",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-076_p064.avif"
+    },
+    {
+      "id": "DCX-REF-077",
+      "file": "DCX-REF-077_p065.avif",
+      "image": "",
+      "sourcePages": [
+        65,
+        95
+      ],
+      "family": "Vestuario experimental · ángulo lateral",
+      "tags": [
+        "study",
+        "photo",
+        "wardrobe-study",
+        "kitchen-series"
+      ],
+      "description": "Variante lateral del conjunto negro en cocina, con distinta posición del brazo.",
+      "designUse": "Aporta otra lectura del ajuste lateral y del movimiento de la prenda.",
+      "archiveFact": "Misma familia, gesto distinto.",
+      "sha256": "d1ecad28affeab819d3be00aa579d98277b3b381e6e3145647e727e76f4e7f16",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-077_p065.avif"
+    },
+    {
+      "id": "DCX-REF-078",
+      "file": "DCX-REF-078_p066.avif",
+      "image": "",
+      "sourcePages": [
+        66,
+        96
+      ],
+      "family": "Vestuario experimental · espalda",
+      "tags": [
+        "study",
+        "photo",
+        "wardrobe-study",
+        "kitchen-series"
+      ],
+      "description": "Vista posterior con brazo elevado y tirantes largos visibles.",
+      "designUse": "Referencia de puntos de unión y caída de correas.",
+      "archiveFact": "El gesto elevado expone detalles ausentes en las vistas frontales.",
+      "sha256": "66f67efd0c70bc0ad36173bcf6898512fbde5f6e94343ea2fb686b53fa710230",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-078_p066.avif"
+    },
+    {
+      "id": "DCX-REF-079",
+      "file": "DCX-REF-079_p067.avif",
+      "image": "",
+      "sourcePages": [
+        67,
+        97
+      ],
+      "family": "Vestuario experimental · espalda centrada",
+      "tags": [
+        "study",
+        "photo",
+        "wardrobe-study",
+        "kitchen-series"
+      ],
+      "description": "Vista posterior más estable del conjunto negro con tirantes frente a la encimera.",
+      "designUse": "Leer simetría, longitud y caída de las tiras.",
+      "archiveFact": "Complementa la REF-078 con una postura menos dinámica.",
+      "sha256": "35527d87ac76be56e8450a1d0330c8809ed6572f313212a7beb77e7b85cf7145",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-079_p067.avif"
+    },
+    {
+      "id": "DCX-REF-080",
+      "file": "DCX-REF-080_p068.avif",
+      "image": "",
+      "sourcePages": [
+        68,
+        98
+      ],
+      "family": "Vestuario experimental · inclinación",
+      "tags": [
+        "study",
+        "photo",
+        "wardrobe-study",
+        "kitchen-series"
+      ],
+      "description": "Vista posterior inclinada hacia encimera; el atuendo de correas se desplaza con la postura.",
+      "designUse": "Cómo responde la prenda al movimiento y cómo el fondo doméstico completa la escena.",
+      "archiveFact": "La cocina une visualmente la secuencia REF-074–082.",
+      "sha256": "23a2225db5f36f538ee3035e1e74e57597d9ec0f29c6ad53ee049e329b7fb44a",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-080_p068.avif"
+    },
+    {
+      "id": "DCX-REF-081",
+      "file": "DCX-REF-081_p068.avif",
+      "image": "",
+      "sourcePages": [
+        68,
+        98
+      ],
+      "family": "Vestuario experimental · variación posterior",
+      "tags": [
+        "study",
+        "photo",
+        "wardrobe-study",
+        "kitchen-series"
+      ],
+      "description": "Segunda vista de cocina, con torso girado y correas visibles desde otro ángulo.",
+      "designUse": "Aporta otra lectura del ajuste posterior y la silueta.",
+      "archiveFact": "Comparte página con otras vistas, pero cambia el gesto.",
+      "sha256": "49f7eec1ab24d1317a5c61fcab9761dd2fb18582897f43dc2a19130212b8c0e1",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-081_p068.avif"
+    },
+    {
+      "id": "DCX-REF-082",
+      "file": "DCX-REF-082_p068.avif",
+      "image": "",
+      "sourcePages": [
+        68,
+        98
+      ],
+      "family": "Vestuario experimental · toma posterior",
+      "tags": [
+        "study",
+        "photo",
+        "wardrobe-study",
+        "kitchen-series"
+      ],
+      "description": "Tercera toma de la familia de cocina, con postura más abierta y vista posterior.",
+      "designUse": "Completa el estudio de cómo cae la prenda en otra postura.",
+      "archiveFact": "Las tres imágenes de esta página son variaciones, no duplicados exactos.",
+      "sha256": "01f9cea13faa067cce9db317f51a3c78467d32c26073e78e54e898a7af713673",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-082_p068.avif"
+    },
+    {
+      "id": "DCX-REF-083",
+      "file": "DCX-REF-083_p069.avif",
+      "image": "",
+      "sourcePages": [
+        69,
+        99
+      ],
+      "family": "Accesorio · recorte horizontal",
+      "tags": [
+        "study",
+        "photo",
+        "accessory"
+      ],
+      "description": "Recorte apaisado y estrecho de pierna y calcetín con acentos multicolor.",
+      "designUse": "Puede usarse como banda de detalle o textura, no como retrato.",
+      "archiveFact": "Su proporción panorámica la separa de las fotografías verticales.",
+      "sha256": "45ff1c9e6fb5829ea71062d6009349199b833be218e1b966f17c00a0d911a62e",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-083_p069.avif"
+    },
+    {
+      "id": "DCX-REF-084",
+      "file": "DCX-REF-084_p069.avif",
+      "image": "",
+      "sourcePages": [
+        69,
+        99
+      ],
+      "family": "Vestuario · malla oscura",
+      "tags": [
+        "study",
+        "photo",
+        "wardrobe-study",
+        "mesh"
+      ],
+      "description": "Vista posterior sobre sofá estampado, con prenda de malla negra; la textura domina el encuadre.",
+      "designUse": "Estudio de transparencia y textura; no representa el conjunto Gloom Grass completo.",
+      "archiveFact": "Gloom Grass requiere cuero biker, cadena industrial y su código de color.",
+      "sha256": "e01deeed543ec4d7a0411b020869f44429b735d770a13e7bc7776f681aadd679",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-084_p069.avif"
+    },
+    {
+      "id": "DCX-REF-085",
+      "file": "DCX-REF-085_p070.avif",
+      "image": "",
+      "sourcePages": [
+        70,
+        100
+      ],
+      "family": "Pose · sofá estampado",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "mesh"
+      ],
+      "description": "Pose posterior baja sobre sofá de textura azul, con prenda de malla y ribete contrastante.",
+      "designUse": "Referencia de postura y relación entre figura y mobiliario.",
+      "archiveFact": "El patrón del sofá forma parte importante de la composición.",
+      "sha256": "a37ba0339cef0eed2bf18ceb248ed41aa6d2b1298a92acbae10c0342f2ba55d2",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-085_p070.avif"
+    },
+    {
+      "id": "DCX-REF-086",
+      "file": "DCX-REF-086_p071.avif",
+      "image": "",
+      "sourcePages": [
+        71,
+        101
+      ],
+      "family": "Pose · tres cuartos",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study"
+      ],
+      "description": "Variante de la pose baja sobre el sofá, tomada desde un ángulo posterior diferente.",
+      "designUse": "Comparar distribución del peso y lectura del ribete.",
+      "archiveFact": "No es repetición exacta; cambia el ángulo y la silueta.",
+      "sha256": "229af52143ebd6a713109aec9237cc7d1268e9fe979d0eb1bd781fe78d57a4e8",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-086_p071.avif"
+    },
+    {
+      "id": "DCX-REF-087",
+      "file": "DCX-REF-087_p072.avif",
+      "image": "",
+      "sourcePages": [
+        72,
+        102
+      ],
+      "family": "Iluminación · azul-violeta",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "lighting-study"
+      ],
+      "description": "Figura en pose baja recortada por iluminación azul y violeta saturada sobre fondo oscuro.",
+      "designUse": "Referencia para escena nocturna fría y luz de borde.",
+      "archiveFact": "No es FireIce canónico: predomina el frío azul-violeta.",
+      "sha256": "0b0e7c873694bbcf147ed33e226d17d5a4f25eff9e2d61bdc83ef6c6bfdb435a",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-087_p072.avif"
+    },
+    {
+      "id": "DCX-REF-088",
+      "file": "DCX-REF-088_p073.avif",
+      "image": "",
+      "sourcePages": [
+        73,
+        103
+      ],
+      "family": "Iluminación · recorte azul",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "lighting-study"
+      ],
+      "description": "Encuadre vertical estrecho de la familia azul-violeta; la figura y el borde de luz son el foco.",
+      "designUse": "Alternativa cerrada para retratos de silueta y escenas frías.",
+      "archiveFact": "La compresión reduce el contexto y vuelve protagonista el contorno.",
+      "sha256": "f9d6e53b0176fc5db174b71dfc8b3f3f951ac0c61661f06dbad16ed88b708411",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-088_p073.avif"
+    },
+    {
+      "id": "DCX-REF-089",
+      "file": "DCX-REF-089_p073.avif",
+      "image": "",
+      "sourcePages": [
+        73,
+        103
+      ],
+      "family": "Iluminación · plano abierto azul",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "lighting-study"
+      ],
+      "description": "Vista más amplia de la escena azul-violeta; se distingue la relación entre figura, suelo y fondo.",
+      "designUse": "Completa REF-088 con mayor lectura espacial.",
+      "archiveFact": "El par permite elegir entre retrato cerrado y composición ambiental.",
+      "sha256": "52953aee99d30f737e4b2bdf07840286ccea544b4d49e9e1526e5075e2b321df",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-089_p073.avif"
+    },
+    {
+      "id": "DCX-REF-090",
+      "file": "DCX-REF-090_p074.avif",
+      "image": "",
+      "sourcePages": [
+        74,
+        104
+      ],
+      "family": "DCX enmascarado · luz fría",
+      "tags": [
+        "study",
+        "photo",
+        "mask",
+        "adonis",
+        "lighting-study"
+      ],
+      "description": "Figura con máscara Kitsune blanca y marcas rojas, retratada bajo luz azul-violeta.",
+      "designUse": "Referencia de máscara canónica bajo temperatura fría; útil para un encuadre Adonis.",
+      "archiveFact": "No debe etiquetarse como FireIce pleno por ausencia de contraste cálido equilibrado.",
+      "sha256": "d348e29c3180f82e623a097c766e85f57831e0a2e7a337f0c1c8a54dcc7936ac",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-090_p074.avif"
+    },
+    {
+      "id": "DCX-REF-091",
+      "file": "DCX-REF-091_p075.avif",
+      "image": "",
+      "sourcePages": [
+        75,
+        105
+      ],
+      "family": "DCX enmascarado · SXW / Grass Bass",
+      "tags": [
+        "study",
+        "photo",
+        "mask",
+        "sxw",
+        "grass-bass"
+      ],
+      "description": "Selfie de espejo con máscara Kitsune blanca de marcas rojas y borlas, camisa blanca abierta y proyecciones verdes.",
+      "designUse": "Combina identidad Kitsune y silueta SXW en ambiente verde.",
+      "archiveFact": "El verde puede relacionarse con Grass Bass; no convierte el atuendo en Gloom Grass.",
+      "sha256": "1f2b02f9a43111ed782688861d0157690390492298719f346382e7c99b84f733",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-091_p075.avif"
+    },
+    {
+      "id": "DCX-REF-092",
+      "file": "DCX-REF-092_p076.avif",
+      "image": "",
+      "sourcePages": [
+        76,
+        106
+      ],
+      "family": "DCX enmascarado · Grass Bass amplio",
+      "tags": [
+        "study",
+        "photo",
+        "mask",
+        "sxw",
+        "grass-bass"
+      ],
+      "description": "Versión más abierta del autorretrato de espejo, con máscara Kitsune, camisa blanca y más información del cuarto verde.",
+      "designUse": "Permite estudiar espejo, mobiliario y proyecciones como parte del escenario.",
+      "archiveFact": "Complementa REF-091 por escala y lectura espacial.",
+      "sha256": "d9743018c38fca70c839eb3441779071d2597cbd71b26ea8eb6d4a3c319f9c27",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-092_p076.avif"
+    },
+    {
+      "id": "DCX-REF-093",
+      "file": "DCX-REF-093_p077.avif",
+      "image": "",
+      "sourcePages": [
+        77,
+        107
+      ],
+      "family": "Máscara alternativa · retrato",
+      "tags": [
+        "study",
+        "photo",
+        "alternate-mask",
+        "lighting-study"
+      ],
+      "description": "Retrato en luz azul-violeta con máscara blanca de sonrisa estilizada, distinta de la Kitsune canónica.",
+      "designUse": "Referencia de utilería/atmósfera; no sustituye el diseño oficial de DCX.",
+      "archiveFact": "La forma facial y la sonrisa son distintas de la máscara Kitsune.",
+      "sha256": "ede05ef14b0e0fce71b79aa7d4e1036631eb3135ac1b042bab15579872d2077a",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-093_p077.avif"
+    },
+    {
+      "id": "DCX-REF-094",
+      "file": "DCX-REF-094_p078.avif",
+      "image": "",
+      "sourcePages": [
+        78,
+        108
+      ],
+      "family": "Máscara alternativa · objeto",
+      "tags": [
+        "study",
+        "photo",
+        "alternate-mask",
+        "prop-study"
+      ],
+      "description": "Composición apaisada con máscara blanca sonriente como objeto en un entorno de cama bajo luz azul.",
+      "designUse": "Estudio de utilería y puesta en escena.",
+      "archiveFact": "La escala horizontal y la disposición del objeto la distinguen de REF-093.",
+      "sha256": "3e7ed1ea2dc2f04365b1810718c6f1516417a39373551cad5352e1b6d3e62cd1",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-094_p078.avif"
+    },
+    {
+      "id": "DCX-REF-095",
+      "file": "DCX-REF-095_p080.avif",
+      "image": "",
+      "sourcePages": [
+        80
+      ],
+      "family": "Vestuario · camisa y corbata",
+      "tags": [
+        "study",
+        "photo",
+        "accessory",
+        "sxw-study"
+      ],
+      "description": "Recorte cálido de camisa blanca y corbata negra, centrado en la caída de la corbata.",
+      "designUse": "Detalle útil para futuras variantes SXW y el contraste blanco/negro.",
+      "archiveFact": "No aparece la máscara; es un estudio de prenda aislado.",
+      "sha256": "7143d9eaa5caf3c549ea86a449c235ba8167ecad9b52aeae71338f476c135aa5",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-095_p080.avif"
+    },
+    {
+      "id": "DCX-REF-096",
+      "file": "DCX-REF-096_p085.avif",
+      "image": "",
+      "sourcePages": [
+        85
+      ],
+      "family": "Gesto · detalle de mano",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "wardrobe-study"
+      ],
+      "description": "Recorte cercano de una mano y tejido oscuro; la información se concentra en gesto y textura.",
+      "designUse": "Referencia secundaria de gesto manual y materialidad de prenda.",
+      "archiveFact": "El encuadre no permite inferir un diseño completo.",
+      "sha256": "dd0fa586b9210b7eb0f50b715dccff2936c56eecb148f74887c9cb6751fa9395",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-096_p085.avif"
+    },
+    {
+      "id": "DCX-REF-097",
+      "file": "DCX-REF-097_p092.avif",
+      "image": "",
+      "sourcePages": [
+        92
+      ],
+      "family": "Pose · cocina lateral",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "kitchen-series"
+      ],
+      "description": "Vista lateral de pie en cocina, con brazo elevado y prenda negra estructurada.",
+      "designUse": "Amplía la familia de vestuario experimental con una postura erguida.",
+      "archiveFact": "El entorno coincide con la secuencia tipo delantal.",
+      "sha256": "7571baee0e12ae1469b776d0a39381d67ba0f2f5a27ab3efba048be48fb306af",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-097_p092.avif"
+    },
+    {
+      "id": "DCX-REF-098",
+      "file": "DCX-REF-098_p093.avif",
+      "image": "",
+      "sourcePages": [
+        93
+      ],
+      "family": "Pose · cocina posterior",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "kitchen-series"
+      ],
+      "description": "Vista posterior de pie en cocina, con prenda inferior oscura y línea de tirantes visible.",
+      "designUse": "Referencia de postura erguida y continuidad del vestuario desde atrás.",
+      "archiveFact": "Amplía la secuencia de cocina más allá de las poses inclinadas.",
+      "sha256": "8aacabb5bc633d88e40a0302a7beb5e321234135cdf5389ad949393fd28c90fb",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-098_p093.avif"
+    },
+    {
+      "id": "DCX-REF-099",
+      "file": "DCX-REF-099_p108.avif",
+      "image": "",
+      "sourcePages": [
+        108
+      ],
+      "family": "Pose · mobiliario oscuro",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study"
+      ],
+      "description": "Composición lateral y baja junto a sofá oscuro, con encuadre cerrado.",
+      "designUse": "Referencia secundaria de pose y relación entre figura y asiento.",
+      "archiveFact": "Fuente de resolución moderada: debe usarse sin ampliación artificial.",
+      "sha256": "c6570eb5153b1c6a69b91ae87c49a6603ff41789e36fc086871be9f8d0196fc1",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-099_p108.avif"
+    },
+    {
+      "id": "DCX-REF-100",
+      "file": "DCX-REF-100_p109.avif",
+      "image": "",
+      "sourcePages": [
+        109
+      ],
+      "family": "Pose · perfil con accesorio",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "accessory"
+      ],
+      "description": "Vista lateral reclinada junto a un asiento, con calcetín de acento multicolor y prenda oscura.",
+      "designUse": "Aporta variante de gesto y detalle de accesorio.",
+      "archiveFact": "El calcetín de color conecta con REF-060 y REF-068 sin ser una repetición exacta.",
+      "sha256": "b7eab67a71cb3b5b78d6a205d5fea84f3e4e4ae4297b81a1e11ff33561ae1f28",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-100_p109.avif"
+    },
+    {
+      "id": "DCX-REF-101",
+      "file": "DCX-REF-101_p110.avif",
+      "image": "",
+      "sourcePages": [
+        110
+      ],
+      "family": "Iluminación · rojo posterior",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "lighting-study"
+      ],
+      "description": "Vista posterior bajo iluminación rojo-anaranjada, con fondo reducido a una superficie cálida.",
+      "designUse": "Referencia de silueta y luz monocromática para futuros ensayos de atmósfera.",
+      "archiveFact": "No se clasifica como Blood Cherry definitivo sin su contrapunto azul característico.",
+      "sha256": "bc839b3fbec10eb25618ff3e2c524825b99b72fe78ca18cccfa68561cfe7a518",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-101_p110.avif"
+    },
+    {
+      "id": "DCX-REF-102",
+      "file": "DCX-REF-102_p111.avif",
+      "image": "",
+      "sourcePages": [
+        111
+      ],
+      "family": "Pose · retrato frontal",
+      "tags": [
+        "study",
+        "photo",
+        "pose-study",
+        "accessory"
+      ],
+      "description": "Figura sentada de frente sobre ropa de cama estampada, con fondo oscuro y accesorio en el cuello.",
+      "designUse": "Referencia de postura frontal y contraste entre figura y fondo textil.",
+      "archiveFact": "El estampado del fondo aporta textura distintiva a la composición.",
+      "sha256": "95c5b67faeffcf1c50094f2fcddcd08f1fc8e391e19086c77868d1cfef58730e",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "archiveEntry": "DCX-REF-102_p111.avif"
+    },
+    {
+      "id": "DCX-REF-103",
+      "file": "DCX-SAMPLE-001_p128_choker-detail.avif",
+      "image": "",
+      "sourcePages": [
+        128
+      ],
+      "family": "Accesorio · choker y colgante",
+      "tags": [
+        "study",
+        "photo",
+        "accessory"
+      ],
+      "description": "Recorte no explícito de un choker oscuro con un pequeño colgante metálico circular; el encuadre aísla el accesorio y parte del cuello.",
+      "designUse": "Referencia de accesorio alternativo para explorar otra variante de estilismo; no sustituye el brazalete oscuro de la muñeca izquierda, que pertenece al ADN permanente de DCX.",
+      "archiveFact": "El pequeño punto metálico central contrasta con el brazalete de muñeca: son accesorios distintos.",
+      "sha256": "42585d9775cc07a80164588c911199cfbf1f9e046c670c11da39482f2df9c5bc",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Samples-112-136.zip",
+      "archiveEntry": "DCX-SAMPLE-001_p128_choker-detail.avif"
+    },
+    {
+      "id": "DCX-REF-104",
+      "file": "DCX-SAMPLE-002_p130_red-tiled-water-setting.avif",
+      "image": "",
+      "sourcePages": [
+        130
+      ],
+      "family": "Ambiente · pared roja, mosaico y agua",
+      "tags": [
+        "study",
+        "environment",
+        "lighting-study"
+      ],
+      "description": "Recorte ambiental sin personas que muestra pared roja cálida, una franja de mosaico y agua con reflejos; se conserva como referencia de escenario.",
+      "designUse": "Puede orientar un nuevo set acuático o una escena de baño para futuras variantes audiovisuales; todavía no se asigna a FireIce, Blood Cherry ni Grass Bass.",
+      "archiveFact": "La composición apila rojo mate, piedra cuadriculada y agua reflectante, una textura distinta a los fondos de espejo.",
+      "sha256": "42e6e03ccbbd68f444da85814db7d75a8adcaa2e15717c301886755e8aa30f66",
+      "archiveUrl": "assets/dcx/DCX-DarkRoom-Samples-112-136.zip",
+      "archiveEntry": "DCX-SAMPLE-002_p130_red-tiled-water-setting.avif"
     }
   ],
-  "imageEncoding": "AVIF quality 18; native page-source dimensions retained"
+  "imageEncoding": "AVIF quality 18; native page-source dimensions retained",
+  "archives": [
+    {
+      "url": "assets/dcx/DCX-DarkRoom-Expansion-060-102.zip",
+      "expectedAvif": 43,
+      "referenceRange": "DCX-REF-060–102"
+    },
+    {
+      "url": "assets/dcx/DCX-DarkRoom-Samples-112-136.zip",
+      "expectedAvif": 2,
+      "referenceRange": "DCX-REF-103–104"
+    }
+  ],
+  "excludedSourcePages": {
+    "document": "3.0 DCX.pdf",
+    "range": "112–136 except two selected non-explicit crops (p.128 accessory, p.130 environment)",
+    "policy": "Only the two selected crops are included; the complete intimate images and remaining material of this block are not in the public gallery."
+  }
 }
