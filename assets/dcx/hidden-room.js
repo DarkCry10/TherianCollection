@@ -11,7 +11,8 @@
   let entries = [];
   let activeFilter = "all";
   let lastFocus = null;
-  let imagesPrepared = false;
+  const archiveImageUrls = Object.create(null);
+  const archiveObjectUrls = [];
 
   function escapeHtml(value) {
     return String(value == null ? "" : value).replace(/[&<>"']/g, ch =>
@@ -22,15 +23,87 @@
     return String(path || "").split("/").pop();
   }
   function imageFor(item) {
+    if (item.archiveEntry) {
+      return archiveImageUrls[basename(item.archiveEntry)] || archiveImageUrls[item.archiveEntry] || "";
+    }
     return item.image || "";
   }
   function familyLabel(item) {
     return String(item.family || "").replace("fotográfico", "foto").replace("Fotográfico", "Foto");
   }
 
-  function prepareImagePaths() {
-    imagesPrepared = entries.length > 0 && entries.every(item => /^assets\/dcx\/DCX_Public_AVIF_Assets\.zip\/.+\.avif$/i.test(item.image || ""));
-    return imagesPrepared;
+  async function inflateRaw(bytes) {
+    if (typeof DecompressionStream !== "function") {
+      throw new Error("Este navegador no admite la extracción ZIP requerida.");
+    }
+    const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("deflate-raw"));
+    return await new Response(stream).arrayBuffer();
+  }
+
+  async function loadZipAvifEntries(url) {
+    const response = await fetch(url, {cache:"force-cache"});
+    if (!response.ok) throw new Error("No se pudo descargar el archivo de imágenes: " + url);
+    const buffer = await response.arrayBuffer();
+    const view = new DataView(buffer);
+    let eocd = -1;
+    const floor = Math.max(0, view.byteLength - 65557);
+    for (let i = view.byteLength - 22; i >= floor; i--) {
+      if (view.getUint32(i, true) === 0x06054b50) { eocd = i; break; }
+    }
+    if (eocd < 0) throw new Error("El ZIP no contiene un directorio central válido: " + url);
+    const entryCount = view.getUint16(eocd + 10, true);
+    let offset = view.getUint32(eocd + 16, true);
+    const decoder = new TextDecoder("utf-8");
+    let loaded = 0;
+
+    for (let n = 0; n < entryCount; n++) {
+      if (view.getUint32(offset, true) !== 0x02014b50) {
+        throw new Error("Entrada inválida en el directorio central de " + url);
+      }
+      const flags = view.getUint16(offset + 8, true);
+      const method = view.getUint16(offset + 10, true);
+      const compressedSize = view.getUint32(offset + 20, true);
+      const uncompressedSize = view.getUint32(offset + 24, true);
+      const nameLength = view.getUint16(offset + 28, true);
+      const extraLength = view.getUint16(offset + 30, true);
+      const commentLength = view.getUint16(offset + 32, true);
+      const localOffset = view.getUint32(offset + 42, true);
+      const name = decoder.decode(new Uint8Array(buffer, offset + 46, nameLength));
+
+      if (/\.avif$/i.test(name)) {
+        if (flags & 1) throw new Error("El archivo AVIF está cifrado: " + name);
+        if (view.getUint32(localOffset, true) !== 0x04034b50) {
+          throw new Error("Cabecera local inválida para " + name);
+        }
+        const localNameLength = view.getUint16(localOffset + 26, true);
+        const localExtraLength = view.getUint16(localOffset + 28, true);
+        const dataStart = localOffset + 30 + localNameLength + localExtraLength;
+        const compressed = new Uint8Array(buffer.slice(dataStart, dataStart + compressedSize));
+        let bytes;
+        if (method === 0) bytes = compressed.buffer;
+        else if (method === 8) bytes = await inflateRaw(compressed);
+        else throw new Error("Método ZIP no admitido (" + method + ") para " + name);
+        if (bytes.byteLength !== uncompressedSize) {
+          throw new Error("Tamaño incorrecto al extraer " + name);
+        }
+        const objectUrl = URL.createObjectURL(new Blob([bytes], {type:"image/avif"}));
+        archiveObjectUrls.push(objectUrl);
+        archiveImageUrls[basename(name)] = objectUrl;
+        archiveImageUrls[name] = objectUrl;
+        loaded++;
+      }
+      offset += 46 + nameLength + extraLength + commentLength;
+    }
+    return loaded;
+  }
+
+  async function loadArchivesForEntries() {
+    const archives = [...new Set(entries.map(item => item.archiveUrl).filter(Boolean))];
+    const results = await Promise.all(archives.map(async url => {
+      try { return {url,loaded:await loadZipAvifEntries(url),error:null}; }
+      catch (error) { console.error("DCX archive error:", url, error); return {url,loaded:0,error}; }
+    }));
+    return results;
   }
 
   function cardMarkup(item) {
@@ -40,7 +113,7 @@
       '<button class="dcx-card" type="button" data-id="' + escapeHtml(item.id) + '" aria-label="Abrir ficha ' + escapeHtml(item.id) + '">',
         '<span class="dcx-card__art" data-ready="false">',
           src ? '<img class="dcx-card__image" src="' + src + '" alt="' + escapeHtml(alt) + '" loading="lazy" decoding="async">' : '',
-          src ? '' : '<span class="dcx-card__missing"><strong>Imagen no disponible</strong><span>Comprueba la imagen AVIF correspondiente dentro de la carpeta de recursos DCX.</span></span>',
+          src ? '' : '<span class="dcx-card__missing"><strong>Imagen no disponible</strong><span>Comprueba el archivo AVIF de origen y su paquete ZIP.</span></span>',
           '<span class="dcx-card__ref">' + escapeHtml(item.id) + '</span>',
         '</span>',
         '<span class="dcx-card__meta">',
@@ -56,9 +129,8 @@
     const shown = entries.filter(item => activeFilter === "all" || (item.tags || []).includes(activeFilter));
     grid.innerHTML = shown.map(cardMarkup).join("");
     if (count) {
-      count.textContent = imagesPrepared
-        ? shown.length + " / " + entries.length + " referencias · rutas AVIF preparadas"
-        : shown.length + " / " + entries.length + " fichas · faltan las rutas de imagen";
+      const archived = entries.filter(item => item.archiveEntry && imageFor(item)).length;
+      count.textContent = shown.length + " / " + entries.length + " referencias · " + archived + " AVIF de archivo disponibles";
     }
     grid.querySelectorAll(".dcx-card").forEach(card => {
       const img = card.querySelector("img");
@@ -104,7 +176,7 @@
       image.removeAttribute("src");
       art.dataset.ready = "false";
       missing.hidden = false;
-      missing.textContent = "La ficha está completa; no se encontró el AVIF correspondiente en la carpeta de recursos DCX.";
+      missing.textContent = "La ficha está preparada; no se encontró la imagen dentro del ZIP correspondiente.";
     }
     lastFocus = document.activeElement;
     detail.showModal();
@@ -117,13 +189,17 @@
         if (!response.ok) throw new Error("No se pudo cargar el índice de DCX.");
         const data = await response.json();
         entries = data.items || [];
-        prepareImagePaths();
+        room.showModal();
+        if (count) count.textContent = "Cargando paquetes AVIF…";
+        await loadArchivesForEntries();
         render();
+      } else {
+        room.showModal();
       }
-      room.showModal();
     } catch (error) {
       if (count) count.textContent = "No se pudo cargar el archivo DCX";
       console.error(error);
+      if (!room.open) room.showModal();
     }
   });
 
@@ -140,5 +216,8 @@
   document.querySelectorAll("[data-dcx-detail-close]").forEach(button => button.addEventListener("click", () => detail.close()));
   detail.addEventListener("close", () => {
     if (lastFocus && typeof lastFocus.focus === "function") lastFocus.focus();
+  });
+  window.addEventListener("beforeunload", () => {
+    archiveObjectUrls.forEach(url => URL.revokeObjectURL(url));
   });
 })();
