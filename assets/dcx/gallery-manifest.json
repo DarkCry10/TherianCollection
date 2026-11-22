@@ -1,9 +1,9 @@
 {
   "title": "The Dark Room of DCX",
   "version": 1,
-  "source": "Documento maestro DCX y 3.0 DCX.pdf (136 páginas): 42 referencias únicas de páginas 51–110, dos recortes no explícitos de páginas 128 y 130, más dos detalles no explícitos de páginas 134 y 135. DCX-REF-102 (página 111) permanece retirado de la galería pública.",
-  "uniquePublicReferences": 102,
-  "duplicatePolicy": "Una ficha por imagen de origen única. Las repeticiones exactas del PDF se agrupan en sourcePages. Para los dos nuevos recortes, sha256 registra el máster PNG del recorte y assetSha256 el AVIF publicado; ambos hashes se comprobaron frente a las otras fichas.",
+  "source": "Documento maestro DCX y 3.0 DCX.pdf (136 páginas): 42 referencias únicas de páginas 51–110, más un recorte gráfico no explícito de página 135 (DCX-REF-106). DCX-REF-102 y DCX-REF-103–105 permanecen fuera de la galería pública.",
+  "uniquePublicReferences": 99,
+  "duplicatePolicy": "Una ficha por imagen de origen única. Las repeticiones exactas del PDF se agrupan en sourcePages. Los hashes de las 99 fichas públicas son únicos; los detalles retirados 103–105 no están presentes en el manifiesto.",
   "restrictedReferences": [
     "DCX-REF-021",
     "DCX-REF-022",
@@ -1908,67 +1908,6 @@
       "archiveEntry": "DCX-REF-101_p110.avif"
     },
     {
-      "id": "DCX-REF-103",
-      "file": "DCX-SAMPLE-001_p128_choker-detail.avif",
-      "image": "",
-      "sourcePages": [
-        128
-      ],
-      "family": "Accesorio · choker y colgante",
-      "tags": [
-        "study",
-        "photo",
-        "accessory"
-      ],
-      "description": "Recorte no explícito de un choker oscuro con un pequeño colgante metálico circular; el encuadre aísla el accesorio y parte del cuello.",
-      "designUse": "Referencia de accesorio alternativo para explorar otra variante de estilismo; no sustituye el brazalete oscuro de la muñeca izquierda, que pertenece al ADN permanente de DCX.",
-      "archiveFact": "El pequeño punto metálico central contrasta con el brazalete de muñeca: son accesorios distintos.",
-      "sha256": "42585d9775cc07a80164588c911199cfbf1f9e046c670c11da39482f2df9c5bc",
-      "archiveUrl": "assets/dcx/DCX-DarkRoom-Samples-112-136.zip",
-      "archiveEntry": "DCX-SAMPLE-001_p128_choker-detail.avif"
-    },
-    {
-      "id": "DCX-REF-104",
-      "file": "DCX-SAMPLE-002_p130_red-tiled-water-setting.avif",
-      "image": "",
-      "sourcePages": [
-        130
-      ],
-      "family": "Ambiente · pared roja, mosaico y agua",
-      "tags": [
-        "study",
-        "environment",
-        "lighting-study"
-      ],
-      "description": "Recorte ambiental sin personas que muestra pared roja cálida, una franja de mosaico y agua con reflejos; se conserva como referencia de escenario.",
-      "designUse": "Puede orientar un nuevo set acuático o una escena de baño para futuras variantes audiovisuales; todavía no se asigna a FireIce, Blood Cherry ni Grass Bass.",
-      "archiveFact": "La composición apila rojo mate, piedra cuadriculada y agua reflectante, una textura distinta a los fondos de espejo.",
-      "sha256": "42e6e03ccbbd68f444da85814db7d75a8adcaa2e15717c301886755e8aa30f66",
-      "archiveUrl": "assets/dcx/DCX-DarkRoom-Samples-112-136.zip",
-      "archiveEntry": "DCX-SAMPLE-002_p130_red-tiled-water-setting.avif"
-    },
-    {
-      "id": "DCX-REF-105",
-      "file": "DCX-SUP-002_p134_analog-date-stamp.avif",
-      "image": "",
-      "sourcePages": [
-        134
-      ],
-      "family": "Detalle de archivo analógico · fecha parcial",
-      "tags": [
-        "study",
-        "archive-detail",
-        "texture"
-      ],
-      "description": "Recorte aislado de una marca de fecha naranja parcialmente visible y del grano de la fotografía original. La impresión está incompleta y no permite recuperar una fecha exacta.",
-      "designUse": "Aporta una textura analógica y un motivo de archivo para futuras variantes visuales, sin convertir la fecha impresa en una fecha narrativa confirmada de DCX.",
-      "archiveFact": "El sello de fecha está parcialmente cortado; la ficha conserva la procedencia de la página 134, no una datación concluyente.",
-      "sha256": "53f83c2c49b1d3769db9a8f6a209f92edab828d4dc234ec1eb96a476e6cd5545",
-      "archiveUrl": "assets/dcx/DCX-DarkRoom-Supplement-112-136.zip",
-      "archiveEntry": "DCX-SUP-002_p134_analog-date-stamp.avif",
-      "assetSha256": "098052aaa5837bab050b73ea5862de80362a2faca6c27ae10bd830ce5e4bcb1d"
-    },
-    {
       "id": "DCX-REF-106",
       "file": "DCX-SUP-003_p135_kitsune-sticker.avif",
       "image": "",
@@ -1999,23 +1938,15 @@
       "referenceRange": "DCX-REF-060–102 (REF-102 permanece excluida del manifiesto)"
     },
     {
-      "url": "assets/dcx/DCX-DarkRoom-Samples-112-136.zip",
-      "expectedAvif": 2,
-      "referenceRange": "DCX-REF-103–104"
-    },
-    {
       "url": "assets/dcx/DCX-DarkRoom-Supplement-112-136.zip",
       "expectedAvif": 2,
-      "referenceRange": "DCX-REF-105–106"
+      "referenceRange": "DCX-REF-106 público; REF-105 se conserva únicamente dentro del ZIP archivado y no se extrae"
     }
   ],
   "excludedSourcePages": {
     "document": "3.0 DCX.pdf",
     "range": "112–136",
     "includedNonExplicitCrops": [
-      128,
-      130,
-      134,
       135
     ],
     "excluded": [
@@ -2035,12 +1966,15 @@
       125,
       126,
       127,
+      128,
       129,
+      130,
       131,
       132,
       133,
+      134,
       136
     ],
-    "policy": "Se incluyen solo recortes de accesorios, textura/fecha y gráfico Kitsune que no muestran las fotografías íntimas completas. Se omite p.133 por repetir el motivo de calcetines multicolor ya presente en el archivo 060–102. Las fotografías sexuales explícitas completas de este bloque no se publican."
+    "policy": "DCX-REF-103 (p.128), DCX-REF-104 (p.130) y DCX-REF-105 (p.134) se retiraron de la galería pública a petición del usuario. Solo permanece el recorte gráfico no explícito REF-106 (p.135). Las fotografías sexuales explícitas completas no se publican."
   }
 }
