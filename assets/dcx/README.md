@@ -4,9 +4,9 @@ The Dark Room of DCX is an Easter egg in the Feral branch, opened by the 🦁 em
 
 ## Public visual archive
 
-The gallery now contains **101 unique references**:
+The gallery now contains **100 unique references**:
 - 56 original references (DCX-REF-001–059, preserving the existing exclusions 021–023).
-- 43 additional photo, wardrobe, pose and lighting studies (DCX-REF-060–102), sourced from pages 51–111 of the 136-page document 3.0 DCX.pdf.
+- 42 additional photo, wardrobe, pose and lighting studies (DCX-REF-060–101), sourced from pages 51–110 of the 136-page document 3.0 DCX.pdf. DCX-REF-102 (page 111) has been removed from the public gallery at the user's request.
 - Two selected non-explicit crops (DCX-REF-103–104): the choker/pendant detail from page 128 and the red tiled water environment from page 130.
 
 ## Original ZIP files preserved
