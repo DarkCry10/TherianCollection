@@ -2,13 +2,6 @@
   "title": "The Dark Room of DCX",
   "version": 1,
   "source": "Documento maestro DCX y 3.0 DCX.pdf (136 páginas): 43 referencias fotográficas de las páginas 51–111 (DCX-REF-060–102). El resto del material de las páginas 112–136 no forma parte de la selección pública de inauguración.",
-  "uniquePublicReferences": 99,
-  "duplicatePolicy": "Una ficha por imagen de origen única. Las apariciones repetidas se agrupan en sourcePages. Los AVIF archivados solo se extraen cuando una ficha pública del manifiesto los referencia.",
-  "restrictedReferences": [
-    "DCX-REF-021",
-    "DCX-REF-022",
-    "DCX-REF-023"
-  ],
   "imageAssetStatus": "zip-archives-loaded-in-browser",
   "imageBasePath": "assets/dcx/DCX_Public_AVIF_Assets.zip/",
   "items": [
@@ -1936,15 +1929,5 @@
       "expectedAvif": 43,
       "referenceRange": "DCX-REF-060–102"
     }
-  ],
-  "excludedSourcePages": {
-    "document": "3.0 DCX.pdf",
-    "range": "112–136",
-    "publicSelectedNonExplicit": [],
-    "removedFromGallery": [
-      "DCX-REF-105",
-      "DCX-REF-106"
-    ],
-    "policy": "No se incluyen imágenes de las páginas 112–136 en la galería pública de inauguración. Las fichas DCX-REF-105 (p.134) y DCX-REF-106 (p.135) fueron retiradas a petición del usuario. El ZIP suplementario se conserva como archivo no enlazado y el cargador no lo procesa."
-  }
+  ]
 }

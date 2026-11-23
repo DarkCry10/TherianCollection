@@ -4,7 +4,6 @@
   const room = document.getElementById("dcx-room");
   const detail = document.getElementById("dcx-detail");
   const grid = document.getElementById("dcx-gallery");
-  const count = document.getElementById("dcx-room-count");
   const filters = Array.from(document.querySelectorAll(".dcx-filter"));
   if (!trigger || !room || !detail || !grid) return;
 
@@ -133,10 +132,7 @@
   function render() {
     const shown = entries.filter(item => activeFilter === "all" || (item.tags || []).includes(activeFilter));
     grid.innerHTML = shown.map(cardMarkup).join("");
-    if (count) {
-      const archived = entries.filter(item => item.archiveEntry && imageFor(item)).length;
-      count.textContent = shown.length + " / " + entries.length + " referencias · " + archived + " AVIF de archivo disponibles";
-    }
+
     grid.querySelectorAll(".dcx-card").forEach(card => {
       const img = card.querySelector("img");
       const art = card.querySelector(".dcx-card__art");
