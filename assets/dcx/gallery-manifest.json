@@ -1929,15 +1929,5 @@
       "expectedAvif": 43,
       "referenceRange": "DCX-REF-060–102"
     }
-  ],
-  "excludedSourcePages": {
-    "document": "3.0 DCX.pdf",
-    "range": "112–136",
-    "publicSelectedNonExplicit": [],
-    "removedFromGallery": [
-      "DCX-REF-105",
-      "DCX-REF-106"
-    ],
-    "policy": "No se incluyen imágenes de las páginas 112–136 en la galería pública de inauguración. Las fichas DCX-REF-105 (p.134) y DCX-REF-106 (p.135) fueron retiradas a petición del usuario. El ZIP suplementario se conserva como archivo no enlazado y el cargador no lo procesa."
-  }
+  ]
 }
